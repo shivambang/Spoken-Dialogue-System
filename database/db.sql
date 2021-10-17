@@ -1,13 +1,16 @@
-CREATE DATABASE IF NOT EXISTS `soc` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE USER IF NOT EXISTS shiv@localhost IDENTIFIED BY 'bang';
+CREATE DATABASE IF NOT EXISTS soc DEFAULT CHARACTER SET = 'utf8';
+GRANT ALL on soc.* to 'shiv'@'localhost' IDENTIFIED BY 'bang';
 USE soc;
 CREATE TABLE IF NOT EXISTS `course` (
     `code` varchar(10) NOT NULL,
     `name` varchar(100) NOT NULL,
-    `info` varchar(250),
-    `preq` varchar(100),
+    `info` varchar(1000),
+    `preq` varchar(250),
     `text` varchar(100),
+    `last` varchar(10),
     PRIMARY KEY (`code`, `name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
 
 CREATE TABLE IF NOT EXISTS `class` (
     `number` int(10),
@@ -16,11 +19,12 @@ CREATE TABLE IF NOT EXISTS `class` (
     `instructor` varchar(50),
     `location` varchar(10),
     `day` varchar(10),
-    `period` varchar(5)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+    `period` varchar(10),
+    `final` varchar(50)
+);
 
 CREATE TABLE IF NOT EXISTS `code` (
     `short` varchar(10) NOT NULL,
     `full` varchar(100) NOT NULL,
     PRIMARY KEY (`short`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
