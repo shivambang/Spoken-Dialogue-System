@@ -1,36 +1,4 @@
-CAP3020 - Theory and Practice of Multimedia Production
-Combines the traditional media production pipeline and software engineering processes to synthesize an approach geared for the production of works incorporating both artistic and computational elements.
-Prereq: CAP 3027.
-Class #11374
-T | 
-Periods 8-9 
-(3:00 PM - 4:55 PM)
-NRG 0205
-R | 
-Period 9 
-(4:05 PM - 4:55 PM)
-NRG 0205
-Textbooks
-Additional Details
-EEP Eligible
-Instructor
-Joshua Fox
-Meet
-Primarily Classroom
-Credits
-3
-Department
-Computer & Information Science & Engineering
-Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
-Class Dates
-01/05/2022 - 04/20/2022
-CAP3034 - Introduction to Computer-Aided Animation
-Introduces topics related to computer-aided animation. Rigging for forward and inverse kinematics. Skin weighting. Morph targets. Expression-driven animation, rigid-body and particle simulation.
-Prereq: MAC 1147 or equivalent.
-Class #11398
-M,W,F | 
-Period 3 
+CAP3020 - Theory and Practice of Multimedia Production Combines the traditional media production pipeline and software engineering processes to synthesize an approach geared for the production of works incorporating both artistic and computational elements. Prereq: CAP 3027. Class #11374 T |  Periods 8-9  (3:00 PM - 4:55 PM) NRG 0205 R |  Period 9  (4:05 PM - 4:55 PM) NRG 0205 Textbooks Additional Details EEP Eligible Instructor Joshua Fox Meet Primarily Classroom Credits 3 Department Computer & Information Science & Engineering Final Exam 4/28/2022 @ 5:30 PM - 7:30 PM Class Dates 01/05/2022 - 04/20/2022 CAP3034 - Introduction to Computer-Aided Animation Introduces topics related to computer-aided animation. Rigging for forward and inverse kinematics. Skin weighting. Morph targets. Expression-driven animation, rigid-body and particle simulation. Prereq: MAC 1147 or equivalent. Class #11398 M,W,F | Period 3 
 (9:35 AM - 10:25 AM)
 CSE E231
 Textbooks
@@ -45,15 +13,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/26/2022 @ 12:30 PM - 2:30 PM
+4/26/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CAP4136 - Malware Reverse Engineering
 Introduction to the theory and practice of software reverse engineering applied to the analysis of malicious software (malware). Students will learn techniques of static and dynamic analysis to help identify the full spectrum of the behavior of code that is presented without documentation or source code and to identify possible remediation and avoidance techniques. The course will use a large number of software tools employed by malware and computer forensic analysts.
 Prereq: CDA 3101 or instructor permission.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 TBA
 Textbooks
@@ -75,8 +43,8 @@ CAP4613 - Deep Learning for Computer Graphics
 This undergraduate course covers deep learning basics, related math and the fundamental theory and application of AI algorithms most popular in the field of computer graphics. Programming assignments will help students develop GPU programming skills while implementing concepts learned in lectures and readings using deep learning APIs on a GPU cluster. Convolutional neural networks (CNNs) for colorizing black and white movies is an example.
 Prereq: COP 3530 or MAS 3114 or 4105.
 Class #31264
-M,W,F | 
-Period 5 
+M,W,F | 
+Period 5 
 (11:45 AM - 12:35 PM)
 NSC 0215
 Textbooks
@@ -98,8 +66,8 @@ CAP4730 - Computational Structures in Computer Graphics
 Studies the major topics in computer graphics: display and output technology, two and three dimensional manipulations; space curves and surfaces, hidden surface removal and shading models.
 Prereq: COP 3530.
 Class #11402
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 NZH 0112
 Textbooks
@@ -114,12 +82,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 3:00 PM - 5:00 PM
+4/28/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 NZH 0112
 Textbooks
@@ -134,15 +102,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 3:00 PM - 5:00 PM
+4/28/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CAP4770 - Introduction to Data Science
 Introduces the basics of data science including programming for data analytics, file management, relational databases, classification, clustering, and regression; lays the foundation for big data applications ranging from social networks to medical and business informatics.
 Prereq: COP 3530.
 Class #23937
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CSE E222
 Textbooks
@@ -157,12 +125,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CSE E222
 Textbooks
@@ -177,15 +145,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CAP5100 - Human-Computer Interaction
 Topics related to interaction with technology, including interface design, software tools, 3-D interaction, virtual environments, interaction devices, collaboration, and visualization.
 Prereq: COP 3530, and any one programming course (COP 2800, COP 3275, or COP 3229).
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 CSE E222
 Textbooks
@@ -200,12 +168,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 3:00 PM - 5:00 PM
+4/28/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 CSE E222
 Textbooks
@@ -220,19 +188,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 3:00 PM - 5:00 PM
+4/28/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CAP5108 - Research Methods for Human-Centered Computing
-Introduces the fundamental methods and techniques to evaluate technologies and collect data from humans, including experimental design, types of variables, types of errors, hypothesis testing, survey design, behavioral and psychophysical methods. 
+Introduces the fundamental methods and techniques to evaluate technologies and collect data from humans, including experimental design, types of variables, types of errors, hypothesis testing, survey design, behavioral and psychophysical methods. 
 Prereq: STA 3032, COT 3100, COP 3530, or equivalent.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E119
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 CSE E119
 Textbooks
@@ -247,15 +215,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CAP6137 - Malware Reverse Engineering
 Introducing the theory and practice of software reverse engineering applied to analysis of malicious software (malware). Students learn techniques of static and dynamic analysis to help identify the behavior of programs presented without documentation or source code and to identify possible remediation and avoidance techniques.
-Prereq: CDA 3101 ; Coreq: COP 5615 or consent of instructor.
+Prereq: CDA 3101 ; Coreq: COP 5615 or consent of instructor.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 PUGH 120
 Textbooks
@@ -270,19 +238,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 3:00 PM - 5:00 PM
+4/28/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CAP6610 - Machine Learning
 Concepts in developing computer programs that learn and improve with experience. Emphasis on methods based on probability, statistics, and optimization.
 Prereq: Mathematics for Intelligent Systems.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E119
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CSE E119
 Textbooks
@@ -297,19 +265,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 10:00 AM - 12:00 PM
+4/28/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CAP6615 - Neural Networks for Computing
 Neural network models and algorithms. Adaptive behavior, associative learning, competitive dynamics and biological mechanisms. Applications include computer vision, cognitive information processing, control, and signal analysis.
 Prereq: CAP 5635.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 FLG 0270
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 FLG 0270
 Textbooks
@@ -324,23 +292,23 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CDA3101 - Introduction to Computer Organization
 Organization of computing systems. Logical basis of computer structure. Machine representation of instructions and data, flow of control, and basic machine instructions. Assembly language programming. (M)
 Prereq: (COP 3504 or COP 3503) and (MAC 2233 or MAC 2311 or MAC 3472) and COT 3100.
 Class #11573
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 3 
+W | 
+Period 3 
 (9:35 AM - 10:25 AM)
 LIT 0235
 Textbooks
@@ -355,20 +323,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11574
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 4 
+W | 
+Period 4 
 (10:40 AM - 11:30 AM)
 LIT 0233
 Textbooks
@@ -383,20 +351,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11600
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 7 
+W | 
+Period 7 
 (1:55 PM - 2:45 PM)
 MAT 0003
 Textbooks
@@ -411,20 +379,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #23720
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 3 
+W | 
+Period 3 
 (9:35 AM - 10:25 AM)
 CHE 0316
 Textbooks
@@ -439,20 +407,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #23721
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 4 
+W | 
+Period 4 
 (10:40 AM - 11:30 AM)
 FLI 0101
 Textbooks
@@ -467,20 +435,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #23723
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 7 
+W | 
+Period 7 
 (1:55 PM - 2:45 PM)
 ARCH 0215
 Textbooks
@@ -495,20 +463,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #23724
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 9 
+W | 
+Period 9 
 (4:05 PM - 4:55 PM)
 BEN 0328
 Textbooks
@@ -523,20 +491,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #23725
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 6 
+W | 
+Period 6 
 (12:50 PM - 1:40 PM)
 MCCB G108
 Textbooks
@@ -551,20 +519,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #23726
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 7 
+W | 
+Period 7 
 (1:55 PM - 2:45 PM)
 WM 0202
 Textbooks
@@ -579,20 +547,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #23727
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 9 
+W | 
+Period 9 
 (4:05 PM - 4:55 PM)
 WM 0202
 Textbooks
@@ -607,20 +575,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #29862
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 2 
+W | 
+Period 2 
 (8:30 AM - 9:20 AM)
 WM 0202
 Textbooks
@@ -635,20 +603,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #29863
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CAR 0100
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-W | 
-Period 3 
+W | 
+Period 3 
 (9:35 AM - 10:25 AM)
 CSE E116
 Textbooks
@@ -663,19 +631,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CEN3031 - Introduction to Software Engineering
 Topics include software planning, specifications, coding, testing and maintenance. Gain experience in the team approach to large system development. (M)
 Prereq: COP 3530.
 Class #11331
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 5 
+T | 
+Period 5 
 (11:45 AM - 12:35 PM)
 MCCA 2186
 Textbooks
@@ -691,16 +659,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11332
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 2 
+T | 
+Period 2 
 (8:30 AM - 9:20 AM)
 MCCA 2186
 Textbooks
@@ -716,16 +684,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24168
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 MCCA 2186
 Textbooks
@@ -741,16 +709,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24172
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 9 
+T | 
+Period 9 
 (4:05 PM - 4:55 PM)
 MCCA 2186
 Textbooks
@@ -766,16 +734,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24173
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 3 
+T | 
+Period 3 
 (9:35 AM - 10:25 AM)
 FLI 0121
 Textbooks
@@ -791,16 +759,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24174
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 5 
+T | 
+Period 5 
 (11:45 AM - 12:35 PM)
 UST 0108
 Textbooks
@@ -816,16 +784,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24175
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 6 
+T | 
+Period 6 
 (12:50 PM - 1:40 PM)
 MCCA 2186
 Textbooks
@@ -841,16 +809,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24177
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 7 
+T | 
+Period 7 
 (1:55 PM - 2:45 PM)
 MCCA 2186
 Textbooks
@@ -866,16 +834,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24178
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 8 
+T | 
+Period 8 
 (3:00 PM - 3:50 PM)
 MCCA 2186
 Textbooks
@@ -891,16 +859,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24180
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 9 
+T | 
+Period 9 
 (4:05 PM - 4:55 PM)
 UST 0108
 Textbooks
@@ -916,16 +884,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24181
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 UST 0108
 Textbooks
@@ -941,16 +909,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24182
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 11 
+T | 
+Period 11 
 (6:15 PM - 7:05 PM)
 UST 0108
 Textbooks
@@ -966,16 +934,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24183
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period E1 
+T | 
+Period E1 
 (7:20 PM - 8:10 PM)
 UST 0108
 Textbooks
@@ -991,16 +959,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24184
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 2 
+T | 
+Period 2 
 (8:30 AM - 9:20 AM)
 UST 0108
 Textbooks
@@ -1016,16 +984,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #29870
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 3 
+T | 
+Period 3 
 (9:35 AM - 10:25 AM)
 MAT 0151
 Textbooks
@@ -1041,16 +1009,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #29871
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 NPB 1001
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 UST 0108
 Textbooks
@@ -1066,15 +1034,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 CEN4072 - Software Testing and Verification
 Concepts, principles and techniques of software testing and verification. Strengths and limitations of black-box and white-box testing methods; techniques for proving the correctness of programs.
 Prereq: CEN 3031.
 Class #30481
-M,W,F | 
-Period 6 
+M,W,F | 
+Period 6 
 (12:50 PM - 1:40 PM)
 CSE E221
 Textbooks
@@ -1089,12 +1057,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 6 
+M,W,F | 
+Period 6 
 (12:50 PM - 1:40 PM)
 CSE E221
 Textbooks
@@ -1116,8 +1084,8 @@ CEN4721 - Human-Computer Interaction
 Studies the major topics in the study, planning and design of the interaction between people and computers. Topics include interface design (principles, theories and guidelines), virtual environments, interactive devices and collaboration.
 Prereq: COP 3530.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 MCCB G086
 Textbooks
@@ -1132,12 +1100,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11271
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 MCCB G086
 Textbooks
@@ -1152,19 +1120,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 5:30 PM - 7:30 PM
+4/28/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CEN4722 - User Experience Design
 Introduces methods and tools used in User Experience Design (UXD): the early stages of software design focused on meeting user needs. Key concepts include user research, contextual design, design thinking, ideation, iterative design, prototyping, and design documentation. Projects utilize software tools used in the industry.
 Prereq: COP 3530.
 Class #24410
-T | 
-Period 7 
+T | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E221
-R | 
-Periods 7-8 
+R | 
+Periods 7-8 
 (1:55 PM - 3:50 PM)
 CSE E221
 Textbooks
@@ -1180,16 +1148,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 7:30 AM - 9:30 AM
+4/27/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-T | 
-Period 7 
+T | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E221
-R | 
-Periods 7-8 
+R | 
+Periods 7-8 
 (1:55 PM - 3:50 PM)
 CSE E221
 Textbooks
@@ -1204,7 +1172,7 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 7:30 AM - 9:30 AM
+4/27/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 CEN4914 - Computer and Information Science and Engineering Design 2
@@ -1231,8 +1199,8 @@ CEN5035 - Software Engineering
 Topics in projects organization, specification techniques, reliability measurement, documentation.
 Prereq: COP 3504 and COT 3100.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 5 
+M,W,F | 
+Period 5 
 (11:45 AM - 12:35 PM)
 FLG 0260
 Textbooks
@@ -1247,12 +1215,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 10:00 AM - 12:00 PM
+4/28/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 5 
+M,W,F | 
+Period 5 
 (11:45 AM - 12:35 PM)
 FLG 0260
 Textbooks
@@ -1267,15 +1235,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 10:00 AM - 12:00 PM
+4/28/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CEN6070 - Software Testing and Verification
 Concepts, principles, and methods for software testing and verification. Topics include human and machine-based testing strategies, formal proofs of correctness, and software reliability.
 Prereq: CEN 5035.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CSE E220
 Textbooks
@@ -1297,12 +1265,12 @@ CGS3065 - Legal and Social Issues in Computing
 Explores the history, the myth, the ethics, the law and the risks of computer-based technology in modern society. Emphasizes critical analysis of hypotheticals and case studies. Published material is supplemented with online references.
 Prereq: previous experience in Unix environment.
 Class #11130
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 NZH 0112
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 TUR 2319
 Textbooks
@@ -1317,19 +1285,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4213 - Enterprise Security
 Provides an introduction to the real-world aspects of defending an enterprise network. Students will gain hands-on experience performing system security tasks and handling incidents. The class begins with a basic introduction to enterprise cybersecurity, the attack sequence, and managing cybersecurity. Then lecture, homework and lab activities cover the center for internet security's twenty essential security controls.
 Prereq: COP 3530.
 Class #31183
-T | 
-Period 7 
+T | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E309
-R | 
-Periods 7-8 
+R | 
+Periods 7-8 
 (1:55 PM - 3:50 PM)
 CSE E119
 Textbooks
@@ -1344,15 +1312,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 12:30 PM - 2:30 PM
+4/27/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4301 - Information and Database Systems 1
 First part of a two-course sequence that studies the essential concepts, principles and techniques of modern database systems. Topics include modeling and querying of data using conceptual data models as well as the development of a database application. (M)
 Prereq: (COP 3504 or COP 3503) and COT 3100.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 3 
+M,W,F | 
+Period 3 
 (9:35 AM - 10:25 AM)
 TUR L007
 Textbooks
@@ -1367,12 +1335,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/26/2022 @ 12:30 PM - 2:30 PM
+4/26/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11031
-M,W,F | 
-Period 3 
+M,W,F | 
+Period 3 
 (9:35 AM - 10:25 AM)
 TUR L007
 Textbooks
@@ -1388,19 +1356,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/26/2022 @ 12:30 PM - 2:30 PM
+4/26/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4360 - Computer and Information Security
 Covers systematic threat and risk assessment; programmed threats and controls in hardware, software, and human procedures; security policies, models, and mechanisms; theoretical limitations and practical implementations; certification and accreditation standards; and case study reviews. Includes projects.
 Prereq: COP 4600 or equivalent.
 Class #31156
-T | 
-Period 7 
+T | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E121
-R | 
-Periods 7-8 
+R | 
+Periods 7-8 
 (1:55 PM - 3:50 PM)
 CSE A101
 Textbooks
@@ -1415,15 +1383,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 12:30 PM - 2:30 PM
+4/27/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4715 - CS Teaching & Learning
 Covers basic pedagogy, especially as it relates to computer science and engineering, and covers three fundamental elements in education: learning environment, educational theory, and educational practice as approached to engineering-specific training.
 Prereq: COP 3502.
 Class # (Departmentally Controlled)
-R | 
-Period 7 
+R | 
+Period 7 
 (1:55 PM - 2:45 PM)
 Online
 Textbooks
@@ -1484,12 +1452,12 @@ CIS4930 - Special Topics in CISE: Net Analytics & ML
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 NRN 1020
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 NRN 1020
 Textbooks
@@ -1512,12 +1480,12 @@ CIS4930 - Special Topics in CISE: Software Security
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 MCCA G186
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 MCCA G186
 Textbooks
@@ -1533,19 +1501,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/26/2022 @ 12:30 PM - 2:30 PM
+4/26/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4930 - Special Topics in CISE: Intro to Comp Prog
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-M,W | 
-Period 4 
+M,W | 
+Period 4 
 (10:40 AM - 11:30 AM)
 TBA
-F | 
-Period 4 
+F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 NSC 0215
 Textbooks
@@ -1568,12 +1536,12 @@ CIS4930 - Special Topics in CISE: Digital Health
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE A101
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 FLG 0230
 Textbooks
@@ -1596,12 +1564,12 @@ CIS4930 - Special Topics in CISE: Probability in CS
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 RNK 0110
-R | 
-Period 8 
+R | 
+Period 8 
 (3:00 PM - 3:50 PM)
 RNK 0110
 Textbooks
@@ -1617,19 +1585,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 5:30 PM - 7:30 PM
+4/27/2022 @ 5:30 PM - 7:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4930 - Special Topics in CISE: Mobile Computing
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 LIT 0121
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 MAT 0018
 Textbooks
@@ -1645,19 +1613,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4930 - Special Topics in CISE: Applied ML
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E121
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CSE E121
 Textbooks
@@ -1673,15 +1641,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/26/2022 @ 12:30 PM - 2:30 PM
+4/26/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4930 - Special Topics in CISE: Internet Network Tech
 Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
 Prereq: COP 3503 or instructor permission.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 4 
+M,W,F | 
+Period 4 
 (10:40 AM - 11:30 AM)
 CSE E309
 Textbooks
@@ -1697,7 +1665,7 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS4940 - Practical Work
@@ -1720,15 +1688,15 @@ Final Exam
 Class Dates
 01/05/2022 - 04/20/2022
 CIS5370 - Computer and Information Security
-Covers systematic threat and risk assessment; programmed threats and controls in hardware, software, and human procedures; security policies, models, and mechanisms; theoretical limitations and practical implementations; certification and accreditation standards; and case study reviews. Coursework includes a significant term project. 
+Covers systematic threat and risk assessment; programmed threats and controls in hardware, software, and human procedures; security policies, models, and mechanisms; theoretical limitations and practical implementations; certification and accreditation standards; and case study reviews. Coursework includes a significant term project. 
 Prereq: COP 4600 Operating Systems or equivalent
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E221
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CSE E221
 Textbooks
@@ -1743,19 +1711,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 7:30 AM - 9:30 AM
+4/27/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS5371 - Introduction to Cryptology
 Introducing classical and modern cryptography and cryptanalysis, including symmetric and asymmetric (public key) ciphers. It covers cryptographic hash functions, block and stream ciphers, as well as differential and linear cryptanalysis. It reviews BAN logic, applications of cryptography, cryptographic standards and protocols, and analyzes case studies of failed implementations.
-Prereq: COT 3100 Applications of Discrete Structures or equivalent ; Coreq:  COT 5405 Analysis of Algorithms or equivalent
+Prereq: COT 3100 Applications of Discrete Structures or equivalent ; Coreq:  COT 5405 Analysis of Algorithms or equivalent
 Class # (Departmentally Controlled)
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 CSE E121
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E121
 Textbooks
@@ -1770,16 +1738,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 CSE E121
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E121
 Textbooks
@@ -1794,7 +1762,7 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS6905 - Individual Study
@@ -1841,12 +1809,12 @@ CIS6930 - Special Topics in CIS: Hum-Cen Reco Alg
 Special Topics in CIS
 Prereq: vary depending on topics.
 Class # (Departmentally Controlled)
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 CSE E220
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E220
 Textbooks
@@ -1861,19 +1829,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS6930 - Special Topics in CIS: Digital Health
 Special Topics in CIS
 Prereq: vary depending on topics.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE A101
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 FLG 0230
 Textbooks
@@ -1895,12 +1863,12 @@ CIS6930 - Special Topics in CIS: Net Analytics & ML
 Special Topics in CIS
 Prereq: vary depending on topics.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 NRN 1020
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 NRN 1020
 Textbooks
@@ -1922,12 +1890,12 @@ CIS6930 - Special Topics in CIS: Applied ML
 Special Topics in CIS
 Prereq: vary depending on topics.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E121
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CSE E121
 Textbooks
@@ -1942,19 +1910,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS6930 - Special Topics in CIS: ML in Genomics
 Special Topics in CIS
 Prereq: vary depending on topics.
 Class # (Departmentally Controlled)
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 CSE E220
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E221
 Textbooks
@@ -1969,19 +1937,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS6930 - Special Topics in CIS: Probability for CS
 Special Topics in CIS
 Prereq: vary depending on topics.
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 RNK 0110
-R | 
-Period 8 
+R | 
+Period 8 
 (3:00 PM - 3:50 PM)
 RNK 0110
 Textbooks
@@ -2003,12 +1971,12 @@ CIS6930 - Special Topics in CIS: Blockchain
 Special Topics in CIS
 Prereq: vary depending on topics.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 LAR 0310
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 LIT 0113
 Textbooks
@@ -2023,7 +1991,7 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CIS6935 - Graduate Seminar
@@ -2125,12 +2093,12 @@ CNT4007 - Computer Network Fundamentals
 Fundamental concepts, principles, and standards of computer networks. Introduces topics in top-down approach, starting with the application layer in the OSI system architecture with a stronger focus on application, transport, and network layers.
 Prereq: COP 4600.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 MCCC 0100
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 MCCC 0100
 Textbooks
@@ -2145,16 +2113,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11071
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 MCCC 0100
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 MCCC 0100
 Textbooks
@@ -2169,7 +2137,7 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 CNT5106C - Computer Networks
@@ -2188,16 +2156,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E220
-R | 
-Period 9 
+R | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CSE E220
 Textbooks
@@ -2212,19 +2180,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 CNT5517 - Mobile Computing
 Emerging topics of wireless and mobile computing and networking including mobile computing models, mobile-IP, adhoc networks, Bluetooth, and 802.11b. Mobile database access and mobile transactions in context of emerging field of M-commerce.
 Prereq: CNT 4007C.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 LIT 0121
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 MAT 0018
 Textbooks
@@ -2244,10 +2212,10 @@ Class Dates
 01/05/2022 - 04/20/2022
 CNT6107 - Advanced Computer Networks
 Computer network architecture, including topologies, media, switching, routing, congestion control, protocols, and case studies.
-Prereq: COP 5615 , COP 5536 , and CNT 5106C 
+Prereq: COP 5615 , COP 5536 , and CNT 5106C 
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 7 
+M,W,F | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E312
 Textbooks
@@ -2269,12 +2237,12 @@ COP3502C - Programming Fundamentals 1
 First course of a two-semester introductory sequence for those planning further study in computer science, digital arts and sciences or computer engineering. Concepts of computer science and the process of computer programming, including object-oriented programming, procedural and data abstraction and program modularity.
 Coreq: MAC 2311.
 Class #10849
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 6-7 
+M | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E115
 Textbooks
@@ -2290,16 +2258,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10850
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E115
 Textbooks
@@ -2315,16 +2283,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10853
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 4-5 
+T | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E116
 Textbooks
@@ -2340,16 +2308,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10854
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E113
 Textbooks
@@ -2365,16 +2333,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10855
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 10-11 
+T | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 CSE E115
 Textbooks
@@ -2390,16 +2358,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10880
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E113
 Textbooks
@@ -2415,16 +2383,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10881
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 4-5 
+T | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E113
 Textbooks
@@ -2440,16 +2408,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10882
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 6-7 
+T | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E113
 Textbooks
@@ -2465,16 +2433,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10883
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 4-5 
+T | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E115
 Textbooks
@@ -2490,16 +2458,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11145
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 4-5 
+M | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E113
 Textbooks
@@ -2515,16 +2483,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11156
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Period 6 
+M | 
+Period 6 
 (12:50 PM - 1:40 PM)
 CSE E113
 Textbooks
@@ -2540,16 +2508,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11157
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 8-9 
+M | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E113
 Textbooks
@@ -2565,16 +2533,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11158
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 10-11 
+M | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 CSE E113
 Textbooks
@@ -2590,16 +2558,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11159
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 4-5 
+M | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E115
 Textbooks
@@ -2615,16 +2583,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11160
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 4-5 
+M | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E116
 Textbooks
@@ -2640,16 +2608,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #19612
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 6-7 
+T | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E116
 Textbooks
@@ -2665,16 +2633,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24993
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 6-7 
+T | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E115
 Textbooks
@@ -2690,16 +2658,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #24995
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 10-11 
+T | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 CSE E113
 Textbooks
@@ -2715,16 +2683,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26297
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 3-4 
+M | 
+Periods 3-4 
 (9:35 AM - 11:30 AM)
 CSE E312
 Textbooks
@@ -2740,16 +2708,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26310
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 5-6 
+M | 
+Periods 5-6 
 (11:45 AM - 1:40 PM)
 CSE E312
 Textbooks
@@ -2765,16 +2733,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26313
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 7-8 
+M | 
+Periods 7-8 
 (1:55 PM - 3:50 PM)
 CSE E116
 Textbooks
@@ -2790,16 +2758,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26314
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 9-10 
+M | 
+Periods 9-10 
 (4:05 PM - 6:00 PM)
 CSE E115
 Textbooks
@@ -2815,16 +2783,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26316
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods 11-E1 
+M | 
+Periods 11-E1 
 (6:15 PM - 8:10 PM)
 CSE E115
 Textbooks
@@ -2840,16 +2808,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26317
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-M | 
-Periods E2-E3 
+M | 
+Periods E2-E3 
 (8:20 PM - 10:10 PM)
 CSE E113
 Textbooks
@@ -2865,16 +2833,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26319
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E116
 Textbooks
@@ -2890,16 +2858,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26320
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 4-5 
+T | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E312
 Textbooks
@@ -2915,16 +2883,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26321
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 6-7 
+T | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E312
 Textbooks
@@ -2940,16 +2908,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26323
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 8-9 
+T | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E115
 Textbooks
@@ -2965,16 +2933,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #26324
-M,W,F | 
-Period 2 
+M,W,F | 
+Period 2 
 (8:30 AM - 9:20 AM)
 CAR 0100
-T | 
-Periods 10-11 
+T | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 CSE E116
 Textbooks
@@ -2990,19 +2958,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 3:00 PM - 5:00 PM
+4/27/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 COP3503C - Programming Fundamentals 2
 Second course of a two-semester introductory sequence for those planning further study in computer science, digital arts and sciences or computer engineering. Concepts of computer science and the process of computer programming, including object-oriented programming, procedural and data abstraction and program modularity.
 Prereq: (COP 3502 with a minimum grade of C or an AP exam in computer science with a minimum grade of 4) and MAC 2311 with a minimum grade of C.
 Class #10884
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-F | 
-Periods 2-3 
+F | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E115
 Textbooks
@@ -3018,16 +2986,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10900
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 8-9 
+R | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E113
 Textbooks
@@ -3043,16 +3011,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10901
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 CSE E113
 Textbooks
@@ -3068,16 +3036,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10902
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-F | 
-Periods 4-5 
+F | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E113
 Textbooks
@@ -3093,16 +3061,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10903
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E312
 Textbooks
@@ -3118,16 +3086,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10904
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 6-7 
+R | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E113
 Textbooks
@@ -3143,16 +3111,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10905
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 8-9 
+R | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E312
 Textbooks
@@ -3168,16 +3136,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10906
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 8-9 
+R | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E309
 Textbooks
@@ -3193,16 +3161,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10947
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E309
 Textbooks
@@ -3218,16 +3186,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10948
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 6-7 
+R | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E116
 Textbooks
@@ -3243,16 +3211,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10949
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 CSE E312
 Textbooks
@@ -3268,16 +3236,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10950
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 2-3 
+R | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E116
 Textbooks
@@ -3293,16 +3261,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10952
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 2-3 
+R | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E312
 Textbooks
@@ -3318,16 +3286,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10953
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-F | 
-Periods 6-7 
+F | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E115
 Textbooks
@@ -3343,16 +3311,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11017
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 6-7 
+R | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E312
 Textbooks
@@ -3368,16 +3336,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #25088
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 2-3 
+R | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E115
 Textbooks
@@ -3393,16 +3361,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #25109
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 8-9 
+R | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E116
 Textbooks
@@ -3418,16 +3386,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #25162
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Period 10 
+R | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CSE E116
 Textbooks
@@ -3443,16 +3411,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #25164
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E116
 Textbooks
@@ -3468,16 +3436,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #28532
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E115
 Textbooks
@@ -3493,16 +3461,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #28566
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 CSE E115
 Textbooks
@@ -3518,16 +3486,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #28596
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 8-9 
+R | 
+Periods 8-9 
 (3:00 PM - 4:55 PM)
 CSE E115
 Textbooks
@@ -3543,16 +3511,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #28604
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 CSE E113
 Textbooks
@@ -3568,16 +3536,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #28680
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 2-3 
+R | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 CSE E113
 Textbooks
@@ -3593,16 +3561,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #28742
-M,W,F | 
-Period 10 
+M,W,F | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CAR 0100
-R | 
-Periods 6-7 
+R | 
+Periods 6-7 
 (12:50 PM - 2:45 PM)
 CSE E115
 Textbooks
@@ -3618,19 +3586,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 COP3530 - Data Structures and Algorithm
 Algorithm development using pseudo languages, basic program structures, program design techniques, storage and manipulation of basic data structures like arrays, stacks, queues, sorting and searching and string processing. Linked linear lists. Trees and multilinked structures. (M)
 Prereq: (COP 3504 or COP 3503) and COT 3100 and (MAC 2234 or MAC 2312 or MAC 2512 or MAC 3473), all with a minimum grade of C.
 Class #10976
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 TUR L007
-T | 
-Period 7 
+T | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E220
 Textbooks
@@ -3645,16 +3613,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10977
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 TUR L007
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 CSE E220
 Textbooks
@@ -3669,16 +3637,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11021
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 TUR L007
-T | 
-Period 3 
+T | 
+Period 3 
 (9:35 AM - 10:25 AM)
 FAC 0120
 Textbooks
@@ -3693,16 +3661,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11022
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 TUR L007
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 CSE E221
 Textbooks
@@ -3717,16 +3685,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11023
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 TUR L007
-T | 
-Period 5 
+T | 
+Period 5 
 (11:45 AM - 12:35 PM)
 CSE E221
 Textbooks
@@ -3741,16 +3709,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #11024
-M,W,F | 
-Period 8 
+M,W,F | 
+Period 8 
 (3:00 PM - 3:50 PM)
 TUR L007
-T | 
-Period 6 
+T | 
+Period 6 
 (12:50 PM - 1:40 PM)
 CSE E221
 Textbooks
@@ -3765,15 +3733,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 7:30 AM - 9:30 AM
+4/28/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 COP4020 - Programming Language Concepts
 Introduces programming language principles, including language constructs, design goals, run-time structures, implementation techniques and exposure to a wide variety of programming paradigms.
 Prereq: COP 3530.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 6 
+M,W,F | 
+Period 6 
 (12:50 PM - 1:40 PM)
 MCCC 0100
 Textbooks
@@ -3788,12 +3756,12 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 12:30 PM - 2:30 PM
+4/27/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10979
-M,W,F | 
-Period 6 
+M,W,F | 
+Period 6 
 (12:50 PM - 1:40 PM)
 MCCC 0100
 Textbooks
@@ -3808,19 +3776,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/27/2022 @ 12:30 PM - 2:30 PM
+4/27/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 COP4533 - Algorithm Abstraction and Design
 Covers algorithmic concepts and their use rooted in practical application and computer science theory. Topics include algorithmic paradigms, limits of computing, and algorithm time complexity classes.
 Prereq: COP 3530.
 Class #31341
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 TBA
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 TBA
 Textbooks
@@ -3842,16 +3810,16 @@ COP4600 - Operating Systems
 Design and implementation of various components of a modern operating system, including I/O programming, interrupt handling, process and resource management, computer networks and distributed systems. (M)
 Prereq: CDA 3101 and COP 3530; knowledge of C or C++ recommended.
 Class #10923
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 TUR L007
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 TUR L007
-W | 
-Period 3 
+W | 
+Period 3 
 (9:35 AM - 10:25 AM)
 LIT 0109
 Textbooks
@@ -3866,20 +3834,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10924
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 TUR L007
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 TUR L007
-W | 
-Period 4 
+W | 
+Period 4 
 (10:40 AM - 11:30 AM)
 ROL 0205
 Textbooks
@@ -3894,20 +3862,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10925
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 TUR L007
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 TUR L007
-W | 
-Period 5 
+W | 
+Period 5 
 (11:45 AM - 12:35 PM)
 TUR L005
 Textbooks
@@ -3922,20 +3890,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10926
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 TUR L007
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 TUR L007
-W | 
-Period 6 
+W | 
+Period 6 
 (12:50 PM - 1:40 PM)
 ARCH 0423
 Textbooks
@@ -3950,20 +3918,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10927
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 TUR L007
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 TUR L007
-W | 
-Period 7 
+W | 
+Period 7 
 (1:55 PM - 2:45 PM)
 FAC 0127
 Textbooks
@@ -3978,20 +3946,20 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #10929
-T | 
-Period 10 
+T | 
+Period 10 
 (5:10 PM - 6:00 PM)
 TUR L007
-R | 
-Periods 10-11 
+R | 
+Periods 10-11 
 (5:10 PM - 7:05 PM)
 TUR L007
-W | 
-Period 8 
+W | 
+Period 8 
 (3:00 PM - 3:50 PM)
 CSE E222
 Textbooks
@@ -4006,15 +3974,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 3:00 PM - 5:00 PM
+4/25/2022 @ 3:00 PM - 5:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 COP4720 - Information and Database Systems 2
 Part two of a two-course sequence. Provides a basic understanding of the internals of a modern database system. Topics include data storage, indexing, query processing and advanced concepts such as database tuning, alternate data models and emerging applications. (M)
 Prereq: CIS 4301 and COP 3530.
 Class #31180
-M,W,F | 
-Period 3 
+M,W,F | 
+Period 3 
 (9:35 AM - 10:25 AM)
 TBA
 Textbooks
@@ -4029,15 +3997,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/26/2022 @ 12:30 PM - 2:30 PM
+4/26/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 COP6726 - Database System Implementation
 DBMS architecture, query processing and optimization, transaction processing, index structures, parallel query processing, object-oriented and object-relational databases, and related topics.
 Prereq: COP 4600 and 4720 or COP 5725.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 7 
+M,W,F | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E222
 Textbooks
@@ -4059,12 +4027,12 @@ COT3100 - Applications of Discrete Structures
 Covers the mathematics of discrete events; i.e., events that involve distinct elements, finite structures of distinct elements or finite sampled versions of continuous phenomena (such as movement). (M)
 Prereq: (MAC 2311 or MAC 3472) and (COP 3502 or equivalent), all with a minimum grades of C; Coreq: COP 3504 or COP 3503.
 Class #12178
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 2 
+T | 
+Period 2 
 (8:30 AM - 9:20 AM)
 BAR 0211
 Textbooks
@@ -4080,16 +4048,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #12179
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 3 
+T | 
+Period 3 
 (9:35 AM - 10:25 AM)
 TUR 2319
 Textbooks
@@ -4105,16 +4073,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #12180
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 TUR 2319
 Textbooks
@@ -4130,16 +4098,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #12204
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 5 
+T | 
+Period 5 
 (11:45 AM - 12:35 PM)
 CSE E121
 Textbooks
@@ -4155,16 +4123,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #12205
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 6 
+T | 
+Period 6 
 (12:50 PM - 1:40 PM)
 LAR 0330
 Textbooks
@@ -4180,16 +4148,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #12206
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 7 
+T | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E119
 Textbooks
@@ -4205,16 +4173,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class #12207
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 8 
+T | 
+Period 8 
 (3:00 PM - 3:50 PM)
 CSE E222
 Textbooks
@@ -4230,16 +4198,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 9 
+M,W,F | 
+Period 9 
 (4:05 PM - 4:55 PM)
 CAR 0100
-T | 
-Period 9 
+T | 
+Period 9 
 (4:05 PM - 4:55 PM)
 TBA
 Textbooks
@@ -4255,19 +4223,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 10:00 AM - 12:00 PM
+4/29/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 COT4501 - Numerical Analysis: a Computational Approach
 Numerical integration, nonlinear equations, linear and nonlinear systems of equations, differential equations and interpolation.
 Prereq: (COP 3504 or COP 3503) and MAS 3114.
 Class #25150
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 PUGH 170
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 PUGH 170
 Textbooks
@@ -4282,16 +4250,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-T | 
-Period 4 
+T | 
+Period 4 
 (10:40 AM - 11:30 AM)
 PUGH 170
-R | 
-Periods 4-5 
+R | 
+Periods 4-5 
 (10:40 AM - 12:35 PM)
 PUGH 170
 Textbooks
@@ -4306,19 +4274,19 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/29/2022 @ 7:30 AM - 9:30 AM
+4/29/2022 @ 7:30 AM - 9:30 AM
 Class Dates
 01/05/2022 - 04/20/2022
 COT5405 - Analysis of Algorithms
 Introduction and illustration of basic techniques for designing efficient algorithms and analyzing algorithm complexity.
 Prereq: COP 3530.
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 PUGH 170
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 PUGH 170
 Textbooks
@@ -4333,16 +4301,16 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 Class # (Departmentally Controlled)
-T | 
-Periods 2-3 
+T | 
+Periods 2-3 
 (8:30 AM - 10:25 AM)
 PUGH 170
-R | 
-Period 3 
+R | 
+Period 3 
 (9:35 AM - 10:25 AM)
 PUGH 170
 Textbooks
@@ -4357,15 +4325,15 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/25/2022 @ 10:00 AM - 12:00 PM
+4/25/2022 @ 10:00 AM - 12:00 PM
 Class Dates
 01/05/2022 - 04/20/2022
 COT5615 - Mathematics for Intelligent Systems
 Mathematical methods commonly used to develop algorithms for computer systems that exhibit intelligent behavior.
 Prereq: MAC 2313, Multivariate Calculus; MAS 3114 or MAS 4105, Linear Algebra; STA 4321, Mathematical Statistics.
 Class # (Departmentally Controlled)
-M,W,F | 
-Period 7 
+M,W,F | 
+Period 7 
 (1:55 PM - 2:45 PM)
 CSE E113
 Textbooks
@@ -4380,7 +4348,7 @@ Credits
 Department
 Computer & Information Science & Engineering
 Final Exam
-4/28/2022 @ 12:30 PM - 2:30 PM
+4/28/2022 @ 12:30 PM - 2:30 PM
 Class Dates
 01/05/2022 - 04/20/2022
 EGN4912 - Engineering Directed Independent Research: ENGINEERING RESEARCH
