@@ -1,0 +1,35 @@
+CLASS_INFO
+Note: Maybe speak a short description and show the long description on screen.
+  - The class covers (insert short description).
+  - The class is about (insert short description).
+  - Here is the class description (insert short description).
+
+
+FINAL_EXAM
+Note: Triggered when user asks about the final exam time.
+  - The final exam will be (insert date) on (insert building and classroom, if possible).
+  - The final exam is scheduled for (insert date) from (insert start time) to (insert end time).
+
+PROFESSOR
+  - Professor (insert professor name) will be teaching the class.
+  - Professor (insert name) will teach the class this semester.
+  - The class will be taught by (insert name) this semester.
+
+SHOW_CLASSES
+Note: So far, the show classes intent does not recognize categories. Need to add entity to recognize categories.
+  - This are the classes for spring (show on screen).
+  - This are the classes for (category) for spring.
+  - Here are the classes for next semester.
+
+TEXTBOOK
+  - The required textbooks for (class name) are (insert books, if too many show on screen).
+  - This are the required textbooks for the class.
+  - These are the books you will need for the class (show on screen)
+
+PROFESSOR WEBSITE (MAYBE, NOT IMPLEMENTED YET)
+
+CLASS_TIME
+  - The class (class_name) meets on (insert days).
+  - The classes will be on (insert date) on room (insert room, if available).
+
+LIBRARY
