@@ -1,4 +1,36 @@
-CAP3020 - Theory and Practice of Multimedia Production Combines the traditional media production pipeline and software engineering processes to synthesize an approach geared for the production of works incorporating both artistic and computational elements. Prereq: CAP 3027. Class #11374 T |  Periods 8-9  (3:00 PM - 4:55 PM) NRG 0205 R |  Period 9  (4:05 PM - 4:55 PM) NRG 0205 Textbooks Additional Details EEP Eligible Instructor Joshua Fox Meet Primarily Classroom Credits 3 Department Computer & Information Science & Engineering Final Exam 4/28/2022 @ 5:30 PM - 7:30 PM Class Dates 01/05/2022 - 04/20/2022 CAP3034 - Introduction to Computer-Aided Animation Introduces topics related to computer-aided animation. Rigging for forward and inverse kinematics. Skin weighting. Morph targets. Expression-driven animation, rigid-body and particle simulation. Prereq: MAC 1147 or equivalent. Class #11398 M,W,F | Period 3 
+CAP3020 - Theory and Practice of Multimedia Production
+Combines the traditional media production pipeline and software engineering processes to synthesize an approach geared for the production of works incorporating both artistic and computational elements.
+Prereq: CAP 3027.
+Class #11374
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRG 0205
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRG 0205
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+4/28/2022 @ 5:30 PM - 7:30 PM
+Class Dates
+01/05/2022 - 04/20/2022
+CAP3034 - Introduction to Computer-Aided Animation
+Introduces topics related to computer-aided animation. Rigging for forward and inverse kinematics. Skin weighting. Morph targets. Expression-driven animation, rigid-body and particle simulation.
+Prereq: MAC 1147 or equivalent.
+Class #11398
+M,W,F | 
+Period 3 
 (9:35 AM - 10:25 AM)
 CSE E231
 Textbooks

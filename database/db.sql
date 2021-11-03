@@ -19,7 +19,8 @@ CREATE TABLE IF NOT EXISTS `class` (
     `instructor` varchar(50),
     `location` varchar(10),
     `day` varchar(10),
-    `period` varchar(4),
+    `btime` time,
+    `etime` time,
     `final` varchar(50)
 );
 

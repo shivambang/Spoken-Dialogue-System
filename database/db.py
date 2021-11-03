@@ -17,15 +17,26 @@ with open('soc.txt', 'r', encoding='utf-8') as f:
 
 p = "(?P<code>[A-Z0-9]{7,8}) - (?P<name>.+?)\n(?P<info>.+?)\n(?P<preq>(Pre|Co)req: .+?)?\n?(?P<classes>(Class #[\s\S]*?Class Dates\n.*?\n)+)"
 c = re.compile("Class #(?P<num>.+?)\n(?P<days>[MTWRF][\s\S]*?\n)Textbooks[\s\S]+?Instructors?\n(?P<inst>.+?)\n[\s\S]+?Credits?\n(?P<credits>\d)\n[\s\S]+?Final Exam\n(?P<final>.+?)\nClass Dates\n(?P<date>.+?)\n")
-d = re.compile("(?P<day>[MTWRF][,MTWRF]*)\s\|\s\nPeriods?\s(?P<period>.+?)\n\(.+?\)\n(?P<loc>.+?)\n")
+d = re.compile("(?P<day>[MTWRF][,MTWRF]*)\s\|\s\nPeriods?\s(?P<period>.+?)\n\((?P<btime>.+?[AP]M) - (?P<etime>.+?[AP]M)\)\n(?P<loc>.+?)\n")
 courses = []
 classes = []
 for course in re.finditer(p, text):
     courses.append((course['code'], course['name'], course['info'], course['preq'], 'S22'))
     for sect in re.finditer(c, course['classes']):
         for day in re.finditer(d, sect['days']):
-            for period in day['period'].split('-'):
-                classes.append((num(sect['num']), course['code'], course['name'], sect['inst'], day['loc'], day['day'].replace(',', ''), period, sect['final']))
+            btime = day['btime'].replace(' AM', '')
+            etime = day['etime'].replace(' AM', '')
+            def t4(time):
+                if 'PM' in time:
+                    time = time.replace(' PM', '')
+                    time = re.split(':', time)
+                    time = [int(x) for x in time]
+                    time[0] += 12
+                    time = ":".join([str(x) for x in time])
+                return time
+            btime = t4(btime)
+            etime = t4(etime)
+            classes.append((num(sect['num']), course['code'], course['name'], sect['inst'], day['loc'], day['day'].replace(',', ''), btime, etime, sect['final']))
 
 with open('courses.csv', 'w') as out:
     csv_out = csv.writer(out)
@@ -38,8 +49,7 @@ with open('soc.csv', 'w') as out:
     csv_out.writerows(classes)
 
 cursor.executemany("INSERT INTO course(code, name, info, preq, last) VALUES (?, ?, ?, ?, ?)", courses)
-cursor.executemany("INSERT INTO class(number, ccode, cname, instructor, location, day, period, final) VALUES (?, ?, ?, ?, ?, ?, ?, ?)", classes)
-
+cursor.executemany("INSERT INTO class(number, ccode, cname, instructor, location, day, btime, etime, final) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)", classes)
 
 connection.commit()
 cursor.close()
