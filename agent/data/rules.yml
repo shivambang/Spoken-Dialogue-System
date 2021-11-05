@@ -1,0 +1,19 @@
+version: "2.0"
+
+rules:
+
+- rule: Activate form
+  steps:
+  - intent: request_course
+  - action: course_form
+  - active_loop: course_form
+
+- rule: Submit form
+  condition:
+  - active_loop: course_form
+  steps:
+  - action: course_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  wait_for_user_input: false

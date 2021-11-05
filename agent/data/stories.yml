@@ -1,0 +1,59 @@
+version: "2.0"
+
+stories:
+
+- story: first contact
+  steps:
+  - intent: first_contact
+  - action: utter_first_contact
+  - action: course_form
+  - slot_was_set:
+    - course_level: grad  
+  - slot_was_set:
+    - course_type: cap  
+  - action: action_get_courses
+
+- story: request course
+  steps:
+  - intent: request_course
+  - action: course_form
+  - slot_was_set:
+    - course_level: undergrad  
+  - slot_was_set:
+    - course_type: cnt  
+  - action: action_get_courses
+
+- story: request course info
+  steps:
+  - intent: request_course_info
+  - slot_was_set:
+    - course: intro to cryptology  
+  - action: action_get_course_info
+
+- story: request course time
+  steps:
+  - intent: request_course_time
+  - slot_was_set:
+    - course: user experience design  
+  - action: action_get_course_time
+
+- story: request course text
+  steps:
+  - intent: request_course_text
+  - slot_was_set:
+    - course: cap 6137 
+  - action: action_get_course_text
+
+- story: request course inst
+  steps:
+  - intent: request_course_inst
+  - slot_was_set:
+    - course: neural networks
+  - action: action_get_course_inst
+
+- story: request course preq
+  steps:
+  - intent: request_course_preq
+  - slot_was_set:
+    - course: computer network
+  - action: action_get_course_preq
