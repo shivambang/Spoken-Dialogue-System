@@ -36,7 +36,7 @@ for course in re.finditer(p, text):
                 return time
             btime = t4(btime)
             etime = t4(etime)
-            classes.append((num(sect['num']), course['code'], course['name'], sect['inst'], day['loc'], day['day'].replace(',', ''), btime, etime, sect['final']))
+            classes.append((num(sect['num']), course['code'], re.sub('[^A-Za-z0-9]', ' ', course['name']).replace('\w+', '\w'), sect['inst'], day['loc'], day['day'].replace(',', ''), btime, etime, sect['final']))
 
 with open('courses.csv', 'w') as out:
     csv_out = csv.writer(out)
