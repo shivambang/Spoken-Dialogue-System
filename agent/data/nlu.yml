@@ -1,0 +1,146 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+- intent: goodbye
+  examples: |
+    - cu
+    - bye
+    - goodbye
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: request_course
+  examples: |
+    - What are the [grad](course_level) courses being offered?
+    - What courses can I take next semester?
+    - Tell me about the courses available.
+    - Give me a list of [undergrad](course_level) courses.
+    - Give me a list of [computing theory](course_type) related courses.
+    - What are some [programming](course_type) courses being offered?
+- intent: request_course_info
+  examples: |
+    - What is [cot 5615](course) about?
+    - What is [analysis of algorithms] about?
+    - What is it about?
+    - Give me the details of this course
+    - Give me the details of [human computer interaction](course)
+- intent: request_course_inst
+  examples: |
+    - Who will be teaching [cop 6726](course)?
+    - Who will be teaching this course?
+    - Who will be teaching it?
+    - Who will be the faculty for [machine learning](course)?
+- intent: request_course_time
+  examples: |
+    - What are the timings for [cap 4770](course)?
+    - What are the timings for [introduction to data science](course)?
+    - What are the timings for this course?
+- intent: request_course_text
+  examples: |
+    - What are the required textbooks for [applied ml](course)?
+    - What books will I need for [data structures and algorithm](course)?
+    - Are there any books required for this course?
+- intent: request_course_preq
+  examples: |
+    - What are the prereqs for [operating systems](course)?
+    - What courses do I need to take before [cop 4600](course)?
+    - Are there any prerequisites for this course?
+- intent: filter_course_inst
+  examples: |
+    - What courses will be taught by doctor [boyer](faculty)?
+    - What is doctor [alin dobra](faculty) teaching next semester?
+- intent: filter_course_time
+  examples: |
+    - What courses will be taught after [eleven am](stime)?
+    - What courses will be taught before [three pm](etime)?
+    - Which subjects have classes after [twelve o clock](stime)?
+    - Which subjects have classes before [four o clock](stime)?
+- intent: first_contact
+  examples: |
+    - Who are you?
+- intent: inform_course_level
+  examples: |
+    - [grad](course_level)
+    - [undergrad](course_level)
+- intent: inform_course_type
+  examples: |
+    - [cap](course_type)
+    - [cda](course_type)
+    - [cen](course_type)
+    - [cis](course_type)
+    - [cnt](course_type)
+    - [cop](course_type)
+    - [cot](course_type)
+    - [cst](course_type)
+    - [computer architechture](course_type)
+    - [computer application](course_type)
+    - [computer engineering](course_type)
+    - [information security](course_type)
+    - [computer networks](course_type)
+    - [networking](course_type)
+    - [computing theory](course_type)
+    - [computer programming](course_type)
+    - [programming](course_type)
+    - [special topic](course_type)
+- synonym: grad
+  examples: |
+    - graduate
+    - masters
+- synonym: undergrad
+  examples: |
+    - undergraduate
+    - bachelors
+- synonym: cda
+  examples: |
+    - c d a
+    - computer design and architechture
+    - computer architechture
+- synonym: cap
+  examples: |
+    - c a p
+    - computer application
+- synonym: cen
+  examples: |
+    - c e n
+    - computer engineering
+- synonym: cis
+  examples: |
+    - c i s
+    - computer and information security
+    - information security
+    - security
+- synonym: cnt
+  examples: |
+    - c n t
+    - computer networks
+    - networking
+- synonym: cot
+  examples: |
+    - c o t
+    - computing theory
+- synonym: cop
+  examples: |
+    - c o p
+    - computer programming
+    - programming
+- synonym: cst
+  examples: |
+    - special topic

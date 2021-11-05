@@ -1,0 +1,118 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- inform_course_type:
+    use_entities: true
+- inform_course_level:
+    use_entities: true
+- first_contact:
+    use_entities: true
+- request_course:
+    use_entities: true
+- request_course_info
+- request_course_text
+- request_course_inst
+- request_course_time
+- request_course_preq
+- filter_course_inst
+- filter_course_time
+
+
+
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+entities:
+- course_level
+- course_type
+- course
+slots:
+  course:
+    type: text
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  faculty:
+    type: text
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true  
+  stime:
+    type: text
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true  
+  etime:
+    type: text
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true  
+  course_level:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - undergrad
+    - grad
+  course_type:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - cap
+    - cen
+    - cis
+    - cnt
+    - cop
+    - cot
+    - cst
+  requested_slot:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_first_contact:
+  - text: Hi! I'm Vicky. I can help you select courses for your upcoming semester.
+  utter_ask_course_level:
+  - text: Do you want to check out graduate level courses or undergrad ones?
+  utter_ask_course_type:
+  - text: Which one of the following categories of courses are you looking for?
+  # TODO: If user says NOTA 
+  # "Sorry these are the only categories that the cise dept currently offers"
+  # OR "What type of course are you looking for"
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+actions:
+- action_get_courses
+- action_get_course_info
+- action_get_course_text
+- action_get_course_inst
+- action_get_course_time
+- action_get_course_preq
+
+forms:
+  course_form:
+    required_slots:
+      course_level:
+      - entity: course_level
+        type: from_entity
+      course_type:
+      - entity: course_type
+        type: from_entity
+
+
+e2e_actions: []
