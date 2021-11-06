@@ -1,10 +1,12 @@
 from socket import *
 import socketio
+import sys
 sio = socketio.Client(logger=True, engineio_logger=True)
-sio.connect('http://localhost:5252/socket.io')
-
+sio.connect('http://localhost:5000/socket.io')
+ip = sys.argv[1]
+port = int(sys.argv[2])
 s = socket(AF_INET, SOCK_STREAM)
-s.bind(('192.168.0.103', 5600))
+s.bind((ip, port))
 s.listen(1)
 conn, addr = s.accept()
 print("Connected: ", addr)
