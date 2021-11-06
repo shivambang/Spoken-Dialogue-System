@@ -12,6 +12,8 @@ nlu:
     - goodbye
 - intent: affirm
   examples: |
+    - ok
+    - okay
     - yes
     - yeah
     - indeed
@@ -35,13 +37,15 @@ nlu:
     - Give me a list of [undergrad](course_level) courses.
     - Give me a list of [computing theory](course_type) related courses.
     - What are some [programming](course_type) courses being offered?
+    - Tell me about the [grad](course_level) level [applicaion](course_type) being offered.
 - intent: request_course_info
   examples: |
     - What is [cot 5615](course) about?
     - What is [analysis of algorithms] about?
-    - What is it about?
     - Give me the details of this course
     - Give me the details of [human computer interaction](course)
+    - What is this course about?
+    - Tell me about [intro to data science](course)
 - intent: request_course_inst
   examples: |
     - Who will be teaching [cop 6726](course)?
@@ -65,7 +69,7 @@ nlu:
     - Are there any prerequisites for this course?
 - intent: filter_course_inst
   examples: |
-    - What courses will be taught by doctor [boyer](faculty)?
+    - Which courses will be taught by [joshua fox](faculty)?
     - What is doctor [alin dobra](faculty) teaching next semester?
 - intent: filter_course_time
   examples: |
@@ -73,9 +77,10 @@ nlu:
     - What courses will be taught before [three pm](etime)?
     - Which subjects have classes after [twelve o clock](stime)?
     - Which subjects have classes before [four o clock](stime)?
-- intent: first_contact
+- intent: help
   examples: |
-    - Who are you?
+    - What can you do?
+    - What else can you do?
 - intent: inform_course_level
   examples: |
     - [grad](course_level)
@@ -117,6 +122,7 @@ nlu:
   examples: |
     - c a p
     - computer application
+    - application
 - synonym: cen
   examples: |
     - c e n

@@ -11,8 +11,6 @@ intents:
     use_entities: true
 - inform_course_level:
     use_entities: true
-- first_contact:
-    use_entities: true
 - request_course:
     use_entities: true
 - request_course_info
@@ -22,6 +20,8 @@ intents:
 - request_course_preq
 - filter_course_inst
 - filter_course_time
+- help
+
 
 
 
@@ -84,11 +84,11 @@ slots:
     influence_conversation: false
 responses:
   utter_first_contact:
-  - text: Hi! I'm Vicky. I can help you select courses for your upcoming semester.
+  - text: Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?
   utter_ask_course_level:
   - text: Do you want to check out graduate level courses or undergrad ones?
   utter_ask_course_type:
-  - text: Which one of the following categories of courses are you looking for?
+  - text: Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics
   # TODO: If user says NOTA 
   # "Sorry these are the only categories that the cise dept currently offers"
   # OR "What type of course are you looking for"
@@ -96,6 +96,10 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_default:
+  - text: Oh! Something's wrong
+  utter_help:
+  - text: I can help you find course related info like its description, timings, faculty and required textbooks.
 actions:
 - action_get_courses
 - action_get_course_info
@@ -103,6 +107,7 @@ actions:
 - action_get_course_inst
 - action_get_course_time
 - action_get_course_preq
+- action_filter_course_inst
 
 forms:
   course_form:
