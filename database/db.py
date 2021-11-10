@@ -21,7 +21,8 @@ d = re.compile("(?P<day>[MTWRF][,MTWRF]*)\s\|\s\nPeriods?\s(?P<period>.+?)\n\((?
 courses = []
 classes = []
 for course in re.finditer(p, text):
-    courses.append((course['code'], course['name'], course['info'], course['preq'], 'S22'))
+    name = re.sub('[^A-Za-z0-9]', ' ', course['name']).replace('Special Topics in CIS', '').replace('\w+', '\w')
+    courses.append((course['code'], name, course['info'], course['preq'], 'S22'))
     for sect in re.finditer(c, course['classes']):
         for day in re.finditer(d, sect['days']):
             btime = day['btime'].replace(' AM', '')
@@ -31,12 +32,12 @@ for course in re.finditer(p, text):
                     time = time.replace(' PM', '')
                     time = re.split(':', time)
                     time = [int(x) for x in time]
-                    time[0] += 12
+                    time[0] = (time[0] % 12) + 12
                     time = ":".join([str(x) for x in time])
                 return time
             btime = t4(btime)
             etime = t4(etime)
-            classes.append((num(sect['num']), course['code'], re.sub('[^A-Za-z0-9]', ' ', course['name']).replace('\w+', '\w'), sect['inst'], day['loc'], day['day'].replace(',', ''), btime, etime, sect['final']))
+            classes.append((num(sect['num']), course['code'], name, sect['inst'], day['loc'], day['day'].replace(',', ''), btime, etime, sect['final']))
 
 with open('courses.csv', 'w') as out:
     csv_out = csv.writer(out)
