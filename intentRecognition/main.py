@@ -2,6 +2,7 @@ from wit import Wit
 import pyttsx3
 import mariadb
 from gtts import gTTS
+import difflib
 import os
 
 
@@ -10,6 +11,8 @@ import os
 client = Wit("KADJWIX3VLFUEXI6DD5GFNWMVWI6FZBV")
 connection = mariadb.connect(user='shiv', password='bang', database='soc', host='localhost')
 cursor = connection.cursor()
+chosenCat = 1
+
 months = ["january","february","march","april","may","june","july","august","september","october","november","december",]
 classPeriods = {"1":"from 7:25am to 8:15am",
                 "2":"from 8:30am to 9:20am",
@@ -26,9 +29,23 @@ classPeriods = {"1":"from 7:25am to 8:15am",
                 "E2":"from 8:20pm to 9:10pm",
                 "E3":"from 9:20pm to 10:10pm"}
 
+categories = {"computer application":"CAP",
+                "programming":"COP",
+                "information security":"CIS",
+                "computer network":"CNT",
+                "computer engineering":"CEN",
+                "computing theory":"COT"}
+
+classes = []
+
 def textInput():
     return str(input("Please enter your text: "))
 
+
+def getClasses():
+    cursor.execute("select unique ccode,cname from class;")
+    for (ccode,cname) in cursor:
+        classes.append((ccode,cname))
 
 def parseFinalDate(final):
     firstSplit = final.split("@")
@@ -43,33 +60,156 @@ def getDays(day):
     elif day == "R":
         return "thursday"
 
-def getResponse(intent, className):
+
+def getCat(name):
+    myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computer Theory"]
+    courseName = difflib.get_close_matches(name,myCats)
+    courseName = courseName[0]
+    return courseName
+
+def getClassCode(name):
+    try:
+        test = int(name[3:7])
+        code = name.upper()
+        for i in classes:
+            if(i[0] == code):
+                return i
+    except:
+        classes2 = []
+        for i in classes:
+            classes2.append(i[1])
+        courseName = difflib.get_close_matches(name,classes2)
+        courseName = courseName[0]
+        for i in classes:
+            if(chosenCat == 1):
+                if(i[1] == courseName and int(i[0][3:7]) >= 5000):
+                    return i
+            elif(chosenCat == 0):
+                if(i[1] == courseName and int(i[0][3:7]) < 5000):
+                    return i
+
+
+def getClassesFromCat(cat):
+    myNewList = []
+    global chosenCat
+    for cla in classes:
+        if(chosenCat == 1):
+            if(cla[0][0:3] == cat and int(cla[0][3:7]) >= 5000):
+                myNewList.append(cla)
+        elif(chosenCat == 0 and int(cla[0][3:7]) < 5000):
+            if(cla[0][0:3] == cat):
+                myNewList.append(cla)
+    return myNewList
+
+
+def getResponse(intent,previousIntent,className):
+    global chosenCat
     if(intent == "professor"):
-        cursor.execute("SELECT unique instructor FROM class WHERE ccode LIKE CONCAT(?,'%') OR cname LIKE CONCAT(?,'%')",(className,className))
+        myTuple = getClassCode(className)
+        code = myTuple[0]
+        cursor.execute("select unique instructor from class where ccode=?",(code,))
         for instructor in cursor:
-            return f"Professor: {instructor} will be teaching {className}"
+            return f"Professor {instructor[0]} will be teaching {myTuple[1]}"
+
+    elif intent == "greeting":
+        return "Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?"
+
+    elif previousIntent == "greeting" and intent == "":
+        return "Okay. I'm always here if you need help with classes in the future."
+
+    elif intent == "wit$confirmation" and previousIntent == "greeting":
+        return "Do you want to check out graduate level courses or undergraduate ones?"
+
+    elif (previousIntent == "graduate" or previousIntent == "undergraduate") and intent == "dontknow":
+        return "Classes are divided into the following categories. You can choose any and I can show you classes from that category."
+
+    elif intent == "graduate":
+        chosenCat = 1
+        return "Which one of the following categories of courses are you looking for?\nComputer Application \nProgramming \nInformation Security \nComputer Network \nComputer Engineering \nComputing Theory \n"
+
+    elif intent == "undergraduate":
+        chosenCat = 0
+        return "Which one of the following categories of courses are you looking for?\nComputer Application \nProgramming \nInformation Security \nComputer Network \nComputer Engineering \nComputing Theory \n"
+
+    elif intent == "category":
+        category = categories[getCat(className).lower()]
+        selectedClasses = getClassesFromCat(category)
+        if(len(selectedClasses) > 3):
+            res = f"The CISE department is offering {selectedClasses[0][1]}, {selectedClasses[1][1]}, {selectedClasses[2][1]} and {len(selectedClasses) - 3} other classes.\n"
+            for i in selectedClasses:
+                res += "" + str(i[0]) + " - " + str(i[1]) + "\n"
+            return res
+        elif(len(selectedClasses) > 0):
+            res = f"The CISE department is offering {selectedClasses[0][1]} and {selectedClasses[1][1]}\n"
+            for i in selectedClasses:
+                res += "" + str(i[0]) + " - " + str(i[1]) + "\n"
+            return res
+        elif(len(selectedClasses) == 0):
+            res = f"The CISE department is not offering any classes in {category}"
+
+
     elif(intent == "class_info"):
-        cursor.execute("select unique info from course WHERE code=? OR name=?",(className,className))
+        myTuple = getClassCode(className)
+        code = myTuple[0]
+        cursor.execute("select unique info from course WHERE code=?",(code,))
         for info in cursor:
-            return f"{className} covers {info}"
+            return f"{myTuple[1]} covers {info[0]}"
+
     elif(intent == "final_exam"):
-        cursor.execute("select unique final from class where ccode LIKE CONCAT(?,'%') OR cname LIKE CONCAT(?,'%')",(className,className))
+        myTuple = getClassCode(className)
+        code = myTuple[0]
+        cursor.execute("select unique final from class where ccode=?",(code,))
         finalDate = ""
         for final in cursor:
             finalDate = final
-        finalDate = parseFinalDate(finalDate[0])
-        print(finalDate)
-        return f"The final exam for {className} will be on {finalDate}"
+
+        if(finalDate[0] != "--"):
+            finalDate = parseFinalDate(finalDate[0])
+            return f"The final exam for {myTuple[1]} will be on {finalDate}"
+        else:
+            return f"The final exam for {myTuple[1]} hasn't been set yet"
+
     elif(intent == "show_classes"):
-        pass
+        return "Do you want to check out graduate level courses or undergraduate ones?"
+
     elif(intent == "textbook"):
         return "Here are the textbooks you will need for " + className
+
     elif(intent == "class_time"):
-        cursor.execute("select unique location, day, period from class where ccode LIKE CONCAT(?,'%') OR cname LIKE CONCAT(?,'%')",(className,className))
-        for (location,day,period) in cursor:
-            period = str(int(period))
-            string = f"{className} meets {getDays(day)} {classPeriods[str(period)]} on {location}"
-            return string
+        myTuple = getClassCode(className)
+        code = myTuple[0]
+        cursor.execute("select unique location, day, btime, etime from class where ccode=?",(code,))
+        meetingTime = []
+        for (location,day,btime,etime) in cursor:
+            meetingTime.append((location,day,btime,etime))
+
+        string = ""
+        if(len(meetingTime) > 1 and meetingTime[0][1] != 'MWF'):
+            string = f"{myTuple[1]} meets on {getDays(meetingTime[0][1])} from {meetingTime[0][2]} to {meetingTime[0][3]} and {getDays(meetingTime[1][1])} from {meetingTime[1][2]} to {meetingTime[1][3]} at {meetingTime[0][0]}"
+
+        elif(len(meetingTime) > 1 and meetingTime[0][1] == 'MWF'):
+            string = f"{myTuple[1]} meets on {getDays(meetingTime[0][1])} from {meetingTime[0][2]} to {meetingTime[0][3]} and {getDays(meetingTime[1][1])} from {meetingTime[1][2]} to {meetingTime[1][3]} at {meetingTime[0][0]}"
+
+        else:
+            string = f"{className} meets {getDays(day)} from {btime} to {etime} at {location}"
+
+        return string
+
+    elif(intent == "prereq"):
+        myTuple = getClassCode(className)
+        code = myTuple[0]
+        cursor.execute("select preq from course where code=?",(code,))
+        for (preq) in cursor:
+            if(preq[0] == None):
+                return f"{myTuple[1]} does not have any pre requisites"
+            else:
+                return f"The prerequisites for {myTuple[1]} are {preq[0]}"
+
+    elif intent == "thanks":
+        return "Of course. I'm here to help!"
+    else:
+        print(intent)
+        return "Im sorry, I did not get that"
 
     return ""
 
@@ -77,27 +217,31 @@ def getResponse(intent, className):
 
 
 def init():
+    getClasses();
     engine = pyttsx3.init()
     engine.setProperty('rate', 160)     # setting up new voice rate
     engine.setProperty('volume',1.0)    # setting up volume level  between 0 and 1
     voices = engine.getProperty('voices')       #getting details of current voice
     engine.setProperty('voice', voices[1].id)
-    intent = None
     className = None
+    intent = None
+    previousIntent = None
     while(intent != "Bye"):
         text = textInput()
         response = client.message(text)
-
         if(response["entities"]):
             className = str(response["entities"]["class_name:class_name"][0]["value"])
-
-        intent = response["intents"][0]["name"]
-        tts = gTTS(text=getResponse(intent,className), lang="en")
-        tts.save("response.mp3")
-        os.system("response.mp3")
+        previousIntent = intent
+        if (len(response["intents"]) == 0):
+            intent = ""
+        else:
+            intent = response["intents"][0]["name"]
+        print(getResponse(intent,previousIntent,className))
+        #tts = gTTS(text=getResponse(intent,className), lang="en")
+        #tts.save("response.mp3")
+        #os.system("response.mp3")
         # engine.say(getResponse(intent,className))
         # engine.runAndWait()
-
 
 
 init()
