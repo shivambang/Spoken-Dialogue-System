@@ -1,15 +1,31 @@
 from wit import Wit
-import pyttsx3
+
 import mariadb
-from gtts import gTTS
+import asyncio
 import difflib
 import os
 
 
+from threading import Thread
+from socket import *
+import socketio
+import sys
+
+ip = sys.argv[1]
+port = int(sys.argv[2])
+s = socket(AF_INET, SOCK_STREAM)
+s.bind((ip, port))
+s.listen(1)
+conn, addr = s.accept()
+print("Connected: ", addr)
+    
+
+def send(msg):
+    conn.send(msg.encode())
 
 
 client = Wit("KADJWIX3VLFUEXI6DD5GFNWMVWI6FZBV")
-connection = mariadb.connect(user='shiv', password='bang', database='soc', host='localhost')
+connection = mariadb.connect(user='praveena', password='praveena', database='soc', host='localhost')
 cursor = connection.cursor()
 chosenCat = 1
 
@@ -107,7 +123,8 @@ def getResponse(intent,previousIntent,className):
     if(intent == "professor"):
         myTuple = getClassCode(className)
         code = myTuple[0]
-        cursor.execute("select unique instructor from class where ccode=?",(code,))
+        
+        cursor.execute("select unique instructor from class where ccode=? and cname=?",(code,myTuple[1]))
         for instructor in cursor:
             return f"Professor {instructor[0]} will be teaching {myTuple[1]}"
 
@@ -125,24 +142,24 @@ def getResponse(intent,previousIntent,className):
 
     elif intent == "graduate":
         chosenCat = 1
-        return "Which one of the following categories of courses are you looking for?\nComputer Application \nProgramming \nInformation Security \nComputer Network \nComputer Engineering \nComputing Theory \n"
+        return "Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
 
     elif intent == "undergraduate":
         chosenCat = 0
-        return "Which one of the following categories of courses are you looking for?\nComputer Application \nProgramming \nInformation Security \nComputer Network \nComputer Engineering \nComputing Theory \n"
+        return "Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
 
     elif intent == "category":
         category = categories[getCat(className).lower()]
         selectedClasses = getClassesFromCat(category)
         if(len(selectedClasses) > 3):
-            res = f"The CISE department is offering {selectedClasses[0][1]}, {selectedClasses[1][1]}, {selectedClasses[2][1]} and {len(selectedClasses) - 3} other classes.\n"
+            res = f"The CISE department is offering {selectedClasses[0][1]}, {selectedClasses[1][1]}, {selectedClasses[2][1]} and {len(selectedClasses) - 3} other classes"
             for i in selectedClasses:
-                res += "" + str(i[0]) + " - " + str(i[1]) + "\n"
+                res += "=="+ str(i[0]) + " - " + str(i[1])
             return res
         elif(len(selectedClasses) > 0):
-            res = f"The CISE department is offering {selectedClasses[0][1]} and {selectedClasses[1][1]}\n"
+            res = f"The CISE department is offering {selectedClasses[0][1]} and {selectedClasses[1][1]} "
             for i in selectedClasses:
-                res += "" + str(i[0]) + " - " + str(i[1]) + "\n"
+                res += "=="+ str(i[0]) + " - " + str(i[1])
             return res
         elif(len(selectedClasses) == 0):
             res = f"The CISE department is not offering any classes in {category}"
@@ -151,14 +168,14 @@ def getResponse(intent,previousIntent,className):
     elif(intent == "class_info"):
         myTuple = getClassCode(className)
         code = myTuple[0]
-        cursor.execute("select unique info from course WHERE code=?",(code,))
+        cursor.execute("select unique info from course WHERE code=? and name=?",(code,myTuple[1]))
         for info in cursor:
             return f"{myTuple[1]} covers {info[0]}"
 
     elif(intent == "final_exam"):
         myTuple = getClassCode(className)
         code = myTuple[0]
-        cursor.execute("select unique final from class where ccode=?",(code,))
+        cursor.execute("select unique final from class where ccode=? and cname=?",(code,myTuple[1]))
         finalDate = ""
         for final in cursor:
             finalDate = final
@@ -178,7 +195,7 @@ def getResponse(intent,previousIntent,className):
     elif(intent == "class_time"):
         myTuple = getClassCode(className)
         code = myTuple[0]
-        cursor.execute("select unique location, day, btime, etime from class where ccode=?",(code,))
+        cursor.execute("select unique location, day, btime, etime from class where ccode=? and cname=?",(code,myTuple[1]))
         meetingTime = []
         for (location,day,btime,etime) in cursor:
             meetingTime.append((location,day,btime,etime))
@@ -198,7 +215,7 @@ def getResponse(intent,previousIntent,className):
     elif(intent == "prereq"):
         myTuple = getClassCode(className)
         code = myTuple[0]
-        cursor.execute("select preq from course where code=?",(code,))
+        cursor.execute("select preq from course where code=? and name=?",(code,myTuple[1]))
         for (preq) in cursor:
             if(preq[0] == None):
                 return f"{myTuple[1]} does not have any pre requisites"
@@ -218,28 +235,42 @@ def getResponse(intent,previousIntent,className):
 
 def init():
     getClasses();
-    engine = pyttsx3.init()
-    engine.setProperty('rate', 160)     # setting up new voice rate
-    engine.setProperty('volume',1.0)    # setting up volume level  between 0 and 1
-    voices = engine.getProperty('voices')       #getting details of current voice
-    engine.setProperty('voice', voices[1].id)
+    #engine = pyttsx3.init()
+    #engine.setProperty('rate', 160)     # setting up new voice rate
+    #engine.setProperty('volume',1.0)    # setting up volume level  between 0 and 1
+    #voices = engine.getProperty('voices')       #getting details of current voice
+    #engine.setProperty('voice', voices[1].id)
     className = None
     intent = None
     previousIntent = None
-    while(intent != "Bye"):
-        text = textInput()
-        response = client.message(text)
-        if(response["entities"]):
-            className = str(response["entities"]["class_name:class_name"][0]["value"])
-        previousIntent = intent
-        if (len(response["intents"]) == 0):
-            intent = ""
-        else:
-            intent = response["intents"][0]["name"]
-        print(getResponse(intent,previousIntent,className))
+    while(True):
+        r = conn.recv(1024).decode()
+        #if r != "": sio.emit('user_uttered', {"message": r})  
+        
+        text = r
+        print(text)
+        if text != '':
+            with open('convo.txt', 'a') as f:
+                f.write(r+'\n')
+            response = client.message(text)
+            if(response["entities"]):
+                className = str(response["entities"]["class_name:class_name"][0]["value"])
+            previousIntent = intent
+            if (len(response["intents"]) == 0):
+                intent = ""
+            else:
+                intent = response["intents"][0]["name"]
+            msg = getResponse(intent,previousIntent,className) +'\n'
+            print(msg)
+            conn.send(msg.encode('utf-8'))
+            with open('convo.txt', 'a') as f:
+                f.write(msg+'\n')
+        if intent == "Bye":
+            break
+    conn.close()
         #tts = gTTS(text=getResponse(intent,className), lang="en")
         #tts.save("response.mp3")
-        #os.system("response.mp3")
+        #os.system("response.mp3")()
         # engine.say(getResponse(intent,className))
         # engine.runAndWait()
 
