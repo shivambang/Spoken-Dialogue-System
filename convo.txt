@@ -1,0 +1,519 @@
+Connected:  ('192.168.0.101', 47098)
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+I'm disconnected!
+Connected:  ('192.168.0.101', 38568)
+I'm disconnected!
+Connected:  ('192.168.0.101', 38598)
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+{'text': 'The CISE department is offering Programming Fundamentals 1, Programming Fundamentals 2, Data Structures and Algorithm and 4 other undergrad cop courses in Spring 2022 ==COP3502C - Programming Fundamentals 1==COP3503C - Programming Fundamentals 2==COP3530 - Data Structures and Algorithm==COP4020 - Programming Language Concepts==COP4533 - Algorithm Abstraction and Design==COP4600 - Operating Systems==COP4720 - Information and Database Systems 2'}
+I'm disconnected!
+Connected:  ('192.168.249.146', 47192)
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+I'm disconnected!
+Connected:  ('192.168.249.146', 45560)
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+I'm disconnected!
+Connected:  ('192.168.249.146', 47260)
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+I'm disconnected!
+I'm disconnected!
+Connected:  ('192.168.249.113', 47774)
+list of courses
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering no special topics courses'}
+Jack again
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+list of courses
+{'text': 'The CISE department is offering no special topics courses'}
+I'm disconnected!
+Connected:  ('192.168.249.113', 47776)
+Hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+underground
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering no cis6930 courses'}
+Hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+Yeah
+{'text': 'The CISE department is offering no cis6930 courses'}
+I'm disconnected!
+Connected:  ('192.168.249.113', 47778)
+list of courses
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering Special Topics in CIS: Applied ML, Special Topics in CIS: Blockchain, Special Topics in CIS: Digital Health and 4 other grad cis6930 courses in Spring 2022 ==CIS6930 - Special Topics in CIS: Applied ML==CIS6930 - Special Topics in CIS: Blockchain==CIS6930 - Special Topics in CIS: Digital Health==CIS6930 - Special Topics in CIS: Hum-Cen Reco Alg==CIS6930 - Special Topics in CIS: ML in Genomics==CIS6930 - Special Topics in CIS: Net Analytics & ML==CIS6930 - Special Topics in CIS: Probability for CS'}
+Who is teaching applied ML
+{'text': 'Professor Vincent Bindschaedler will be teaching CIS6930'}
+Who is teaching applied ml
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+Tell me about Analytics and ML
+I'm disconnected!
+Connected:  ('192.168.249.146', 47574)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad cis6930 courses in Spring 2022 ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+who is pitching applied ml
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad CIS6930 courses. ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+who is teaching apply limit
+{'text': 'Multiple Courses Found!'}
+who is dating applied ml
+{'text': 'You wont need any textbooks for CIS6930'}
+who is teaching applied ml
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+does the classmate
+{'text': 'CIS6930 will be taught on T from 15:00 to 16:55 in CSE E121 and on R from 16:05 to 16:55 in CSE E121'}
+what are the timings for blockchain
+{'text': 'CIS6930 will be taught on T from 15:00 to 16:55 in CSE E121 and on R from 16:05 to 16:55 in CSE E121'}
+what is blocked in about
+{'text': 'CIS6930 Special Topics in CIS'}
+give me a list of special topics courses
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad CIS6930 courses. ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+who is pitching blocton
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+who is dating blockchain
+{'text': 'Professor Vincent Bindschaedler will be teaching CIS6930'}
+what can you do
+{'text': 'I can help you find course related info like its description, timings, faculty and required textbooks.'}
+I'm disconnected!
+Connected:  ('192.168.249.146', 48214)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+graduate
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad CIS6930 courses. ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+what is blocks in about
+I'm disconnected!
+Connected:  ('192.168.249.146', 48234)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+graduate
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad CIS6930 courses. ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+what is blockchain about
+I'm disconnected!
+Connected:  ('192.168.249.146', 48292)
+list of courses
+{'text': 'Do you want to check out graduate level courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad CIS6930 courses. ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+tell me about applied ml
+{'text': 'CIS6930 Special Topics in CIS'}
+tell me about blockchain
+{'text': 'CIS6930 Special Topics in CIS'}
+who is teaching this course
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+who is teaching blockchain
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+who is teaching probability for CS
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+/restart
+END 1
+I'm disconnected!
+Connected:  ('192.168.0.102', 42548)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+Brad
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering no CST courses'}
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'The CISE department is offering no CST courses'}
+/restart
+END 1
+Connected:  ('192.168.0.101', 38976)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad CIS6930 courses. ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+who is teaching a melon genomics
+{'text': 'CIS6930 will be taught by Kiley Graim'}
+what can you do
+{'text': 'I can also help you filter courses by faculty or class timings.'}
+which courses will be taught by Joshua Fox
+{'text': 'Joshua Fox will be teaching'}
+which undergraduate courses will be taught by Joshua Fox
+{'text': 'Joshua Fox will be teaching Theory and Practice of Multimedia Production'}
+I'm disconnected!
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes show me grad courses
+{'text': "Oh! Something's wrong"}
+show me grad courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+Computing Theory
+{'text': 'The CISE department is offering Analysis of Algorithms, Mathematics for Intelligent Systems ==COT5405 - Analysis of Algorithms==COT5615 - Mathematics for Intelligent Systems'}
+I'm disconnected!
+ID: ID: Connected:  ('192.168.249.146', 41106)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes please
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Network (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+computer network
+{'text': 'The CISE department is offering no COMPUTER NETWORK courses'}
+computer application
+{'text': 'I can also help you filter courses by faculty or class timings.'}
+some computer application courses
+I'm disconnected!
+I'm disconnected!
+Connected:  ('192.168.249.146', 41210)
+Hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes please
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+A computer application
+{'text': 'The CISE department is offering Human Computer Interaction, Research Methods for Human Centered Computing, Malware Reverse Engineering and 2 other grad CAP courses. ==CAP5100 - Human Computer Interaction==CAP5108 - Research Methods for Human Centered Computing==CAP6137 - Malware Reverse Engineering==CAP6610 - Machine Learning==CAP6615 - Neural Networks for Computing'}
+who is pitching human-computer interaction
+I'm disconnected!
+Connected:  ('192.168.249.146', 41216)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+special topics
+{'text': 'The CISE department is offering   Applied ML,   Blockchain,   Digital Health and 4 other grad CIS6930 courses. ==CIS6930 -   Applied ML==CIS6930 -   Blockchain==CIS6930 -   Digital Health==CIS6930 -   Hum Cen Reco Alg==CIS6930 -   ML in Genomics==CIS6930 -   Net Analytics   ML==CIS6930 -   Probability for CS'}
+who is beating applied ml
+{'text': 'Professor Vincent Bindschaedler will be teaching CIS6930'}
+what are the lyrics for this course
+{'text': 'CIS6930 will be taught on T from 15:00 to 16:55 in CSE E121 and on R from 16:05 to 16:55 in CSE E121'}
+what are the prerequisites for this course
+{'text': 'Prereq: vary depending on topics.'}
+tell me about digital health
+{'text': 'CIS6930 Special Topics in CIS'}
+show me computer application classes
+{'text': 'Professor Vincent Bindschaedler will be teaching CIS6930'}
+tell me about computer application courses
+{'text': 'CIS6930 will be taught by Vincent Bindschaedler'}
+tell me about grade level computer application courses
+{'text': 'The CISE department is offering no CAP courses'}
+what are the required state required textbooks for this course
+{'text': 'Multiple Courses Found!'}
+I'm disconnected!
+Connected:  ('192.168.249.146', 41222)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+Computing Theory
+{'text': 'The CISE department is offering Analysis of Algorithms, Mathematics for Intelligent Systems ==COT5405 - Analysis of Algorithms==COT5615 - Mathematics for Intelligent Systems'}
+tell me about analysis of algorithms
+I'm disconnected!
+Connected:  ('10.192.143.79', 40424)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+give me a list of horses
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+tell me about computer application
+{'text': 'The CISE department is offering Human Computer Interaction, Research Methods for Human Centered Computing, Malware Reverse Engineering and 2 other grad CAP courses. ==CAP5100 - Human Computer Interaction==CAP5108 - Research Methods for Human Centered Computing==CAP6137 - Malware Reverse Engineering==CAP6610 - Machine Learning==CAP6615 - Neural Networks for Computing'}
+tell me something about malware reverse engineering
+{'text': 'The CISE department is offering no ENGINEERING courses'}
+tell me something about malware reverse engineering
+{'text': 'The CISE department is offering no ENGINEERING courses'}
+/restart
+END  11
+/restart
+END  2
+yeah hello
+{'text': "Oh! Something's wrong"}
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes please
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+computer application
+{'text': 'The CISE department is offering Human Computer Interaction, Research Methods for Human Centered Computing, Malware Reverse Engineering and 2 other grad CAP courses. ==CAP5100 - Human Computer Interaction==CAP5108 - Research Methods for Human Centered Computing==CAP6137 - Malware Reverse Engineering==CAP6610 - Machine Learning==CAP6615 - Neural Networks for Computing'}
+what is malware reverse engineering about
+I'm disconnected!
+Connected:  ('10.192.143.79', 40474)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes please
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+computer application
+{'text': 'The CISE department is offering Human Computer Interaction, Research Methods for Human Centered Computing, Malware Reverse Engineering and 2 other grad CAP courses. ==CAP5100 - Human Computer Interaction==CAP5108 - Research Methods for Human Centered Computing==CAP6137 - Malware Reverse Engineering==CAP6610 - Machine Learning==CAP6615 - Neural Networks for Computing'}
+who is teaching human-computer interaction
+{'text': 'Multiple Courses Found!'}
+who is teaching machine learning
+{'text': 'CAP6610 will be taught by Kejun Huang'}
+when does the class meet
+{'text': 'CAP6610 will be taught on T from 15:00 to 16:55 in CSE E119 and on R from 16:05 to 16:55 in CSE E119'}
+what are the three requirements
+{'text': 'There are no required textbooks for CAP6610'}
+what are the prerequisites
+{'text': 'Prereq: Mathematics for Intelligent Systems.'}
+I'm disconnected!
+Connected:  ('10.192.143.79', 39202)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes please
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+undergrad courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+computer network
+{'text': 'The CISE department is offering no COMPUTER NETWORK courses'}
+tell me about graduate courses
+{'text': 'The CISE department is offering no COMPUTER NETWORK courses'}
+tell me about grad courses
+{'text': 'The CISE department is offering no COMPUTER NETWORK courses'}
+tell me about Computing Theory course
+{'text': "Oh! Something's wrong"}
+I'm disconnected!
+Connected:  ('10.192.143.79', 43810)
+hi
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+no
+{'text': 'I can also help you filter courses by faculty or class timings.'}
+what does Professor Emmett Kelly key
+I'm disconnected!
+Connected:  ('10.192.143.79', 46016)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+hi I'm Nikki would you like me to help you so that causes for your upcoming semester sure
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+Underground
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+programme
+{'text': 'The CISE department is offering no PROGRAMME courses'}
+program name
+{'text': 'None will be teaching'}
+programming line
+{'text': 'Multiple Courses Found!'}
+operating systems
+{'text': 'Multiple Courses Found!'}
+tell me something about
+{'text': 'Multiple Courses Found!'}
+tell me something about programming one
+{'text': 'The CISE department is offering no COP courses'}
+tell me something about operating systems
+{'text': 'Multiple Courses Found!'}
+who is teaching operating systems
+{'text': 'Multiple Courses Found!'}
+I'm disconnected!
+Connected:  ('10.192.143.79', 48120)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+like me to help you select for your upcoming semester
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+undergrad
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+programming
+{'text': 'The CISE department is offering Programming Fundamentals 1, Programming Fundamentals 2, Data Structures and Algorithm and 4 other undergrad COP courses. ==COP3502C - Programming Fundamentals 1==COP3503C - Programming Fundamentals 2==COP3530 - Data Structures and Algorithm==COP4020 - Programming Language Concepts==COP4533 - Algorithm Abstraction and Design==COP4600 - Operating Systems==COP4720 - Information and Database Systems 2'}
+can you tell me about data structures and algorithms
+{'text': 'I can help you find course related info like its description, timings, faculty and required textbooks.'}
+what time is data structures
+{'text': 'You wont need any textbooks for COP3530'}
+I think they still miss me
+{'text': 'I can also help you filter courses by faculty or class timings.'}
+what textbooks are required for data structures
+{'text': 'There are no required textbooks for COP3530'}
+530 who is teaching data structures
+{'text': 'COP3530 will be taught by Amanpreet Kapoor'}
+what when can I take data structures
+{'text': 'You wont need any textbooks for COP3530'}
+/restart
+END  <built-in function id>
+I'm disconnected!
+Connected:  ('10.192.143.79', 49184)
+hey
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+no
+{'text': 'I can also help you filter courses by faculty or class timings.'}
+no
+{'text': 'I can help you find course related info like its description, timings, faculty and required textbooks.'}
+no thank you
+{'text': 'I can help you find course related info like its description, timings, faculty and required textbooks.'}
+okay
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+Underground
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+he is
+I'm disconnected!
+Connected:  ('10.192.143.79', 49188)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+undergraduate
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+information security
+{'text': 'The CISE department is offering Enterprise Security, Information and Database Systems 1, Computer and Information Security and 12 other undergrad CIS courses. ==CIS4213 - Enterprise Security==CIS4301 - Information and Database Systems 1==CIS4360 - Computer and Information Security==CIS4715 - CS Teaching   Learning==CIS4905 - Individual Study in CISE  INDIVIDUAL STUDY==CIS4914 - Senior Project==CIS4930 - E  Applied ML==CIS4930 - E  Digital Health==CIS4930 - E  Internet Network Tech==CIS4930 - E  Intro to Comp Prog==CIS4930 - E  Mobile Computing==CIS4930 - E  Net Analytics   ML==CIS4930 - E  Probability in CS==CIS4930 - E  Software Security==CIS4940 - Practical Work'}
+who's teaching individual study in c i s e
+{'text': 'Multiple Courses Found!'}
+who's pitching software security
+{'text': "Oh! Something's wrong"}
+who is teaching mobile computing
+{'text': 'Multiple Courses Found!'}
+can you fix that, who's pitching net
+{'text': "Oh! Something's wrong"}
+Precision information and database systems
+{'text': "Oh! Something's wrong"}
+I'm disconnected!
+Connected:  ('10.192.143.79', 46292)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes please
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+garages
+{'text': "Oh! Something's wrong"}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+hope your application
+{'text': 'The CISE department is offering Human Computer Interaction, Research Methods for Human Centered Computing, Malware Reverse Engineering and 2 other grad CAP courses. ==CAP5100 - Human Computer Interaction==CAP5108 - Research Methods for Human Centered Computing==CAP6137 - Malware Reverse Engineering==CAP6610 - Machine Learning==CAP6615 - Neural Networks for Computing'}
+show me more about machine learning
+{'text': 'Professor Kejun Huang will be teaching CAP6610'}
+when does the class meet
+{'text': 'CAP6610 will be taught on T from 15:00 to 16:55 in CSE E119 and on R from 16:05 to 16:55 in CSE E119'}
+are there prerequisites
+{'text': 'Prereq: Mathematics for Intelligent Systems.'}
+tell me about special topics
+{'text': 'Professor Kejun Huang will be teaching CAP6610'}
+I'm disconnected!
+Connected:  ('10.192.143.79', 45836)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+sir
+I'm disconnected!
+Connected:  ('10.192.143.79', 45840)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+can I check out undergrad ones
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+computer application
+{'text': 'The CISE department is offering Theory and Practice of Multimedia Production, Introduction to Computer Aided Animation, Malware Reverse Engineering and 3 other undergrad CAP courses. ==CAP3020 - Theory and Practice of Multimedia Production==CAP3034 - Introduction to Computer Aided Animation==CAP4136 - Malware Reverse Engineering==CAP4613 - Deep Learning for Computer Graphics==CAP4730 - Computational Structures in Computer Graphics==CAP4770 - Introduction to Data Science'}
+can you tell me who's teaching deep learning for computer graphics
+{'text': 'Multiple Courses Found!'}
+can you tell me who's teaching
+{'text': 'Multiple Courses Found!'}
+can you tell me who's teaching cap 46 1 3
+{'text': 'CAP4613 will be taught by Corey Toler-Franklin'}
+can you tell me who's teaching cap for 770
+{'text': 'Multiple Courses Found!'}
+can you tell me who's teaching cap 4136
+{'text': 'CAP4136 will be taught by STAFF'}
+what time is Introduction to data science
+{'text': 'CAP4770 will be taught on MWF from 16:05 to 16:55 in CSE E222'}
+what time will cop 3034 be tonight
+{'text': 'Multiple Courses Found!'}
+what time will the theory and practice of multimedia production be taught
+{'text': 'CAP3020 will be taught on T from 15:00 to 16:55 in NRG 0205 and on R from 16:05 to 16:55 in NRG 0205'}
+can you give me the description of cap 3020
+{'text': 'CAP3020 Combines the traditional media production pipeline and software engineering processes to synthesize an approach geared for the production of works incorporating both artistic and computational elements.'}
+can you tell me what classes Jeremih Blanchard is teaching
+{'text': 'The CISE department is offering no THEORY AND PRACTICE courses'}
+can you tell me what classes Joshua Fox is teaching
+{'text': 'Joshua Fox will be teaching Theory and Practice of Multimedia Production'}
+can you tell me what class Christian lawyers taking
+{'text': "Oh! Something's wrong"}
+can you tell me what classes Chrissy Boyer's teaching
+{'text': "Oh! Something's wrong"}
+can you tell me what classes Christy Voyager is teaching
+{'text': 'The CISE department is offering no THEORY AND PRACTICE courses'}
+can you tell me what classes Christie Boyer is teaching
+{'text': 'The CISE department is offering no THEORY AND PRACTICE courses'}
+I'm disconnected!
+Connected:  ('10.192.143.79', 44152)
+hi I'm ready
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+sure
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+I'm not sure can you tell me about this
+I'm disconnected!
+Connected:  ('10.192.143.79', 39934)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+grad
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+can you tell me about those
+{'text': "Oh! Something's wrong"}
+c o t
+{'text': 'I can also help you filter courses by faculty or class timings.'}
+tell me about c o t classes
+{'text': "Oh! Something's wrong"}
+what can you do
+{'text': 'I can help you find course related info like its description, timings, faculty and required textbooks.'}
+tell me about research methods in h c i
+{'text': "Oh! Something's wrong"}
+I'm disconnected!
+I'm disconnected!
+Connected:  ('10.192.220.156', 44940)
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+graduate courses
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+programming
+{'text': 'The CISE department is offering Database System Implementation ==COP6726 - Database System Implementation'}
+who is pitching discourse
+{'text': 'Multiple Courses Found!'}
+what are the timings for database system implementation
+{'text': 'COP6726 will be taught on MWF from 13:55 to 14:45 in CSE E222'}
+/restart
+END  <built-in function id>
+hello
+{'text': "Hi! I'm Vicky. Would you like me to help you select courses for your upcoming semester?"}
+yes
+{'text': 'Do you want to check out graduate courses or undergrad ones?'}
+Underground
+{'text': 'Which one of the following categories of courses are you looking for? ==Computer Application (CAP) ==Programming (COP) ==Information Security (CIS) ==Computer Networks (CNT) ==Computer Engineering (CEN) ==Computing Theory (COT) ==Special Topics'}
+tell me about computer application
+{'text': 'The CISE department is offering no CAP courses'}
+programming
+{'text': 'None will be teaching'}
+who is Christie Boyer
+I'm disconnected!
