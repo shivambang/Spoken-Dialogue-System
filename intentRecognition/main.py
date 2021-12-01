@@ -123,7 +123,7 @@ def getResponse(intent,previousIntent,className):
     if(intent == "professor"):
         myTuple = getClassCode(className)
         code = myTuple[0]
-        
+
         cursor.execute("select unique instructor from class where ccode=? and cname=?",(code,myTuple[1]))
         for instructor in cursor:
             return f"Professor {instructor[0]} will be teaching {myTuple[1]}"
@@ -245,8 +245,8 @@ def init():
     previousIntent = None
     while(True):
         r = conn.recv(1024).decode()
-        #if r != "": sio.emit('user_uttered', {"message": r})  
-        
+        #if r != "": sio.emit('user_uttered', {"message": r})
+
         text = r
         print(text)
         if text != '':
