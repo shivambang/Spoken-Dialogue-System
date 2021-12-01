@@ -39,6 +39,13 @@ for course in re.finditer(p, text):
             etime = t4(etime)
             classes.append((num(sect['num']), course['code'], name, sect['inst'], day['loc'], day['day'].replace(',', ''), btime, etime, sect['final']))
 
+prof = []
+with open('ratings.csv', 'r') as inp:
+    csv_inp = csv.reader(inp)
+    next(csv_inp, None)
+    for row in csv_inp:
+        prof.append(row)
+
 with open('courses.csv', 'w') as out:
     csv_out = csv.writer(out)
     csv_out.writerow(['code', 'name', 'info', 'preq', 'last'])
@@ -51,6 +58,7 @@ with open('soc.csv', 'w') as out:
 
 cursor.executemany("INSERT INTO course(code, name, info, preq, last) VALUES (?, ?, ?, ?, ?)", courses)
 cursor.executemany("INSERT INTO class(number, ccode, cname, instructor, location, day, btime, etime, final) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)", classes)
+cursor.executemany("INSERT INTO prof(name, rate) VALUES (?, ?)", prof)
 
 connection.commit()
 cursor.close()
