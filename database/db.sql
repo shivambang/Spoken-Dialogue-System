@@ -24,8 +24,8 @@ CREATE TABLE IF NOT EXISTS `class` (
     `final` varchar(50)
 );
 
-CREATE TABLE IF NOT EXISTS `code` (
-    `short` varchar(10) NOT NULL,
-    `full` varchar(100) NOT NULL,
-    PRIMARY KEY (`short`)
+CREATE TABLE IF NOT EXISTS `prof` (
+    `name` varchar(50) NOT NULL,
+    `rate` varchar(10) NOT NULL,
+    PRIMARY KEY (`name`)
 );
