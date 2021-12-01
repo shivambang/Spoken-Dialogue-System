@@ -11,21 +11,21 @@ from socket import *
 import socketio
 import sys
 
-ip = sys.argv[1]
-port = int(sys.argv[2])
-s = socket(AF_INET, SOCK_STREAM)
-s.bind((ip, port))
-s.listen(1)
-conn, addr = s.accept()
-print("Connected: ", addr)
-    
+#ip = sys.argv[1]
+#port = int(sys.argv[2])
+#s = socket(AF_INET, SOCK_STREAM)
+#s.bind((ip, port))
+#s.listen(1)
+#conn, addr = s.accept()
+#print("Connected: ", addr)
+
 
 def send(msg):
     conn.send(msg.encode())
 
 
 client = Wit("KADJWIX3VLFUEXI6DD5GFNWMVWI6FZBV")
-connection = mariadb.connect(user='praveena', password='praveena', database='soc', host='localhost')
+connection = mariadb.connect(user='shiv', password='bang', database='soc', host='localhost')
 cursor = connection.cursor()
 chosenCat = 1
 
@@ -53,6 +53,8 @@ categories = {"computer application":"CAP",
                 "computing theory":"COT"}
 
 classes = []
+instructors = []
+instructorsLastsNames = []
 
 def textInput():
     return str(input("Please enter your text: "))
@@ -62,6 +64,18 @@ def getClasses():
     cursor.execute("select unique ccode,cname from class;")
     for (ccode,cname) in cursor:
         classes.append((ccode,cname))
+
+def getInstructors():
+    cursor.execute("select unique instructor from class;")
+    for instructor in cursor:
+        instructors.append(instructor[0])
+        #instructorsLastsNames.append(instructor[0].split(" ")[1])
+
+def findByLastName(last):
+    for i in instructors:
+        if last == i.split(" ")[1]:
+            return i
+    return False
 
 def parseFinalDate(final):
     firstSplit = final.split("@")
@@ -80,21 +94,43 @@ def getDays(day):
 def getCat(name):
     myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computer Theory"]
     courseName = difflib.get_close_matches(name,myCats)
+    if(len(courseName) == 0):
+        return False
     courseName = courseName[0]
     return courseName
 
+def getProffName(proff):
+    proffName = difflib.get_close_matches(proff,instructors)
+    if(len(proffName) == 0):
+        #proffName = difflib.get_close_matches(proff,instructorsLastsNames)
+        #if(len(proffName) == 0):
+        #    return False
+        #proffName = proffName[0]
+        #return findByLastName(proffName)
+        return False
+    proffName = proffName[0]
+    return proffName
+
 def getClassCode(name):
-    try:
-        test = int(name[3:7])
+    if any(char.isdigit() for char in name):
         code = name.upper()
+        classes2 = []
         for i in classes:
-            if(i[0] == code):
+            classes2.append(i[0])
+        courseCode = difflib.get_close_matches(name,classes2)
+        if(len(courseCode) == 0):
+            return (False,False)
+        courseCode = courseCode[0]
+        for i in classes:
+            if i[0] == courseCode:
                 return i
-    except:
+    else:
         classes2 = []
         for i in classes:
             classes2.append(i[1])
         courseName = difflib.get_close_matches(name,classes2)
+        if(len(courseName) == 0):
+            return (False,False)
         courseName = courseName[0]
         for i in classes:
             if(chosenCat == 1):
@@ -103,6 +139,8 @@ def getClassCode(name):
             elif(chosenCat == 0):
                 if(i[1] == courseName and int(i[0][3:7]) < 5000):
                     return i
+
+    return (False,False)
 
 
 def getClassesFromCat(cat):
@@ -123,7 +161,8 @@ def getResponse(intent,previousIntent,className):
     if(intent == "professor"):
         myTuple = getClassCode(className)
         code = myTuple[0]
-
+        if code == False:
+            return "Sorry, I did not get that"
         cursor.execute("select unique instructor from class where ccode=? and cname=?",(code,myTuple[1]))
         for instructor in cursor:
             return f"Professor {instructor[0]} will be teaching {myTuple[1]}"
@@ -149,6 +188,9 @@ def getResponse(intent,previousIntent,className):
         return "Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
 
     elif intent == "category":
+        temp = getCat(className)
+        if temp == False:
+            return "Sorry, I did not get that."
         category = categories[getCat(className).lower()]
         selectedClasses = getClassesFromCat(category)
         if(len(selectedClasses) > 3):
@@ -168,6 +210,8 @@ def getResponse(intent,previousIntent,className):
     elif(intent == "class_info"):
         myTuple = getClassCode(className)
         code = myTuple[0]
+        if code == False:
+            return "Sorry, I did not get that"
         cursor.execute("select unique info from course WHERE code=? and name=?",(code,myTuple[1]))
         for info in cursor:
             return f"{myTuple[1]} covers {info[0]}"
@@ -175,6 +219,8 @@ def getResponse(intent,previousIntent,className):
     elif(intent == "final_exam"):
         myTuple = getClassCode(className)
         code = myTuple[0]
+        if code == False:
+            return "Sorry, I did not get that"
         cursor.execute("select unique final from class where ccode=? and cname=?",(code,myTuple[1]))
         finalDate = ""
         for final in cursor:
@@ -195,6 +241,8 @@ def getResponse(intent,previousIntent,className):
     elif(intent == "class_time"):
         myTuple = getClassCode(className)
         code = myTuple[0]
+        if code == False:
+            return "Sorry, I did not get that"
         cursor.execute("select unique location, day, btime, etime from class where ccode=? and cname=?",(code,myTuple[1]))
         meetingTime = []
         for (location,day,btime,etime) in cursor:
@@ -215,12 +263,30 @@ def getResponse(intent,previousIntent,className):
     elif(intent == "prereq"):
         myTuple = getClassCode(className)
         code = myTuple[0]
+        if code == False:
+            return "Sorry, I did not get that"
         cursor.execute("select preq from course where code=? and name=?",(code,myTuple[1]))
         for (preq) in cursor:
             if(preq[0] == None):
                 return f"{myTuple[1]} does not have any pre requisites"
             else:
                 return f"The prerequisites for {myTuple[1]} are {preq[0]}"
+
+    elif intent == "show_professors":
+        resp = str(len(instructors)) + " professors will be teaching classes next semester. Here is a list with all of them: "
+        for i in instructors:
+            resp += "=="+ str(i)
+        return resp
+
+    elif intent == "professor_classes":
+        proffName = getProffName(className)
+        if proffName == False:
+            return "Sorry, I didn't get that name"
+        cursor.execute("select unique ccode,cname from class where instructor=?",(proffName,))
+        resp = f"{proffName} is teaching "
+        for (ccode,cname) in cursor:
+            resp += cname + " "
+        return resp
 
     elif intent == "thanks":
         return "Of course. I'm here to help!"
@@ -235,26 +301,27 @@ def getResponse(intent,previousIntent,className):
 
 def init():
     getClasses();
-    #engine = pyttsx3.init()
-    #engine.setProperty('rate', 160)     # setting up new voice rate
-    #engine.setProperty('volume',1.0)    # setting up volume level  between 0 and 1
-    #voices = engine.getProperty('voices')       #getting details of current voice
-    #engine.setProperty('voice', voices[1].id)
+    getInstructors();
+
     className = None
     intent = None
     previousIntent = None
     while(True):
-        r = conn.recv(1024).decode()
+        #r = conn.recv(1024).decode()
         #if r != "": sio.emit('user_uttered', {"message": r})
 
-        text = r
+        #text = r
+        text = input("Enter message: ")
         print(text)
         if text != '':
-            with open('convo.txt', 'a') as f:
-                f.write(r+'\n')
+            #with open('convo.txt', 'a') as f:
+            #    f.write(r+'\n')
             response = client.message(text)
             if(response["entities"]):
-                className = str(response["entities"]["class_name:class_name"][0]["value"])
+                try:
+                    className = str(response["entities"]["class_name:class_name"][0]["value"])
+                except:
+                    className = str(response["entities"]["professor_name:professor_name"][0]["value"])
             previousIntent = intent
             if (len(response["intents"]) == 0):
                 intent = ""
@@ -262,12 +329,12 @@ def init():
                 intent = response["intents"][0]["name"]
             msg = getResponse(intent,previousIntent,className) +'\n'
             print(msg)
-            conn.send(msg.encode('utf-8'))
-            with open('convo.txt', 'a') as f:
-                f.write(msg+'\n')
+            #conn.send(msg.encode('utf-8'))
+            #with open('convo.txt', 'a') as f:
+            #    f.write(msg+'\n')
         if intent == "Bye":
             break
-    conn.close()
+    #conn.close()
         #tts = gTTS(text=getResponse(intent,className), lang="en")
         #tts.save("response.mp3")
         #os.system("response.mp3")()

@@ -3,7 +3,7 @@ num,code,name,inst,loc,day,period,final
 11374,CAP3020,Theory and Practice of Multimedia Production,Joshua Fox,NRG 0205,R,16:5,16:55,4/28/2022 @ 5:30 PM - 7:30 PM
 11398,CAP3034,Introduction to Computer Aided Animation,Rong Zhang,CSE E231,MWF,9:35,10:25,4/26/2022 @ 12:30 PM - 2:30 PM
 0,CAP4136,Malware Reverse Engineering,STAFF,TBA,MWF,10:40,11:30,--
-31264,CAP4613,Deep Learning for Computer Graphics,Corey Toler-Franklin,NSC 0215,MWF,11:45,24:35,--
+31264,CAP4613,Deep Learning for Computer Graphics,Corey Toler-Franklin,NSC 0215,MWF,11:45,12:35,--
 11402,CAP4730,Computational Structures in Computer Graphics,Alireza Entezari,NZH 0112,MWF,10:40,11:30,4/28/2022 @ 3:00 PM - 5:00 PM
 0,CAP4730,Computational Structures in Computer Graphics,Alireza Entezari,NZH 0112,MWF,10:40,11:30,4/28/2022 @ 3:00 PM - 5:00 PM
 23937,CAP4770,Introduction to Data Science,Jorg Peters,CSE E222,MWF,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
@@ -40,7 +40,7 @@ num,code,name,inst,loc,day,period,final
 23724,CDA3101,Introduction to Computer Organization,Prabhat Mishra,BEN 0328,W,16:5,16:55,4/28/2022 @ 5:30 PM - 7:30 PM
 23725,CDA3101,Introduction to Computer Organization,Prabhat Mishra,CAR 0100,T,15:0,16:55,4/28/2022 @ 5:30 PM - 7:30 PM
 23725,CDA3101,Introduction to Computer Organization,Prabhat Mishra,CAR 0100,R,16:5,16:55,4/28/2022 @ 5:30 PM - 7:30 PM
-23725,CDA3101,Introduction to Computer Organization,Prabhat Mishra,MCCB G108,W,24:50,13:40,4/28/2022 @ 5:30 PM - 7:30 PM
+23725,CDA3101,Introduction to Computer Organization,Prabhat Mishra,MCCB G108,W,12:50,13:40,4/28/2022 @ 5:30 PM - 7:30 PM
 23726,CDA3101,Introduction to Computer Organization,Prabhat Mishra,CAR 0100,T,15:0,16:55,4/28/2022 @ 5:30 PM - 7:30 PM
 23726,CDA3101,Introduction to Computer Organization,Prabhat Mishra,CAR 0100,R,16:5,16:55,4/28/2022 @ 5:30 PM - 7:30 PM
 23726,CDA3101,Introduction to Computer Organization,Prabhat Mishra,WM 0202,W,13:55,14:45,4/28/2022 @ 5:30 PM - 7:30 PM
@@ -54,7 +54,7 @@ num,code,name,inst,loc,day,period,final
 29863,CDA3101,Introduction to Computer Organization,Prabhat Mishra,CAR 0100,R,16:5,16:55,4/28/2022 @ 5:30 PM - 7:30 PM
 29863,CDA3101,Introduction to Computer Organization,Prabhat Mishra,CSE E116,W,9:35,10:25,4/28/2022 @ 5:30 PM - 7:30 PM
 11331,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
-11331,CEN3031,Introduction to Software Engineering,Sanethia Thomas,MCCA 2186,T,11:45,24:35,4/28/2022 @ 7:30 AM - 9:30 AM
+11331,CEN3031,Introduction to Software Engineering,Sanethia Thomas,MCCA 2186,T,11:45,12:35,4/28/2022 @ 7:30 AM - 9:30 AM
 11332,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
 11332,CEN3031,Introduction to Software Engineering,Sanethia Thomas,MCCA 2186,T,8:30,9:20,4/28/2022 @ 7:30 AM - 9:30 AM
 24168,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
@@ -64,9 +64,9 @@ num,code,name,inst,loc,day,period,final
 24173,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
 24173,CEN3031,Introduction to Software Engineering,Sanethia Thomas,FLI 0121,T,9:35,10:25,4/28/2022 @ 7:30 AM - 9:30 AM
 24174,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
-24174,CEN3031,Introduction to Software Engineering,Sanethia Thomas,UST 0108,T,11:45,24:35,4/28/2022 @ 7:30 AM - 9:30 AM
+24174,CEN3031,Introduction to Software Engineering,Sanethia Thomas,UST 0108,T,11:45,12:35,4/28/2022 @ 7:30 AM - 9:30 AM
 24175,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
-24175,CEN3031,Introduction to Software Engineering,Sanethia Thomas,MCCA 2186,T,24:50,13:40,4/28/2022 @ 7:30 AM - 9:30 AM
+24175,CEN3031,Introduction to Software Engineering,Sanethia Thomas,MCCA 2186,T,12:50,13:40,4/28/2022 @ 7:30 AM - 9:30 AM
 24177,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
 24177,CEN3031,Introduction to Software Engineering,Sanethia Thomas,MCCA 2186,T,13:55,14:45,4/28/2022 @ 7:30 AM - 9:30 AM
 24178,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
@@ -85,16 +85,16 @@ num,code,name,inst,loc,day,period,final
 29870,CEN3031,Introduction to Software Engineering,Sanethia Thomas,MAT 0151,T,9:35,10:25,4/28/2022 @ 7:30 AM - 9:30 AM
 29871,CEN3031,Introduction to Software Engineering,Sanethia Thomas,NPB 1001,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
 29871,CEN3031,Introduction to Software Engineering,Sanethia Thomas,UST 0108,T,10:40,11:30,4/28/2022 @ 7:30 AM - 9:30 AM
-30481,CEN4072,Software Testing and Verification,Stephen Thebaut,CSE E221,MWF,24:50,13:40,4/27/2022 @ 3:00 PM - 5:00 PM
-0,CEN4072,Software Testing and Verification,Stephen Thebaut,CSE E221,MWF,24:50,13:40,--
+30481,CEN4072,Software Testing and Verification,Stephen Thebaut,CSE E221,MWF,12:50,13:40,4/27/2022 @ 3:00 PM - 5:00 PM
+0,CEN4072,Software Testing and Verification,Stephen Thebaut,CSE E221,MWF,12:50,13:40,--
 0,CEN4721,Human Computer Interaction,Eric Ragan,MCCB G086,MWF,10:40,11:30,4/28/2022 @ 5:30 PM - 7:30 PM
 11271,CEN4721,Human Computer Interaction,Eric Ragan,MCCB G086,MWF,10:40,11:30,4/28/2022 @ 5:30 PM - 7:30 PM
 24410,CEN4722,User Experience Design,Sanethia Thomas,CSE E221,T,13:55,14:45,4/27/2022 @ 7:30 AM - 9:30 AM
 24410,CEN4722,User Experience Design,Sanethia Thomas,CSE E221,R,13:55,15:50,4/27/2022 @ 7:30 AM - 9:30 AM
 0,CEN4722,User Experience Design,Sanethia Thomas,CSE E221,T,13:55,14:45,4/27/2022 @ 7:30 AM - 9:30 AM
 0,CEN4722,User Experience Design,Sanethia Thomas,CSE E221,R,13:55,15:50,4/27/2022 @ 7:30 AM - 9:30 AM
-0,CEN5035,Software Engineering,Alin Dobra,FLG 0260,MWF,11:45,24:35,4/28/2022 @ 10:00 AM - 12:00 PM
-0,CEN5035,Software Engineering,Alin Dobra,FLG 0260,MWF,11:45,24:35,4/28/2022 @ 10:00 AM - 12:00 PM
+0,CEN5035,Software Engineering,Alin Dobra,FLG 0260,MWF,11:45,12:35,4/28/2022 @ 10:00 AM - 12:00 PM
+0,CEN5035,Software Engineering,Alin Dobra,FLG 0260,MWF,11:45,12:35,4/28/2022 @ 10:00 AM - 12:00 PM
 0,CEN6070,Software Testing and Verification,Stephen Thebaut,CSE E220,MWF,8:30,9:20,--
 11130,CGS3065,Legal and Social Issues in Computing,STAFF,NZH 0112,T,8:30,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
 11130,CGS3065,Legal and Social Issues in Computing,STAFF,TUR 2319,R,9:35,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
@@ -104,41 +104,41 @@ num,code,name,inst,loc,day,period,final
 11031,CIS4301,Information and Database Systems 1,Markus Schneider,TUR L007,MWF,9:35,10:25,4/26/2022 @ 12:30 PM - 2:30 PM
 31156,CIS4360,Computer and Information Security,Sara Rampazzi,CSE E121,T,13:55,14:45,4/27/2022 @ 12:30 PM - 2:30 PM
 31156,CIS4360,Computer and Information Security,Sara Rampazzi,CSE A101,R,13:55,15:50,4/27/2022 @ 12:30 PM - 2:30 PM
-0,CIS4930,Special Topics in CISE  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,8:30,10:25,--
-0,CIS4930,Special Topics in CISE  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,10:40,11:30,--
-0,CIS4930,Special Topics in CISE  Software Security,Byron Williams,MCCA G186,T,8:30,10:25,4/26/2022 @ 12:30 PM - 2:30 PM
-0,CIS4930,Special Topics in CISE  Software Security,Byron Williams,MCCA G186,R,9:35,10:25,4/26/2022 @ 12:30 PM - 2:30 PM
-0,CIS4930,Special Topics in CISE  Intro to Comp Prog,Rong Zhang,TBA,MW,10:40,11:30,--
-0,CIS4930,Special Topics in CISE  Intro to Comp Prog,Rong Zhang,NSC 0215,F,10:40,11:30,--
-0,CIS4930,Special Topics in CISE  Digital Health,Abdelsalam Helal,CSE A101,T,15:0,16:55,--
-0,CIS4930,Special Topics in CISE  Digital Health,Abdelsalam Helal,FLG 0230,R,16:5,16:55,--
-0,CIS4930,Special Topics in CISE  Probability in CS,Ye Xia,RNK 0110,T,15:0,16:55,4/27/2022 @ 5:30 PM - 7:30 PM
-0,CIS4930,Special Topics in CISE  Probability in CS,Ye Xia,RNK 0110,R,15:0,15:50,4/27/2022 @ 5:30 PM - 7:30 PM
-0,CIS4930,Special Topics in CISE  Mobile Computing,Abdelsalam Helal,LIT 0121,T,8:30,10:25,4/27/2022 @ 3:00 PM - 5:00 PM
-0,CIS4930,Special Topics in CISE  Mobile Computing,Abdelsalam Helal,MAT 0018,R,9:35,10:25,4/27/2022 @ 3:00 PM - 5:00 PM
-0,CIS4930,Special Topics in CISE  Applied ML,Vincent Bindschaedler,CSE E121,T,15:0,16:55,4/26/2022 @ 12:30 PM - 2:30 PM
-0,CIS4930,Special Topics in CISE  Applied ML,Vincent Bindschaedler,CSE E121,R,16:5,16:55,4/26/2022 @ 12:30 PM - 2:30 PM
-0,CIS4930,Special Topics in CISE  Internet Network Tech,Jonathan Kavalan,CSE E309,MWF,10:40,11:30,4/27/2022 @ 3:00 PM - 5:00 PM
+0,CIS4930,E  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,8:30,10:25,--
+0,CIS4930,E  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,10:40,11:30,--
+0,CIS4930,E  Software Security,Byron Williams,MCCA G186,T,8:30,10:25,4/26/2022 @ 12:30 PM - 2:30 PM
+0,CIS4930,E  Software Security,Byron Williams,MCCA G186,R,9:35,10:25,4/26/2022 @ 12:30 PM - 2:30 PM
+0,CIS4930,E  Intro to Comp Prog,Rong Zhang,TBA,MW,10:40,11:30,--
+0,CIS4930,E  Intro to Comp Prog,Rong Zhang,NSC 0215,F,10:40,11:30,--
+0,CIS4930,E  Digital Health,Abdelsalam Helal,CSE A101,T,15:0,16:55,--
+0,CIS4930,E  Digital Health,Abdelsalam Helal,FLG 0230,R,16:5,16:55,--
+0,CIS4930,E  Probability in CS,Ye Xia,RNK 0110,T,15:0,16:55,4/27/2022 @ 5:30 PM - 7:30 PM
+0,CIS4930,E  Probability in CS,Ye Xia,RNK 0110,R,15:0,15:50,4/27/2022 @ 5:30 PM - 7:30 PM
+0,CIS4930,E  Mobile Computing,Abdelsalam Helal,LIT 0121,T,8:30,10:25,4/27/2022 @ 3:00 PM - 5:00 PM
+0,CIS4930,E  Mobile Computing,Abdelsalam Helal,MAT 0018,R,9:35,10:25,4/27/2022 @ 3:00 PM - 5:00 PM
+0,CIS4930,E  Applied ML,Vincent Bindschaedler,CSE E121,T,15:0,16:55,4/26/2022 @ 12:30 PM - 2:30 PM
+0,CIS4930,E  Applied ML,Vincent Bindschaedler,CSE E121,R,16:5,16:55,4/26/2022 @ 12:30 PM - 2:30 PM
+0,CIS4930,E  Internet Network Tech,Jonathan Kavalan,CSE E309,MWF,10:40,11:30,4/27/2022 @ 3:00 PM - 5:00 PM
 0,CIS5370,Computer and Information Security,Kevin Butler,CSE E221,T,15:0,16:55,4/27/2022 @ 7:30 AM - 9:30 AM
 0,CIS5370,Computer and Information Security,Kevin Butler,CSE E221,R,16:5,16:55,4/27/2022 @ 7:30 AM - 9:30 AM
 0,CIS5371,Introduction to Cryptology,Thomas Shrimpton,CSE E121,T,10:40,11:30,4/29/2022 @ 7:30 AM - 9:30 AM
-0,CIS5371,Introduction to Cryptology,Thomas Shrimpton,CSE E121,R,10:40,24:35,4/29/2022 @ 7:30 AM - 9:30 AM
+0,CIS5371,Introduction to Cryptology,Thomas Shrimpton,CSE E121,R,10:40,12:35,4/29/2022 @ 7:30 AM - 9:30 AM
 0,CIS5371,Introduction to Cryptology,Thomas Shrimpton,CSE E121,T,10:40,11:30,4/29/2022 @ 7:30 AM - 9:30 AM
-0,CIS5371,Introduction to Cryptology,Thomas Shrimpton,CSE E121,R,10:40,24:35,4/29/2022 @ 7:30 AM - 9:30 AM
-0,CIS6930,Special Topics in CIS  Hum Cen Reco Alg,Lisa Anthony,CSE E220,R,9:35,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
-0,CIS6930,Special Topics in CIS  Hum Cen Reco Alg,Lisa Anthony,CSE E220,R,10:40,24:35,4/25/2022 @ 10:00 AM - 12:00 PM
-0,CIS6930,Special Topics in CIS  Digital Health,Abdelsalam Helal,CSE A101,T,15:0,16:55,--
-0,CIS6930,Special Topics in CIS  Digital Health,Abdelsalam Helal,FLG 0230,R,16:5,16:55,--
-0,CIS6930,Special Topics in CIS  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,8:30,10:25,--
-0,CIS6930,Special Topics in CIS  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,10:40,11:30,--
-0,CIS6930,Special Topics in CIS  Applied ML,Vincent Bindschaedler,CSE E121,T,15:0,16:55,4/29/2022 @ 7:30 AM - 9:30 AM
-0,CIS6930,Special Topics in CIS  Applied ML,Vincent Bindschaedler,CSE E121,R,16:5,16:55,4/29/2022 @ 7:30 AM - 9:30 AM
-0,CIS6930,Special Topics in CIS  ML in Genomics,Kiley Graim,CSE E220,T,10:40,11:30,4/29/2022 @ 7:30 AM - 9:30 AM
-0,CIS6930,Special Topics in CIS  ML in Genomics,Kiley Graim,CSE E221,R,10:40,24:35,4/29/2022 @ 7:30 AM - 9:30 AM
-0,CIS6930,Special Topics in CIS  Probability for CS,Ye Xia,RNK 0110,T,15:0,16:55,--
-0,CIS6930,Special Topics in CIS  Probability for CS,Ye Xia,RNK 0110,R,15:0,15:50,--
-0,CIS6930,Special Topics in CIS  Blockchain,My Thai,LAR 0310,T,8:30,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
-0,CIS6930,Special Topics in CIS  Blockchain,My Thai,LIT 0113,R,9:35,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
+0,CIS5371,Introduction to Cryptology,Thomas Shrimpton,CSE E121,R,10:40,12:35,4/29/2022 @ 7:30 AM - 9:30 AM
+0,CIS6930,  Hum Cen Reco Alg,Lisa Anthony,CSE E220,R,9:35,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
+0,CIS6930,  Hum Cen Reco Alg,Lisa Anthony,CSE E220,R,10:40,12:35,4/25/2022 @ 10:00 AM - 12:00 PM
+0,CIS6930,  Digital Health,Abdelsalam Helal,CSE A101,T,15:0,16:55,--
+0,CIS6930,  Digital Health,Abdelsalam Helal,FLG 0230,R,16:5,16:55,--
+0,CIS6930,  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,8:30,10:25,--
+0,CIS6930,  Net Analytics   ML,Ahmed Helmy,NRN 1020,T,10:40,11:30,--
+0,CIS6930,  Applied ML,Vincent Bindschaedler,CSE E121,T,15:0,16:55,4/29/2022 @ 7:30 AM - 9:30 AM
+0,CIS6930,  Applied ML,Vincent Bindschaedler,CSE E121,R,16:5,16:55,4/29/2022 @ 7:30 AM - 9:30 AM
+0,CIS6930,  ML in Genomics,Kiley Graim,CSE E220,T,10:40,11:30,4/29/2022 @ 7:30 AM - 9:30 AM
+0,CIS6930,  ML in Genomics,Kiley Graim,CSE E221,R,10:40,12:35,4/29/2022 @ 7:30 AM - 9:30 AM
+0,CIS6930,  Probability for CS,Ye Xia,RNK 0110,T,15:0,16:55,--
+0,CIS6930,  Probability for CS,Ye Xia,RNK 0110,R,15:0,15:50,--
+0,CIS6930,  Blockchain,My Thai,LAR 0310,T,8:30,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
+0,CIS6930,  Blockchain,My Thai,LIT 0113,R,9:35,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
 0,CNT4007,Computer Network Fundamentals,Shigang Chen,MCCC 0100,T,8:30,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
 0,CNT4007,Computer Network Fundamentals,Shigang Chen,MCCC 0100,R,9:35,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
 11071,CNT4007,Computer Network Fundamentals,Shigang Chen,MCCC 0100,T,8:30,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
@@ -149,11 +149,11 @@ num,code,name,inst,loc,day,period,final
 0,CNT5517,Mobile Computing,Abdelsalam Helal,MAT 0018,R,9:35,10:25,--
 0,CNT6107,Advanced Computer Networks,Jonathan Kavalan,CSE E312,MWF,13:55,14:45,--
 10849,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-10849,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,M,24:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
+10849,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,M,12:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
 10850,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 10850,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,T,8:30,10:25,4/27/2022 @ 3:00 PM - 5:00 PM
 10853,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-10853,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E116,T,10:40,24:35,4/27/2022 @ 3:00 PM - 5:00 PM
+10853,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E116,T,10:40,12:35,4/27/2022 @ 3:00 PM - 5:00 PM
 10854,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 10854,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,T,15:0,16:55,4/27/2022 @ 3:00 PM - 5:00 PM
 10855,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
@@ -161,27 +161,27 @@ num,code,name,inst,loc,day,period,final
 10880,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 10880,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,T,8:30,10:25,4/27/2022 @ 3:00 PM - 5:00 PM
 10881,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-10881,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,T,10:40,24:35,4/27/2022 @ 3:00 PM - 5:00 PM
+10881,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,T,10:40,12:35,4/27/2022 @ 3:00 PM - 5:00 PM
 10882,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-10882,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,T,24:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
+10882,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,T,12:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
 10883,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-10883,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,T,10:40,24:35,4/27/2022 @ 3:00 PM - 5:00 PM
+10883,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,T,10:40,12:35,4/27/2022 @ 3:00 PM - 5:00 PM
 11145,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-11145,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,M,10:40,24:35,4/27/2022 @ 3:00 PM - 5:00 PM
+11145,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,M,10:40,12:35,4/27/2022 @ 3:00 PM - 5:00 PM
 11156,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-11156,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,M,24:50,13:40,4/27/2022 @ 3:00 PM - 5:00 PM
+11156,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,M,12:50,13:40,4/27/2022 @ 3:00 PM - 5:00 PM
 11157,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 11157,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,M,15:0,16:55,4/27/2022 @ 3:00 PM - 5:00 PM
 11158,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 11158,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,M,17:10,19:5,4/27/2022 @ 3:00 PM - 5:00 PM
 11159,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-11159,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,M,10:40,24:35,4/27/2022 @ 3:00 PM - 5:00 PM
+11159,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,M,10:40,12:35,4/27/2022 @ 3:00 PM - 5:00 PM
 11160,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-11160,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E116,M,10:40,24:35,4/27/2022 @ 3:00 PM - 5:00 PM
+11160,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E116,M,10:40,12:35,4/27/2022 @ 3:00 PM - 5:00 PM
 19612,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-19612,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E116,T,24:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
+19612,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E116,T,12:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
 24993,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-24993,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,T,24:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
+24993,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,T,12:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
 24995,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 24995,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E113,T,17:10,19:5,4/27/2022 @ 3:00 PM - 5:00 PM
 26297,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
@@ -199,9 +199,9 @@ num,code,name,inst,loc,day,period,final
 26319,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 26319,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E116,T,8:30,10:25,4/27/2022 @ 3:00 PM - 5:00 PM
 26320,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-26320,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E312,T,10:40,24:35,4/27/2022 @ 3:00 PM - 5:00 PM
+26320,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E312,T,10:40,12:35,4/27/2022 @ 3:00 PM - 5:00 PM
 26321,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
-26321,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E312,T,24:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
+26321,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E312,T,12:50,14:45,4/27/2022 @ 3:00 PM - 5:00 PM
 26323,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
 26323,COP3502C,Programming Fundamentals 1,Lisha Zhou,CSE E115,T,15:0,16:55,4/27/2022 @ 3:00 PM - 5:00 PM
 26324,COP3502C,Programming Fundamentals 1,Lisha Zhou,CAR 0100,MWF,8:30,9:20,4/27/2022 @ 3:00 PM - 5:00 PM
@@ -213,19 +213,19 @@ num,code,name,inst,loc,day,period,final
 10901,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10901,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,R,17:10,19:5,4/25/2022 @ 3:00 PM - 5:00 PM
 10902,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-10902,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,F,10:40,24:35,4/25/2022 @ 3:00 PM - 5:00 PM
+10902,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,F,10:40,12:35,4/25/2022 @ 3:00 PM - 5:00 PM
 10903,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-10903,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E312,R,10:40,24:35,4/25/2022 @ 3:00 PM - 5:00 PM
+10903,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E312,R,10:40,12:35,4/25/2022 @ 3:00 PM - 5:00 PM
 10904,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-10904,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,R,24:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
+10904,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,R,12:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
 10905,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10905,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E312,R,15:0,16:55,4/25/2022 @ 3:00 PM - 5:00 PM
 10906,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10906,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E309,R,15:0,16:55,4/25/2022 @ 3:00 PM - 5:00 PM
 10947,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-10947,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E309,R,10:40,24:35,4/25/2022 @ 3:00 PM - 5:00 PM
+10947,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E309,R,10:40,12:35,4/25/2022 @ 3:00 PM - 5:00 PM
 10948,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-10948,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E116,R,24:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
+10948,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E116,R,12:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
 10949,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10949,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E312,R,17:10,19:5,4/25/2022 @ 3:00 PM - 5:00 PM
 10950,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
@@ -233,9 +233,9 @@ num,code,name,inst,loc,day,period,final
 10952,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10952,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E312,R,8:30,10:25,4/25/2022 @ 3:00 PM - 5:00 PM
 10953,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-10953,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,F,24:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
+10953,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,F,12:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
 11017,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-11017,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E312,R,24:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
+11017,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E312,R,12:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
 25088,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 25088,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,R,8:30,10:25,4/25/2022 @ 3:00 PM - 5:00 PM
 25109,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
@@ -243,19 +243,19 @@ num,code,name,inst,loc,day,period,final
 25162,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 25162,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E116,R,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 25164,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-25164,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E116,R,10:40,24:35,4/25/2022 @ 3:00 PM - 5:00 PM
+25164,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E116,R,10:40,12:35,4/25/2022 @ 3:00 PM - 5:00 PM
 28532,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-28532,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,R,10:40,24:35,4/25/2022 @ 3:00 PM - 5:00 PM
+28532,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,R,10:40,12:35,4/25/2022 @ 3:00 PM - 5:00 PM
 28566,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 28566,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,R,17:10,19:5,4/25/2022 @ 3:00 PM - 5:00 PM
 28596,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 28596,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,R,15:0,16:55,4/25/2022 @ 3:00 PM - 5:00 PM
 28604,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-28604,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,R,10:40,24:35,4/25/2022 @ 3:00 PM - 5:00 PM
+28604,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,R,10:40,12:35,4/25/2022 @ 3:00 PM - 5:00 PM
 28680,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 28680,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E113,R,8:30,10:25,4/25/2022 @ 3:00 PM - 5:00 PM
 28742,COP3503C,Programming Fundamentals 2,Cheryl Resch,CAR 0100,MWF,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
-28742,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,R,24:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
+28742,COP3503C,Programming Fundamentals 2,Cheryl Resch,CSE E115,R,12:50,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
 10976,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,TUR L007,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
 10976,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,CSE E220,T,13:55,14:45,4/28/2022 @ 7:30 AM - 9:30 AM
 10977,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,TUR L007,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
@@ -265,13 +265,13 @@ num,code,name,inst,loc,day,period,final
 11022,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,TUR L007,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
 11022,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,CSE E221,T,10:40,11:30,4/28/2022 @ 7:30 AM - 9:30 AM
 11023,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,TUR L007,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
-11023,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,CSE E221,T,11:45,24:35,4/28/2022 @ 7:30 AM - 9:30 AM
+11023,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,CSE E221,T,11:45,12:35,4/28/2022 @ 7:30 AM - 9:30 AM
 11024,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,TUR L007,MWF,15:0,15:50,4/28/2022 @ 7:30 AM - 9:30 AM
-11024,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,CSE E221,T,24:50,13:40,4/28/2022 @ 7:30 AM - 9:30 AM
-0,COP4020,Programming Language Concepts,Beverly Sanders,MCCC 0100,MWF,24:50,13:40,4/27/2022 @ 12:30 PM - 2:30 PM
-10979,COP4020,Programming Language Concepts,Beverly Sanders,MCCC 0100,MWF,24:50,13:40,4/27/2022 @ 12:30 PM - 2:30 PM
+11024,COP3530,Data Structures and Algorithm,Amanpreet Kapoor,CSE E221,T,12:50,13:40,4/28/2022 @ 7:30 AM - 9:30 AM
+0,COP4020,Programming Language Concepts,Beverly Sanders,MCCC 0100,MWF,12:50,13:40,4/27/2022 @ 12:30 PM - 2:30 PM
+10979,COP4020,Programming Language Concepts,Beverly Sanders,MCCC 0100,MWF,12:50,13:40,4/27/2022 @ 12:30 PM - 2:30 PM
 31341,COP4533,Algorithm Abstraction and Design,Alper Ungor,TBA,T,10:40,11:30,--
-31341,COP4533,Algorithm Abstraction and Design,Alper Ungor,TBA,R,10:40,24:35,--
+31341,COP4533,Algorithm Abstraction and Design,Alper Ungor,TBA,R,10:40,12:35,--
 10923,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,T,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10923,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,R,17:10,19:5,4/25/2022 @ 3:00 PM - 5:00 PM
 10923,COP4600,Operating Systems,Alexandre Gomes de Siqueira,LIT 0109,W,9:35,10:25,4/25/2022 @ 3:00 PM - 5:00 PM
@@ -280,10 +280,10 @@ num,code,name,inst,loc,day,period,final
 10924,COP4600,Operating Systems,Alexandre Gomes de Siqueira,ROL 0205,W,10:40,11:30,4/25/2022 @ 3:00 PM - 5:00 PM
 10925,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,T,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10925,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,R,17:10,19:5,4/25/2022 @ 3:00 PM - 5:00 PM
-10925,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L005,W,11:45,24:35,4/25/2022 @ 3:00 PM - 5:00 PM
+10925,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L005,W,11:45,12:35,4/25/2022 @ 3:00 PM - 5:00 PM
 10926,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,T,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10926,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,R,17:10,19:5,4/25/2022 @ 3:00 PM - 5:00 PM
-10926,COP4600,Operating Systems,Alexandre Gomes de Siqueira,ARCH 0423,W,24:50,13:40,4/25/2022 @ 3:00 PM - 5:00 PM
+10926,COP4600,Operating Systems,Alexandre Gomes de Siqueira,ARCH 0423,W,12:50,13:40,4/25/2022 @ 3:00 PM - 5:00 PM
 10927,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,T,17:10,18:0,4/25/2022 @ 3:00 PM - 5:00 PM
 10927,COP4600,Operating Systems,Alexandre Gomes de Siqueira,TUR L007,R,17:10,19:5,4/25/2022 @ 3:00 PM - 5:00 PM
 10927,COP4600,Operating Systems,Alexandre Gomes de Siqueira,FAC 0127,W,13:55,14:45,4/25/2022 @ 3:00 PM - 5:00 PM
@@ -299,9 +299,9 @@ num,code,name,inst,loc,day,period,final
 12180,COT3100,Applications of Discrete Structures,Peter Dobbins,CAR 0100,MWF,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
 12180,COT3100,Applications of Discrete Structures,Peter Dobbins,TUR 2319,T,10:40,11:30,4/29/2022 @ 10:00 AM - 12:00 PM
 12204,COT3100,Applications of Discrete Structures,Peter Dobbins,CAR 0100,MWF,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
-12204,COT3100,Applications of Discrete Structures,Peter Dobbins,CSE E121,T,11:45,24:35,4/29/2022 @ 10:00 AM - 12:00 PM
+12204,COT3100,Applications of Discrete Structures,Peter Dobbins,CSE E121,T,11:45,12:35,4/29/2022 @ 10:00 AM - 12:00 PM
 12205,COT3100,Applications of Discrete Structures,Peter Dobbins,CAR 0100,MWF,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
-12205,COT3100,Applications of Discrete Structures,Peter Dobbins,LAR 0330,T,24:50,13:40,4/29/2022 @ 10:00 AM - 12:00 PM
+12205,COT3100,Applications of Discrete Structures,Peter Dobbins,LAR 0330,T,12:50,13:40,4/29/2022 @ 10:00 AM - 12:00 PM
 12206,COT3100,Applications of Discrete Structures,Peter Dobbins,CAR 0100,MWF,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
 12206,COT3100,Applications of Discrete Structures,Peter Dobbins,CSE E119,T,13:55,14:45,4/29/2022 @ 10:00 AM - 12:00 PM
 12207,COT3100,Applications of Discrete Structures,Peter Dobbins,CAR 0100,MWF,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
@@ -309,9 +309,9 @@ num,code,name,inst,loc,day,period,final
 0,COT3100,Applications of Discrete Structures,Peter Dobbins,CAR 0100,MWF,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
 0,COT3100,Applications of Discrete Structures,Peter Dobbins,TBA,T,16:5,16:55,4/29/2022 @ 10:00 AM - 12:00 PM
 25150,COT4501,Numerical Analysis  a Computational Approach,James Fairbanks,PUGH 170,T,10:40,11:30,4/29/2022 @ 7:30 AM - 9:30 AM
-25150,COT4501,Numerical Analysis  a Computational Approach,James Fairbanks,PUGH 170,R,10:40,24:35,4/29/2022 @ 7:30 AM - 9:30 AM
+25150,COT4501,Numerical Analysis  a Computational Approach,James Fairbanks,PUGH 170,R,10:40,12:35,4/29/2022 @ 7:30 AM - 9:30 AM
 0,COT4501,Numerical Analysis  a Computational Approach,James Fairbanks,PUGH 170,T,10:40,11:30,4/29/2022 @ 7:30 AM - 9:30 AM
-0,COT4501,Numerical Analysis  a Computational Approach,James Fairbanks,PUGH 170,R,10:40,24:35,4/29/2022 @ 7:30 AM - 9:30 AM
+0,COT4501,Numerical Analysis  a Computational Approach,James Fairbanks,PUGH 170,R,10:40,12:35,4/29/2022 @ 7:30 AM - 9:30 AM
 0,COT5405,Analysis of Algorithms,Alper Ungor,PUGH 170,T,8:30,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
 0,COT5405,Analysis of Algorithms,Alper Ungor,PUGH 170,R,9:35,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
 0,COT5405,Analysis of Algorithms,Alper Ungor,PUGH 170,T,8:30,10:25,4/25/2022 @ 10:00 AM - 12:00 PM
