@@ -94,7 +94,7 @@ def getDays(day):
 
 
 def getCat(name):
-    myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computer Theory"]
+    myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computing Theory"]
     courseName = difflib.get_close_matches(name,myCats)
     if(len(courseName) == 0):
         return False
@@ -303,7 +303,13 @@ def getResponse(className):
         proffName = getProffName(className)
         if proffName == False:
             return "Sorry, I didn't get that name."
-        return f"{proffName} is rated 3.5 out of 5"
+        print(proffName)
+        cursor.execute("select rate from prof where name=?",(proffName,))
+        for rate in cursor:
+            if(rate == -1):
+                return f"Sorry, {proffName} does not have a rating"
+            return f"{proffName} is rated {str(rate[0])} out of 5"
+
 
     elif (previousIntent == "professor_classes" and intent == "wit$negation") or intent == "wit$negation":
         return "Okay. I can help you find classes, their professor, final exam times, meeting times, prerequisites and class information. Just ask me to show you classes!"
@@ -311,7 +317,7 @@ def getResponse(className):
     elif intent == "thanks":
         return "Of course. I'm here to help!"
     elif (previousIntent == "undergraduate" or previousIntent == "graduate") and intent == "":
-        return "Classes are divided into the following categories. You can choose any and I can show you classes from that category. ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory""
+        return "Classes are divided into the following categories. You can choose any and I can show you classes from that category. ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
     else:
         print(previousIntent)
         print(intent)
