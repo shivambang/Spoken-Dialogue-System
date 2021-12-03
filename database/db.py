@@ -10,7 +10,12 @@ def num(k):
         return 0
 connection = mariadb.connect(user='shiv', password='bang', database='soc', host='localhost')
 cursor = connection.cursor()
-
+books = {}
+with open('textbooks.csv', 'r') as inp:
+    csv_inp = csv.reader(inp)
+    next(csv_inp, None)
+    for row in csv_inp:
+        books[row[0]] = row[1:]
 text = ''
 with open('soc.txt', 'r', encoding='utf-8') as f:
     text = f.read()
@@ -21,8 +26,17 @@ d = re.compile("(?P<day>[MTWRF][,MTWRF]*)\s\|\s\nPeriods?\s(?P<period>.+?)\n\((?
 courses = []
 classes = []
 for course in re.finditer(p, text):
-    name = re.sub('[^A-Za-z0-9]', ' ', course['name']).replace('Special Topics in CIS', '').replace('\w+', '\w')
-    courses.append((course['code'], name, course['info'], course['preq'], 'S22'))
+    name = re.sub('[^A-Za-z0-9]', ' ', course['name'])
+    name = re.sub('Special Topics in CISE?', '', name).replace('\w+', '\w').strip()
+    text = ''
+    isbn = ''
+    if course['code'] in books:
+        isbn = books[course['code']][0]
+        text = books[course['code']][1]
+    elif course['code']+name in books:
+        isbn = books[course['code']+name][0]
+        text = books[course['code']+name][1]
+    courses.append((course['code'], name, course['info'], course['preq'], text, isbn, 'S22'))
     for sect in re.finditer(c, course['classes']):
         for day in re.finditer(d, sect['days']):
             btime = day['btime'].replace(' AM', '')
@@ -48,7 +62,7 @@ with open('ratings.csv', 'r') as inp:
 
 with open('courses.csv', 'w') as out:
     csv_out = csv.writer(out)
-    csv_out.writerow(['code', 'name', 'info', 'preq', 'last'])
+    csv_out.writerow(['code', 'name', 'info', 'preq', 'text', 'isbn', 'last'])
     csv_out.writerows(courses)
 
 with open('soc.csv', 'w') as out:
@@ -56,7 +70,7 @@ with open('soc.csv', 'w') as out:
     csv_out.writerow(['num', 'code', 'name', 'inst', 'loc', 'day', 'period', 'final'])
     csv_out.writerows(classes)
 
-cursor.executemany("INSERT INTO course(code, name, info, preq, last) VALUES (?, ?, ?, ?, ?)", courses)
+cursor.executemany("INSERT INTO course(code, name, info, preq, text, isbn, last) VALUES (?, ?, ?, ?, ?, ?, ?)", courses)
 cursor.executemany("INSERT INTO class(number, ccode, cname, instructor, location, day, btime, etime, final) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)", classes)
 cursor.executemany("INSERT INTO prof(name, rate) VALUES (?, ?)", prof)
 

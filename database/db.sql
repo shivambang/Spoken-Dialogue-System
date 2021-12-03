@@ -7,7 +7,8 @@ CREATE TABLE IF NOT EXISTS `course` (
     `name` varchar(100) NOT NULL,
     `info` varchar(1000),
     `preq` varchar(250),
-    `text` varchar(100),
+    `text` varchar(250),
+    `isbn` varchar(20),
     `last` varchar(10),
     PRIMARY KEY (`code`, `name`)
 );
