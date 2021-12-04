@@ -1,0 +1,4320 @@
+CAP3027 - Introduction to Digital Arts and Sciences
+Synergy between art and computing through a programming-oriented exploration of fundamental concepts in multimedia.
+Prereq: COP 3504 or COP 3503.
+Class #11491
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CSE A101
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CSE A101
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CAP3032 - Interactive Modeling and Animation 1
+Introduces programming and data structures for interactive two-dimensional multimedia applications. Representing form and transforms in two dimensions, capturing user actions and driving application behavior interactively. Graphical interfaces, image processing, automata and basic artificial intelligence.
+Prereq: MAC 1147 or equivalent.
+Class #27338
+M,W,F | 
+Period 4 
+(10:40 AM - 11:30 AM)
+LIT 0113
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Rong Zhang
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CAP3220 - Introduction to Computer-Aided Modeling
+Introduces topics related to computer-aided modeling. Polygonal mesh, NURBS and subdivision surface meshes. Materials and shading networks. Lighting, shadows and rendering.
+Prereq: MAC 1147 or equivalent.
+Class #11492
+M,W,F | 
+Period 3 
+(9:35 AM - 10:25 AM)
+CSE E119
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Rong Zhang
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CAP5416 - Computer Vision
+Introduction to image formation and analysis. Monocular imaging system projections, camera model calibration, and binocular imaging. Low-level vision techniques, segmentation and representation techniques, and high-level vision.
+Prereq: PrerequisitesMAC 2312 or equivalent, COT 4501 or equivalent and Proficiency in MATLAB or C++ or Java. Course instructor will determine equivalency.
+Class # (Departmentally Controlled)
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CSE E220
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CSE E220
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Baba Vemuri
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CAP5510 - Bioinformatics
+Basic concepts of molecular biology and computer science. Sequence comparison and assembly, physical mapping of DNA, phylogenetic trees, genome rearrangements, gene identification, biomolecular cryptology, and molecular structure prediction.
+Prereq: CIS 3020 or equivalent.
+Class # (Departmentally Controlled)
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+CSE E222
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+CSE E222
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Tamer Kahveci
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CAP5705 - Computer Graphics
+Display device characteristics; system considerations, display algorithms. Curve and surface generation. Lighting models and image rendering.
+Prereq: COP 3530.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 6 
+(12:50 PM - 1:40 PM)
+MCCA 1142
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alireza Entezari
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CAP6701 - Advanced Computer Graphics
+Curved surface representations, representation and visualization of higher-dimensional fields, advanced rendering, collision detection and collision response, and scene navigation in context of high-level graphics environments.
+Prereq: CAP 4730 or CAP 5705 or consent of instructor.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 3 
+(9:35 AM - 10:25 AM)
+LAR 0310
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jorg Peters
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CDA3101 - Introduction to Computer Organization
+Organization of computing systems. Logical basis of computer structure. Machine representation of instructions and data, flow of control, and basic machine instructions. Assembly language programming. (M)
+Prereq: (COP 3504 or COP 3503) and (MAC 2233 or MAC 2311 or MAC 3472) and COT 3100.
+Class #11151
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+FAC 0120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11153
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 4 
+(10:40 AM - 11:30 AM)
+WEIM 1084
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11154
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 5 
+(11:45 AM - 12:35 PM)
+FLG 0230
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11155
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 6 
+(12:50 PM - 1:40 PM)
+FAC 0120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11181
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PSY 0130
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11182
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 8 
+(3:00 PM - 3:50 PM)
+LIT 0121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11183
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+FAC 0120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #24852
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 10 
+(5:10 PM - 6:00 PM)
+WEIM 1084
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #26141
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CAR 0100
+R | 
+Period 10 
+(5:10 PM - 6:00 PM)
+FAC 0120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Cheryl Resch
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CDA4102 - Computer Architecture
+Introduces computer architecture and system organization including virtual memory supports cache, pipeline, vector processing, multiprocessor and RISC architecture.
+Prereq: CDA 3101 and COP 3530.
+Class #11184
+M,W,F | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L011
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Prabhat Mishra
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CDA5155 - Computer Architecture Principles
+Fundamental design issues of processor and computer architecture, a variety of design approaches for CPU, memory, and system structure.
+Prereq: CDA 3101, COP 3530, and COP 4600.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L011
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Prabhat Mishra
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CEN3031 - Introduction to Software Engineering
+Topics include software planning, specifications, coding, testing and maintenance. Gain experience in the team approach to large system development. (M)
+Prereq: COP 3530.
+Class #11248
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 2 
+(8:30 AM - 9:20 AM)
+MAT 0251
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11249
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 3 
+(9:35 AM - 10:25 AM)
+FLI 0113
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11250
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+UST 0108
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11277
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 5 
+(11:45 AM - 12:35 PM)
+UST 0108
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11278
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 6 
+(12:50 PM - 1:40 PM)
+LAR 0310
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11279
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+MCCA 2186
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11281
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 8 
+(3:00 PM - 3:50 PM)
+WM 0202
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11282
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 9 
+(4:05 PM - 4:55 PM)
+MCCA 2196
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #11283
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 10 
+(5:10 PM - 6:00 PM)
+LAR 0310
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #26142
+M,W,F | 
+Period 7 
+(1:55 PM - 2:45 PM)
+PUGH 170
+T | 
+Period 9 
+(4:05 PM - 4:55 PM)
+UST 0108
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CEN3913 - Computer and Information Science and Engineering Design 1
+Preparatory skills are developed for CISE Design 2 for Computer Engineering students. Teams design, produce and report on a software prototype, meeting defined specifications and using a structured design methodology and project management.
+Prereq: CEN 3031.
+Class #11306
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+LIT 0237
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+LIT 0237
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Mark Schmalz
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CEN4721 - Human-Computer Interaction
+Studies the major topics in the study, planning and design of the interaction between people and computers. Topics include interface design (principles, theories and guidelines), virtual environments, interactive devices and collaboration.
+Prereq: COP 3530.
+Class #11307
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+LIT 0113
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+LIT 0113
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jaime Ruiz
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CEN4722 - User Experience Design
+Introduces methods and tools used in User Experience Design (UXD): the early stages of software design focused on meeting user needs. Key concepts include user research, contextual design, design thinking, ideation, iterative design, prototyping, and design documentation. Projects utilize software tools used in the industry.
+Prereq: COP 3530.
+Class #11308
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+LIT 0121
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+LIT 0201
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sanethia Thomas
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CEN4914 - Computer and Information Science and Engineering Design 2
+Involves completing a significant CEN-related project. Coordinate with the instructor and a project advisor, prepare a detailed technical report and deliver an oral presentation.
+Prereq: CEN 3913.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Mark Schmalz
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CEN5035 - Software Engineering
+Topics in projects organization, specification techniques, reliability measurement, documentation.
+Prereq: COP 3504 and COT 3100.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 2 
+(8:30 AM - 9:20 AM)
+PUGH 120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Stephen Thebaut
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CEN5728 - User Experience Design
+Introduces methods and tools used in User Experience Design (UXD): the early stages of software design focused on meeting user needs. Key concepts include user research, contextual design, design thinking, ideation, iterative design, prototyping, and design documentation. Software tools used in industry are used in class projects.
+Prereq: COP 3530 or equivalent.
+Class # (Departmentally Controlled)
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+AND 0034
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+AND 0034
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sharon Lynn Chu Yew Yee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/13/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CGS3063 - Computers and Modern Society
+Impact of computers on society. Discussion includes specific cases from many areas, but does not include problem solution. Does not teach how to use the computer but gives an understanding of the implications of computers. (S) (WR)
+Class #11300
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+CSE E221
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+CSE E221
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Social and Behavioral
+Writing: 6000 Words
+Instructor
+Kyla Mcmullen
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CGS3065 - Legal and Social Issues in Computing
+Explores the history, the myth, the ethics, the law and the risks of computer-based technology in modern society. Emphasizes critical analysis of hypotheticals and case studies. Published material is supplemented with online references.
+Prereq: previous experience in Unix environment.
+Class #11301
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L011
+R | 
+Period 2 
+(8:30 AM - 9:20 AM)
+TUR L011
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jasmine McNealy
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4204 - Penetration Testing: Ethical Hacking
+Introduces principles and techniques associated with the cybersecurity practice known as penetration testing or ethical hacking. Covers planning, reconnaissance, scanning, exploitation, post-exploitation, and result reporting. Discover how system vulnerabilities can be exploited and learn to avoid such problems.
+Prereq: COP 3530.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 3 
+(9:35 AM - 10:25 AM)
+Online
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Joseph Wilson
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4301 - Information and Database Systems 1
+First part of a two-course sequence that studies the essential concepts, principles and techniques of modern database systems. Topics include modeling and querying of data using conceptual data models as well as the development of a database application. (M)
+Prereq: (COP 3504 or COP 3503) and COT 3100.
+Class #11236
+M,W,F | 
+Period 4 
+(10:40 AM - 11:30 AM)
+MCCC 0100
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Tamer Kahveci
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/14/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4715 - CS Teaching & Learning
+Covers basic pedagogy, especially as it relates to computer science and engineering, and covers three fundamental elements in education: learning environment, educational theory, and educational practice as approached to engineering-specific training.
+Prereq: COP 3502.
+Class #27879
+R | 
+Period 6 
+(12:50 PM - 1:40 PM)
+NSC 0215
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jeremiah Blanchard
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4905 - Individual Study in CISE: INDIVIDUAL STUDY
+Problems in different areas of computer science.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+PETER DOBBINS
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4914 - Senior Project
+Involves completing a significant CISE-related project. Coordinate with the instructor and a project advisor, prepare a detailed technical report and deliver an oral presentation. (M)
+Prereq: senior CISE standing and approved project proposal.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Mark Schmalz
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: SW Testing Continuous Delivery
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #11295
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+CSE E119
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+CSE E119
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Byron Williams
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Progs Funcs Loops & Conscious
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #11321
+M,W,F | 
+Period 5 
+(11:45 AM - 12:35 PM)
+PUGH 120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Stephen Thebaut
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Deep Learning Comp Graphics
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #11322
+M,W,F | 
+Period 5 
+(11:45 AM - 12:35 PM)
+CSE E119
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Corey Toler-Franklin
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Formal Languages & Computation
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #19667
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+WM 0100
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+WM 0100
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Meera Sitharam
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Cyber-physical System Security
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #23499
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+WM 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+LIT 0237
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sara Rampazzi
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Internet of Things
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #23508
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CSE E121
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CSE E121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Abdelsalam Helal
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Abstractn Compostn Computation
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #23519
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+TUR 2319
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+TUR 2319
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+James Fairbanks
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Spoken Dialogue Systems
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #24128
+M,W,F | 
+Period 6 
+(12:50 PM - 1:40 PM)
+CSE E121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Kristy Boyer
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Digital Health
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #27094
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CSE E119
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CSE E119
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Abdelsalam Helal
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Bioinformatics
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #27196
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+MCCA 1142
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+MCCA 1142
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Kiley Graim
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Python Progrmmg for Non-Majors
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #27202
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+FAC 0127
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+FAC 0127
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Pedro Guillermo Feijoo Garcia
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Mobile Networking
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #27243
+T | 
+Periods 6-8 
+(12:50 PM - 3:50 PM)
+WEIL 0279
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/14/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4930 - Special Topics in CISE: Intro to Machine Learning
+Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+Prereq: COP 3503 or instructor permission.
+Class #27252
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+LIT 0201
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+LIT 0201
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Anand Rangarajan
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4940 - Practical Work
+One term practical software engineering work under industrial supervision as set forth in the Herbert Wertheim College of Engineering regulations. (S-U)
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+PETER DOBBINS
+Meet
+Primarily Classroom
+Credits
+1
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS4949 - Co-Op Work in CISE
+Practical engineering work under industrial supervision, as set forth in the Herbert Wertheim College of Engineering regulations. (S-U)
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+PETER DOBBINS
+Meet
+Primarily Classroom
+Credits
+1
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6905 - Individual Study
+Individual Study
+Prereq: consent of faculty member supervising the study.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6910 - Supervised Research
+Supervised Research
+Prereq: graduate status in CIS.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Deep Learng Spatiotmporal Data
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CSE E309
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CSE E309
+Textbooks
+Additional Details
+Add'l Course Fees: $9.99
+EEP Eligible
+Instructor
+Zhe Jiang
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Abstractn Compostn Computation
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+TUR 2319
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+TUR 2319
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+James Fairbanks
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Cyber-physical System Security
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+MAT 0018
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+LIT 0237
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Sara Rampazzi
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Penetration Testing
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 3 
+(9:35 AM - 10:25 AM)
+Online
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Joseph Wilson
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Internet Data Streaming
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+TUR 2322
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+TUR 2322
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Shigang Chen
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Digital Health
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CSE E119
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CSE E119
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Abdelsalam Helal
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Progs Funcs Loops & Conscious
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 5 
+(11:45 AM - 12:35 PM)
+PUGH 120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Stephen Thebaut
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Mobile Networking
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Ahmed Helmy
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Trustworthy Machine Learning
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+LIT 0109
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+LIT 0109
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Vincent Bindschaedler
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Deep Learning Comp Graphics
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 5 
+(11:45 AM - 12:35 PM)
+CSE E119
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Corey Toler-Franklin
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Spoken Dialogue Systems
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 6 
+(12:50 PM - 1:40 PM)
+CSE E121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Kristy Boyer
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6930 - Special Topics in CIS: Mobile Networking
+Special Topics in CIS
+Prereq: vary depending on topics.
+Class # (Departmentally Controlled)
+T | 
+Periods 6-8 
+(12:50 PM - 3:50 PM)
+WEIL 0279
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Ahmed Helmy
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6935 - Graduate Seminar
+Presentations by visiting researchers, faculty members, and graduate students.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Joseph Wilson
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Lisa Anthony
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS6940 - Supervised Teaching
+A supervised teaching experience.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS7979 - Advanced Research
+Research for doctoral students before admission to candidacy. Designed for students with a master's degree in the field of study or for students who have been accepted for a doctoral program. Not appropriate for students who have been admitted to candidacy.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CIS7980 - Research for Doctoral Dissertation
+Research for Doctoral Dissertation
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+CNT4007 - Computer Network Fundamentals
+Fundamental concepts, principles, and standards of computer networks. Introduces topics in top-down approach, starting with the application layer in the OSI system architecture with a stronger focus on application, transport, and network layers.
+Prereq: COP 4600.
+Class #12495
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+WEIL 0270
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+WEIL 0270
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Ye Xia
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CNT4731 - Multimedia Networking Principles
+Design and analysis of multimedia networking. Major effort is devoted on multimedia elements, and their impact on higher-level protocols at the application- and transport-layer.
+Prereq: CNT 4007 with minimum grade of C.
+Class #27155
+M,W,F | 
+Period 6 
+(12:50 PM - 1:40 PM)
+WM 0100
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jonathan Kavalan
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CNT5106C - Computer Networks
+Design, implementation, and internals of networks. Routing, congestion control, internetworking, TCP/IP, optimization, and proxy services.
+Class # (Departmentally Controlled)
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CSE E121
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CSE E121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Ye Xia
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CNT5410 - Computer and Network Security
+Issues, analysis, and solutions. Viruses, worms, logic bombs, network attacks, covert channels, steganography, cryptology, authentication, digital signatures, electronic commerce.
+Prereq: COP 3530, COT 5405. ; Coreq: COP 4600.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 6 
+(12:50 PM - 1:40 PM)
+CSE E222
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Patrick Traynor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CNT5517 - Mobile Computing
+Emerging topics of wireless and mobile computing and networking including mobile computing models, mobile-IP, adhoc networks, Bluetooth, and 802.11b. Mobile database access and mobile transactions in context of emerging field of M-commerce.
+Prereq: CNT 4007C.
+Class # (Departmentally Controlled)
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CSE E121
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CSE E121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Abdelsalam Helal
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+CNT6885 - Distributed Multimedia Systems
+Design issues; survey of recent advances, including compression, networking, and operating system issues.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 8 
+(3:00 PM - 3:50 PM)
+LIT 0121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jonathan Kavalan
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/14/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+COP3502C - Programming Fundamentals 1
+First course of a two-semester introductory sequence for those planning further study in computer science, digital arts and sciences or computer engineering. Concepts of computer science and the process of computer programming, including object-oriented programming, procedural and data abstraction and program modularity.
+Coreq: MAC 2311.
+Class #12242
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR 2322
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12243
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+CSE E312
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12244
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+CSE E115
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12245
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods E1-E2 
+(7:20 PM - 9:10 PM)
+LAR 0310
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12246
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods E1-E2 
+(7:20 PM - 9:10 PM)
+LAR 0310
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12659
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+FLI 0113
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12660
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+LIT 0223
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12661
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+LAR 0239
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12662
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+ROG 0129
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12664
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+MCCA 2186
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12691
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+RNK 0230
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12692
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+RNK 0210
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12694
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+CSE E113
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12696
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+CSE E115
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12697
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+MCCA 2186
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12698
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+CSE E115
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12722
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+MCCA 2186
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12723
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+CSE E116
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12724
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+LEI 0142
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12725
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+CHE 0237
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12726
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+MCCB G108
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12727
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+ARCH 0215
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12728
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+LIT 0233
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12729
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+UST 0108
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+T | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+CSE E115
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #28090
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+LIT 0125
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class #28091
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CAR 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CAR 0100
+W | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+ROL 0115
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Lisha Zhou
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+COP3503C - Programming Fundamentals 2
+Second course of a two-semester introductory sequence for those planning further study in computer science, digital arts and sciences or computer engineering. Concepts of computer science and the process of computer programming, including object-oriented programming, procedural and data abstraction and program modularity.
+Prereq: (COP 3502 with a minimum grade of C or an AP exam in computer science with a minimum grade of 4) and MAC 2311 with a minimum grade of C.
+Class #12247
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR 2322
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12248
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+FLI 0113
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12249
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+UST 0108
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12452
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+CSE E115
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12453
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CSE E115
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12454
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+FLI 0113
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12455
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+PSY 0129
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12456
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+CSE E113
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12457
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+CSE E113
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12458
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+LAR 0310
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12459
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+MCCA 2186
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12487
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+MCCA 2186
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12488
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+UST 0108
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12489
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+CSE E116
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12490
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 6-7 
+(12:50 PM - 2:45 PM)
+MCCA 2186
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12491
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+MCCA 2186
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #19525
+M,W,F | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CAR 0100
+R | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+MAT 0015
+Textbooks
+Additional Details
+Add'l Course Fees: $7.74
+EEP Eligible
+Instructor
+Joshua Fox
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 5:30 PM - 7:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+COP3504C - Advanced Programming Fundamentals for CIS Majors
+Fast-paced introduction to computer science for those with prior programming experience. Explores major concepts of computer science and the process of computer programming, including object-oriented programming, procedural and data abstraction and program modularity.
+Prereq: (MAC 2311 or MAC 3472) and programming experience.
+Class # (Departmentally Controlled)
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+NSC 0215
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+NSC 0215
+W | 
+Periods 9-10 
+(4:05 PM - 6:00 PM)
+TUR 2319
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jeremiah Blanchard
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+NSC 0215
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+NSC 0215
+W | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+MAEB 0234
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jeremiah Blanchard
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+NSC 0215
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+NSC 0215
+W | 
+Periods 3-4 
+(9:35 AM - 11:30 AM)
+NSC 0215
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Jeremiah Blanchard
+Meet
+Primarily Classroom
+Credits
+4
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+COP3530 - Data Structures and Algorithm
+Algorithm development using pseudo languages, basic program structures, program design techniques, storage and manipulation of basic data structures like arrays, stacks, queues, sorting and searching and string processing. Linked linear lists. Trees and multilinked structures. (M)
+Prereq: (COP 3504 or COP 3503) and COT 3100 and (MAC 2234 or MAC 2312 or MAC 2512 or MAC 3473), all with a minimum grade of C.
+Class #12492
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+T | 
+Period 9 
+(4:05 PM - 4:55 PM)
+CSE E220
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12518
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+W | 
+Period 3 
+(9:35 AM - 10:25 AM)
+FAC 0127
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12519
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+W | 
+Period 4 
+(10:40 AM - 11:30 AM)
+MCCA 1142
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12521
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+W | 
+Period 5 
+(11:45 AM - 12:35 PM)
+FAC 0120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12522
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+W | 
+Period 6 
+(12:50 PM - 1:40 PM)
+WEIM 1084
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12523
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+W | 
+Period 7 
+(1:55 PM - 2:45 PM)
+FLG 0280
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12524
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+W | 
+Period 2 
+(8:30 AM - 9:20 AM)
+CSE E220
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #19625
+T | 
+Period 7 
+(1:55 PM - 2:45 PM)
+CAR 0100
+R | 
+Periods 7-8 
+(1:55 PM - 3:50 PM)
+CAR 0100
+W | 
+Period 4 
+(10:40 AM - 11:30 AM)
+NRN 1020
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Amanpreet Kapoor
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/17/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+COP4020 - Programming Language Concepts
+Introduces programming language principles, including language constructs, design goals, run-time structures, implementation techniques and exposure to a wide variety of programming paradigms.
+Prereq: COP 3530.
+Class #23532
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+MCCC 0100
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+MCCC 0100
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+PETER DOBBINS
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+COP4600 - Operating Systems
+Design and implementation of various components of a modern operating system, including I/O programming, interrupt handling, process and resource management, computer networks and distributed systems. (M)
+Prereq: CDA 3101 and COP 3530; knowledge of C or C++ recommended.
+Class #12525
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CSE E220
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12553
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period 3 
+(9:35 AM - 10:25 AM)
+CSE E221
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12554
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period 7 
+(1:55 PM - 2:45 PM)
+RNK 0215
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12555
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period 8 
+(3:00 PM - 3:50 PM)
+FAC 0120
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12556
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period 9 
+(4:05 PM - 4:55 PM)
+AND 0034
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #23996
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period 10 
+(5:10 PM - 6:00 PM)
+RNK 0220
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #24167
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period E1 
+(7:20 PM - 8:10 PM)
+CSE E220
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #25324
+T | 
+Periods 8-9 
+(3:00 PM - 4:55 PM)
+NRN 1020
+R | 
+Period 9 
+(4:05 PM - 4:55 PM)
+NRN 1020
+W | 
+Period 4 
+(10:40 AM - 11:30 AM)
+FLG 0210
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alexandre Gomes de Siqueira
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 10:00 AM - 12:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+COP5556 - Programming Language Principles
+History of programming languages, formal models for specifying languages, design goals, run-time structures, and implementation techniques, along with survey of principal programming language paradigms.
+Prereq: COP 3530.
+Class # (Departmentally Controlled)
+T | 
+Period 4 
+(10:40 AM - 11:30 AM)
+LIT 0121
+R | 
+Periods 4-5 
+(10:40 AM - 12:35 PM)
+LIT 0121
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Beverly Sanders
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+COP5615 - Distributed Operating System Principles
+Concepts and techniques for efficient management of computer system resources.
+Prereq: COP 4600.
+Class # (Departmentally Controlled)
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+LIT 0109
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+LIT 0109
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alin Dobra
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Alin Dobra
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Alin Dobra
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+COP5725 - Database Management Systems
+Introduction to systems and procedures for managing large computerized databases.
+Prereq: COP 3530, 4600, or equivalent.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 8 
+(3:00 PM - 3:50 PM)
+TUR L011
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Markus Schneider
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/14/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Markus Schneider
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Markus Schneider
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+COT3100 - Applications of Discrete Structures
+Covers the mathematics of discrete events; i.e., events that involve distinct elements, finite structures of distinct elements or finite sampled versions of continuous phenomena (such as movement). (M)
+Prereq: (MAC 2311 or MAC 3472) and (COP 3502 or equivalent), all with a minimum grades of C; Coreq: COP 3504 or COP 3503.
+Class #12593
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+M | 
+Period 3 
+(9:35 AM - 10:25 AM)
+FAC 0127
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12594
+M | 
+Period 11 
+(6:15 PM - 7:05 PM)
+MCCA 1142
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12617
+M | 
+Period 3 
+(9:35 AM - 10:25 AM)
+CSE E221
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12619
+M | 
+Period 9 
+(4:05 PM - 4:55 PM)
+AND 0101
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12620
+M | 
+Period 5 
+(11:45 AM - 12:35 PM)
+FAC 0120
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #12621
+M | 
+Period 11 
+(6:15 PM - 7:05 PM)
+CSE E221
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+Textbooks
+Additional Details
+Add'l Course Fees: $9.99
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #19626
+M | 
+Period 10 
+(5:10 PM - 6:00 PM)
+MCCA 1142
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+Class #26401
+M | 
+Period 8 
+(3:00 PM - 3:50 PM)
+MAEA 0327
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+TUR L007
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+TUR L007
+Textbooks
+Additional Details
+EEP Eligible
+Gen Ed: Mathematics
+Instructor
+Arunava Banerjee
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+COT5405 - Analysis of Algorithms
+Introduction and illustration of basic techniques for designing efficient algorithms and analyzing algorithm complexity.
+Prereq: COP 3530.
+Class # (Departmentally Controlled)
+M,W,F | 
+Period 5 
+(11:45 AM - 12:35 PM)
+NRN 1020
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Alin Dobra
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/15/2021 @ 3:00 PM - 5:00 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Alin Dobra
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Alin Dobra
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+COT5615 - Mathematics for Intelligent Systems
+Mathematical methods commonly used to develop algorithms for computer systems that exhibit intelligent behavior.
+Prereq: MAC 2313, Multivariate Calculus; MAS 3114 or MAS 4105, Linear Algebra; STA 4321, Mathematical Statistics.
+Class # (Departmentally Controlled)
+T | 
+Period 10 
+(5:10 PM - 6:00 PM)
+CSE E119
+R | 
+Periods 10-11 
+(5:10 PM - 7:05 PM)
+CSE E119
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Kejun Huang
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/14/2021 @ 12:30 PM - 2:30 PM
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Kejun Huang
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+Class # (Departmentally Controlled)
+Textbooks
+Additional Details
+--
+Instructor
+Kejun Huang
+Meet
+Online (100%)
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+COT6315 - Formal Languages and Computation Theory
+Introduction to theoretical computer science including formal languages, automata theory, Turing machines, and computability.
+Prereq: COP 3530 and familiarity with discrete mathematics and data structures.
+Class # (Departmentally Controlled)
+T | 
+Periods 2-3 
+(8:30 AM - 10:25 AM)
+WM 0100
+R | 
+Period 3 
+(9:35 AM - 10:25 AM)
+WM 0100
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Meera Sitharam
+Meet
+Primarily Classroom
+Credits
+3
+Department
+Computer & Information Science & Engineering
+Final Exam
+12/16/2021 @ 7:30 AM - 9:30 AM
+Class Dates
+08/23/2021 - 12/08/2021
+EGN4912 - Engineering Directed Independent Research: ENGINEERING RESEARCH
+Provides firsthand, supervised research with a faculty advisor or postdoctoral or graduate student mentor. Projects may involve inquiry, design, investigation, scholarship, discovery or application. (S-U)
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+PETER DOBBINS
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+EGN5949 - Practicum/Internship/Cooperative Work Experience
+Practical cooperative engineering work under approved industrial and faculty supervision.
+Prereq: graduate student.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+--
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
+EGN6913 - Engineering Graduate Research: ENGINEERING GRAD RSCH
+Course will provide the student with supervised research in a laboratory setting.
+Class # (Departmentally Controlled)
+To Arrange
+Textbooks
+Additional Details
+EEP Eligible
+Instructor
+Ahmed Helmy
+Meet
+Primarily Classroom
+Credits
+VAR
+Department
+Computer & Information Science & Engineering
+Final Exam
+--
+Class Dates
+08/23/2021 - 12/08/2021
