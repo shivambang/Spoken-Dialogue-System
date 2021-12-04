@@ -29,27 +29,13 @@ connection = mariadb.connect(user='shiv', password='bang', database='soc', host=
 cursor = connection.cursor()
 
 months = ["january","february","march","april","may","june","july","august","september","october","november","december",]
-classPeriods = {"1":"from 7:25am to 8:15am",
-                "2":"from 8:30am to 9:20am",
-                "3":"from 9:35am to 10:25am",
-                "4":"from 10:40am to 11:30am",
-                "5":"from 11:45am to 12:35pm",
-                "6":"from 12:50pm to 1:40pm",
-                "7":"from 1:55pm to 2:45pm",
-                "8":"from 3:00pm to 3:50pm",
-                "9":"from 4:05pm to 4:55pm",
-                "10":"from 5:10pm to 6:00pm",
-                "11":"from 6:15pm to 7:05pm",
-                "E1":"from 7:20pm to 8:10pm",
-                "E2":"from 8:20pm to 9:10pm",
-                "E3":"from 9:20pm to 10:10pm"}
-
 categories = {"computer application":"CAP",
                 "programming":"COP",
                 "information security":"CIS",
                 "computer network":"CNT",
                 "computer engineering":"CEN",
-                "computing theory":"COT"}
+                "computing theory":"COT",
+                "special topics":"CIS"}
 
 classes = []
 instructors = []
@@ -103,7 +89,7 @@ def getDays(day):
 
 
 def getCat(name):
-    myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computing Theory"]
+    myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computing Theory","Special Topics"]
     courseName = difflib.get_close_matches(name,myCats)
     if(len(courseName) == 0):
         return False
@@ -156,17 +142,22 @@ def getClassCode(name):
     return (False,False)
 
 
-def getClassesFromCat(cat):
+def getClassesFromCat(cate):
     myNewList = []
     global chosenCat
+    cat = categories[cate]
     for cla in classes:
         if cla[2].upper() == 'N22': continue
         if(chosenCat == "graduate"):
-            if(cla[0][0:3] == cat and int(cla[0][3:7]) >= 5000):
-                myNewList.append(cla)
+            if(cla[0][0:3] == cat[0:3] and int(cla[0][3:7]) >= 5000):
+                if cate == 'information security' and int(cla[0][3:7]) >= 6900: continue
+                elif cate == 'special topics' and int(cla[0][3:7]) != 6930: continue
+                else: myNewList.append(cla)
         elif(chosenCat == "undergraduate"):
-            if(cla[0][0:3] == cat and int(cla[0][3:7]) < 5000):
-                myNewList.append(cla)
+            if(cla[0][0:3] == cat[0:3] and int(cla[0][3:7]) < 5000):
+                if cate == 'information security' and int(cla[0][3:7]) >= 4900: continue
+                elif cate == 'special topics' and int(cla[0][3:7]) >= 4930: continue
+                else: myNewList.append(cla)
     return myNewList
 
 
@@ -177,7 +168,7 @@ def getResponse(resp):
     global className
     global profName
     global category
-    if(intent == "professor"):
+    if(intent == "professor"  or (previousIntent=="prereq" and intent=="wit$confirmation")):
         myTuple = getClassCode(resp)
         code = myTuple[0]
         if code == False:
@@ -188,9 +179,9 @@ def getResponse(resp):
         cursor.execute("select unique instructor from class where ccode=? and cname=?",(code,myTuple[1]))
         ls = cursor.fetchall()
         if not ls: return f"{className} is not being offered in the upcoming semester."
-        for instructor in cursor:
+        for instructor in ls:
             profName = instructor[0]
-            return f"{myTuple[1]} will be taught by Professor {instructor[0]}. Would you like to know what other classes they would be teaching?"
+            return f"{myTuple[1]} will be taught by Professor {profName}. Would you like to know what other courses they would be teaching?"
         
     elif intent == "greeting":
         return "Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?"
@@ -202,27 +193,28 @@ def getResponse(resp):
         return "Do you want to check out graduate level courses or undergraduate ones?"
 
     elif (previousIntent == "graduate" or previousIntent == "undergraduate") and intent == "dontknow":
-        return "Classes are divided into the following categories. You can choose any and I can show you classes from that category. ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
+        return "Courses are divided into the following categories. You can choose any and I can show you courses from that category. ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
 
     elif intent == "graduate" or intent == "undergraduate":
         chosenCat = intent
         res = 'Ok! ' + resp + 'And '
         if category == '':
-            return res+"Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
+            return res+"Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory ==Special Topics"
         else:
             return res + f'Should I tell you about {category} courses?'
     elif intent == 'wit$negation' and previousIntent in ['graduate', 'undergraduate']:
-            return "Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory"
+            return "Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory ==Special Topics"
 
 
-    elif intent == "category":
+    elif intent == "category" or (intent == 'wit$confirmation' and previousIntent in ['graduate', 'undergraduate']):
         temp = getCat(resp)
         if temp == False:
-            return "Sorry, I did not get that."
-        category = categories[getCat(resp).lower()]
+            resp = category
+            if resp == '': return "Sorry, I did not get that."
+        category = getCat(resp).lower()
         selectedClasses = getClassesFromCat(category)
         if(len(selectedClasses) > 3):
-            res = f"The CISE department is offering {selectedClasses[0][1]}, {selectedClasses[1][1]}, {selectedClasses[2][1]} and {len(selectedClasses) - 3} other classes"
+            res = f"The CISE department is offering {selectedClasses[0][1]}, {selectedClasses[1][1]}, {selectedClasses[2][1]} and {len(selectedClasses) - 3} other courses"
             for i in selectedClasses:
                 res += "=="+ str(i[0]) + " - " + str(i[1])
             return res
@@ -263,7 +255,9 @@ def getResponse(resp):
         cursor.execute("select unique final from class where ccode=? and cname=?",(code,myTuple[1]))
         ls = cursor.fetchall()
         if not ls: return f"{className} is not being offered in the upcoming semester."
-        finalDate = ls[0]['final']
+        finalDate = ''
+        for final in ls:
+            finalDate = final
 
         if(finalDate[0] != "--"):
             finalDate = parseFinalDate(finalDate[0])
@@ -278,10 +272,10 @@ def getResponse(resp):
             return f'Do you still want to checkout {chosenCat} level courses?'
     elif [previousIntent, intent] == ['show_classes', 'wit$confirmation']:
         intent = chosenCat
-        getResponse('')
+        return getResponse('')
     elif [previousIntent, intent] == ['show_classes', 'wit$negation']:
         intent = 'graduate' if chosenCat == 'undergraduate' else 'undergraduate'
-        getResponse(f'I will show {intent} courses\n')
+        return getResponse(f'I will show {intent} courses. ')
 
     elif(intent == "textbook"):
         myTuple = getClassCode(resp)
@@ -289,16 +283,18 @@ def getResponse(resp):
         if code == False:
             myTuple = getClassCode(className)
             code = myTuple[0]
-            if code == False: return "Sorry, I did not get that"
+            if code == False: return "Oh! There's no such course in the CISE department."
         className = code
         cursor.execute("select text from course WHERE code=? and name=?",(code,myTuple[1]))
         ls = cursor.fetchall()
         if not ls: return f"{className} is not being offered in the upcoming semester."
-        text = ls[0]['isbn']
-        if(text == ""):
+        txt = ''
+        for text in ls:
+            txt = text[0]
+        if(txt == ""):
             return f"You won't need any books for {myTuple[1]}"
         else:
-            return f"You will need the book {text} for {myTuple[1]}"
+            return f"You will need the book {txt} for {myTuple[1]}"
 
     elif(intent == "class_time" or (previousIntent == "class_info" and intent=="wit$confirmation")):
 
@@ -307,7 +303,7 @@ def getResponse(resp):
         if code == False:
             myTuple = getClassCode(className)
             code = myTuple[0]
-            if code == False: return "Sorry, I did not get that"
+            if code == False: return "Oh! There's no such course in the CISE department."
         className = code
         cursor.execute("select unique location, day, btime, etime from class where ccode=? and cname=?",(code,myTuple[1]))
         ls = cursor.fetchall()
@@ -335,14 +331,16 @@ def getResponse(resp):
         if code == False:
             myTuple = getClassCode(className)
             code = myTuple[0]
-            if code == False: return "Sorry, I did not get that"
+            if code == False: return "Oh! There's no such course in the CISE department."
         className = code
         cursor.execute("select preq from course where code=? and name=?",(code,myTuple[1]))
+        res = ''
         for (preq) in cursor:
             if(preq[0] == None):
-                return f"{myTuple[1]} does not have any pre requisites"
+                res = f"{myTuple[1]} does not have any prerequisites"
             else:
-                return f"The prerequisites for {myTuple[1]} are {preq[0]}"
+                res = f"The prerequisites for {myTuple[1]} are {preq[0]}"
+        return res + '. And do you want know the instructor for this course?'
 
     elif intent == "show_professors":
         resp = str(len(instructors)) + " professors will be teaching classes next semester. Here is a list with all of them: "
@@ -382,11 +380,11 @@ def getResponse(resp):
         cursor.execute("select rate from prof where name=?",(proffName,))
         for rate in cursor:
             if(rate == -1):
-                return f"Sorry, {proffName} does not have a rating"
+                return f"Oh! {proffName} does not have a rating"
             return f"{proffName} has a rating of {str(rate[0])} out of 5 on ratemyprofessors.com"
 
     elif intent == "wit$negation":
-        return "Okay. I can help you find classes, their professor, final exam times, meeting times, prerequisites and class information."
+        return "Okay. I can help you find courses, their professor, final exam times, class meeting times, prerequisites and class information."
 
     elif intent == "thanks":
         return "Of course. I'm here to help!"
@@ -400,7 +398,7 @@ def getResponse(resp):
     else:
         print(previousIntent)
         print(intent)
-        return "Im sorry, I did not get that"
+        return "I'm sorry, I did not get that"
 
     return ""
 
@@ -434,7 +432,7 @@ while(True):
             except:
                 resp = str(response["entities"]["professor_name:professor_name"][0]["value"])
                 # profName = ent if ent != '' else profName
-        print(intent, resp)
+        print(previousIntent, intent, resp)
         msg = getResponse(resp) +'\n'
         print(msg)
         conn.send(msg.encode('utf-8'))
