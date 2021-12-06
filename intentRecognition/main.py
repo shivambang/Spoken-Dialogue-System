@@ -35,7 +35,7 @@ categories = {"computer application":"CAP",
                 "computer network":"CNT",
                 "computer engineering":"CEN",
                 "computing theory":"COT",
-                "computer architecture":"CDA",
+                "computer design":"CDA",
                 "special topics":"CIS"}
 desc = {"computer application":"Courses related to application of computer science principles such as Machine Learning, Human Computer Interaction, Computer Graphics..",
         "programming":"Courses related to programming principles such as Database Management Systems, Data Structures, PROGRAMMING LANGUAGE PRINCIPLES..",
@@ -43,7 +43,7 @@ desc = {"computer application":"Courses related to application of computer scien
         "computer network":"Courses related to networking principles in computer science..",
         "computer engineering":"Engineering related computer science courses such as Software Engineering, Software Testing..",
         "computing theory":"Theoritical courses in computer science such as Numerical Analysis, Analysis of Algorithms..",
-        "computer architecture":"Computer Design and Architecture courses such as Embedded Systems..",
+        "computer design":"Computer Design and Architecture courses such as Embedded Systems..",
         "special topics":"Elective Courses of current significance.."}
 
 classes = []
@@ -56,11 +56,8 @@ profName = ''
 chosenCat = ''
 category = ''
 def reset():
-    global classes, instructors, instructorsLastsNames, intentArr, classCode, className, profName, chosenCat, category
+    global intentArr, classCode, className, profName, chosenCat, category
 
-    classes = []
-    instructors = []
-    instructorsLastsNames = []
     intentArr = ['NA', 'NA', 'NA', 'NA', 'NA']
     classCode = ''
     className = ''
@@ -111,7 +108,7 @@ def getDays(day):
 
 
 def getCat(name):
-    myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computer Architecture","Computing Theory","Special Topics"]
+    myCats = ["Computer Application","Programming","Information Security","Computer Network","Computer Engineering","Computer Design","Computing Theory","Special Topics"]
     courseName = difflib.get_close_matches(name,myCats)
     if(len(courseName) == 0):
         return False
@@ -197,7 +194,7 @@ def getClassesFromCat(cate):
         elif(chosenCat == "undergraduate"):
             if(cla[0][0:3] == cat[0:3] and int(cla[0][3:7]) < 5000):
                 if cate == 'information security' and int(cla[0][3:7]) >= 4900: continue
-                elif cate == 'special topics' and int(cla[0][3:7]) >= 4930: continue
+                elif cate == 'special topics' and int(cla[0][3:7]) != 4930: continue
                 else: myNewList.append(cla)
     return myNewList
 
@@ -244,7 +241,7 @@ def getResponse(resp, prev=''):
         resp = '' if not getCat(resp) else getCat(resp)
         if resp == '':
             if category == '':
-                return res+"Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory ==Special Topics"
+                return res+"Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics"
             else:
                 return res + f'you want to see {category} courses. Is that correct?'
         else:
@@ -252,14 +249,20 @@ def getResponse(resp, prev=''):
             intentArr = intentArr[1:]
             return getResponse(resp)
     elif intent == 'wit$negation' and previousIntent in ['graduate', 'undergraduate']:
-            return "Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computing Theory ==Special Topics"
+            return "Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics"
 
-    elif (previousIntent == "graduate" or previousIntent == "undergraduate" or intentArr[2:-1] == [chosenCat, 'wit$negation']) and intent == "dontknow":
-        intentArr.append('dncat')
-        intentArr = intentArr[1:]
-        return "Would you like to know more about these categories?"
+    elif (intent == "dncat") or ((previousIntent == chosenCat or intentArr[2:-1] == [chosenCat, 'wit$negation']) and intent == "dontknow"):
+        if intent != 'dncat':
+            intentArr.append('dncat')
+            intentArr = intentArr[1:]
+        return "Would you like to know more about the categories?"
 
     elif intentArr[3:] == ['category', 'wit$confirmation']:
+        if resp:
+            cn = getClassCode(resp)
+            code = cn[0]
+            if code == False: return "Oh! I couldn't find that."
+            className = cn[1]
         if className: 
             intentArr.append('class_info')
             intentArr = intentArr[1:]
@@ -267,9 +270,14 @@ def getResponse(resp, prev=''):
         return "Ok, which course would you like to know more about?"
     elif (intent == "class_info") or (intentArr[2:-1] == ['category', 'wit$confirmation'] and intent in ['category', 'class_info']):
         if resp == '':
+            if previousIntent == 'graduate':
+                intentArr[-1] = 'dncat'
+                return getResponse('')
             cn = getClassCode(className)
             code = cn[0]
-            if code == False:             return "Oh! I couldn't find that course."
+            if code == False:
+                intentArr[-1] = 'fail_info'
+                return "Oh! I couldn't find that course. Would you like to see the available courses?"
         else:             
             cn = getClassCode(resp)
             ct = getCat(resp)
@@ -278,12 +286,17 @@ def getResponse(resp, prev=''):
                 print(resp, cn[1], ct)
                 intentArr[-1] = 'getcat'
                 return getResponse(resp)
-            if code == False:   return "Oh! I couldn't find that course."
+            if code == False:
+                if previousIntent == 'graduate':
+                    intentArr[-1] = 'dncat'
+                    return getResponse('')
+                intentArr[-1] = 'fail_info'
+                return "Oh! I couldn't find that course. Would you like to see the available courses?"
         className = cn[1]
         res = ''
         cursor.execute("select unique info from course WHERE code=? and name=?",(code,cn[1]))
         for info in cursor:
-            res = f"{cn[0]} ({cn[1]}) covers {info[0]}"
+            res = f"{cn[0]} ({cn[1]}) {info[0]}"
         if intentArr[2:-1] == ['category', 'wit$confirmation']:
             return res + '. Would you like to know the class times?'
         else: return res
@@ -363,7 +376,9 @@ def getResponse(resp, prev=''):
         if code == False:
             myTuple = getClassCode(className)
             code = myTuple[0]
-            if code == False: return "Oh! I couldn't find that course."
+            if code == False:
+                intentArr[-1] = 'fail_info'
+                return "Oh! I couldn't find that course. Would you like to see the available courses?"
         className = myTuple[1]
         cursor.execute("select unique final from class where ccode=? and cname=?",(code,myTuple[1]))
         ls = cursor.fetchall()
@@ -378,7 +393,10 @@ def getResponse(resp, prev=''):
         else:
             return f"The final exam for this course hasn't been set yet"
 
-    elif(intent == "show_classes"):
+    elif(intent == "show_classes") or (intent == 'wit$confirmation' and previousIntent == 'fail_info'):
+        if intent != "show_classes":
+            intentArr.append('show_classes')
+            intentArr = intentArr[1:]
         if chosenCat == '':
             return "Do you want to check out graduate level courses or undergraduate ones?"
         else:
@@ -400,7 +418,9 @@ def getResponse(resp, prev=''):
         if code == False:
             myTuple = getClassCode(className)
             code = myTuple[0]
-            if code == False: return "Oh! I couldn't find that course."
+            if code == False:
+                intentArr[-1] = 'fail_info'
+                return "Oh! I couldn't find that course. Would you like to see the available courses?"
         className = myTuple[1]
         cursor.execute("select text from course WHERE code=? and name=?",(code,myTuple[1]))
         ls = cursor.fetchall()
@@ -426,7 +446,9 @@ def getResponse(resp, prev=''):
         if code == False:
             myTuple = getClassCode(className)
             code = myTuple[0]
-            if code == False: return "Oh! I couldn't find that course."
+            if code == False:
+                intentArr[-1] = 'fail_info'
+                return "Oh! I couldn't find that course. Would you like to see the available courses?"
         className = myTuple[1]
         cursor.execute("select unique location, day, btime, etime from class where ccode=? and cname=?",(code,myTuple[1]))
         ls = cursor.fetchall()
@@ -456,7 +478,9 @@ def getResponse(resp, prev=''):
         if code == False:
             myTuple = getClassCode(className)
             code = myTuple[0]
-            if code == False: return "Oh! I couldn't find that course."
+            if code == False:
+                intentArr[-1] = 'fail_info'
+                return "Oh! I couldn't find that course. Would you like to see the available courses?"
         className = myTuple[1]
         cursor.execute("select preq from course where code=? and name=?",(code,myTuple[1]))
         res = ''
@@ -493,16 +517,17 @@ def getResponse(resp, prev=''):
             # resp += ". Would you like to know their rating?"
         return resp
 
-    elif previousIntent == "professor_classes" and intent == "wit$confirmation":
-        intent = "professor_classes"
-        proffName = getProffName(profName)
-        if proffName == False:
-            return "Oh! Something's wrong."
-        cursor.execute("select rate from prof where name=?",(proffName,))
+    elif intent == "prof_rate":
+        pn = getProffName(resp)
+        if pn == False:
+            pn = getProffName(profName)
+            if pn == False:             return "Oh! I don't recognize that name."
+        profName = pn
+        cursor.execute("select rate from prof where name=?",(profName,))
         for rate in cursor:
             if(rate == -1):
-                return f"Oh! {proffName} does not have a rating"
-            return f"{proffName} has a rating of {str(rate[0])} out of 5 on ratemyprofessors.com"
+                return f"Oh! {profName} does not have a rating"
+            return f"{profName} has a rating of {str(rate[0])} out of 5 on ratemyprofessors.com"
 
     elif intent == "wit$negation" or intent == 'wit$confirmation':
         # return "Okay. I can help you find courses, their professor, final exam date, class meeting times, prerequisites and class information."
@@ -522,7 +547,7 @@ def getResponse(resp, prev=''):
     else:
         print(previousIntent)
         print(intent)
-        return "I'm sorry, I can't help you with that at the moment."
+        return "I'm sorry, I didn't get that."
 
     return ""
 
@@ -531,14 +556,14 @@ def getResponse(resp, prev=''):
 
 getClasses();
 getInstructors();
-
+f = open('bc.txt', 'a')
 while(True):
     r = conn.recv(1024).decode()
     #if r != "": sio.emit('user_uttered', {"message": r})
 
     text = r
     # text = input("Enter message: ")
-    print(text)
+    print(text, file=f)
     if text == '/restart': break
     if text != '':
         #with open('convo.txt', 'a') as f:
@@ -556,17 +581,22 @@ while(True):
             except:
                 resp = str(response["entities"]["professor_name:professor_name"][0]["value"])
                 # profName = ent if ent != '' else profName
-        intentArr.append(intent)
-        intentArr = intentArr[1:]
-        print(intentArr, resp)
-        msg = getResponse(resp) +'\n'
-        print(msg)
+        if intent == '': 
+            if resp: msg = getResponse(resp) +'\n'
+            else: msg = "I'm sorry, I didn't get that.\n"
+        else:
+            intentArr.append(intent)
+            intentArr = intentArr[1:]
+            msg = getResponse(resp) +'\n'
+        print(intentArr, resp, file=f)
+        print(msg, file=f)
         conn.send(msg.encode('utf-8'))
         #with open('convo.txt', 'a') as f:
         #    f.write(msg+'\n')
     if intent == "bye":
         reset()
 conn.close()
+f.close()
     #tts = gTTS(text=getResponse(intent,className), lang="en")
     #tts.save("response.mp3")
     #os.system("response.mp3")()
