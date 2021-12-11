@@ -4,7 +4,7 @@ import mariadb
 import asyncio
 import difflib
 import re
-
+from datetime import datetime
 
 from threading import Thread
 from socket import *
@@ -44,7 +44,7 @@ desc = {"computer application":"Courses related to application of computer scien
         "computer engineering":"Engineering related computer science courses such as Software Engineering, Software Testing..",
         "computing theory":"Theoritical courses in computer science such as Numerical Analysis, Analysis of Algorithms..",
         "computer design":"Computer Design and Architecture courses such as Embedded Systems..",
-        "special topics":"Elective Courses of current significance.."}
+        "special topics":"Elective Courses with topics of current significance in computer science.."}
 
 classes = []
 instructors = []
@@ -297,9 +297,10 @@ def getResponse(resp, prev=''):
         cursor.execute("select unique info from course WHERE code=? and name=?",(code,cn[1]))
         for info in cursor:
             res = f"{cn[0]} ({cn[1]}) {info[0]}"
-        if intentArr[2:-1] == ['category', 'wit$confirmation']:
-            return res + '. Would you like to know the class times?'
-        else: return res
+        if intent != "class_info":
+            intentArr.append('class_info')
+            intentArr = intentArr[1:]
+        return res + '. Would you like to know the class times?'
 
     elif intentArr[3:] == ['dncat', 'wit$confirmation']:
         return "Ok, which category would you like to know more about?"
@@ -510,7 +511,7 @@ def getResponse(resp, prev=''):
         profName = pn
         cursor.execute("select unique ccode,cname from class where instructor=?",(profName,))
         cs = [cname for (ccode, cname) in cursor]
-        if len(cs) == 1:
+        if len(cs) == 1 and intent != 'professor_classes':
             resp = f"Professor {profName} is not teaching any other courses next semester."
         else:
             resp = f"Professor {profName} will be teaching " + ' and '.join(cs)
@@ -531,7 +532,8 @@ def getResponse(resp, prev=''):
 
     elif intent == "wit$negation" or intent == 'wit$confirmation':
         # return "Okay. I can help you find courses, their professor, final exam date, class meeting times, prerequisites and class information."
-        return 'Okay.'
+        return 'Okay. I can help you find courses, their professor, final exam date, class meeting times, prerequisites and class information.'
+
 
     elif intent == "thanks":
         return "Of course. I'm here to help!"
@@ -563,7 +565,8 @@ while(True):
 
     text = r
     # text = input("Enter message: ")
-    print(text, file=f)
+    print(text, file=f, flush=True)
+    print(text)
     if text == '/restart': break
     if text != '':
         #with open('convo.txt', 'a') as f:
@@ -581,6 +584,7 @@ while(True):
             except:
                 resp = str(response["entities"]["professor_name:professor_name"][0]["value"])
                 # profName = ent if ent != '' else profName
+        if intent == 'greeting': print('Hello', datetime.now(), file=f, flush=True)
         if intent == '': 
             if resp: msg = getResponse(resp) +'\n'
             else: msg = "I'm sorry, I didn't get that.\n"
@@ -588,13 +592,16 @@ while(True):
             intentArr.append(intent)
             intentArr = intentArr[1:]
             msg = getResponse(resp) +'\n'
-        print(intentArr, resp, file=f)
-        print(msg, file=f)
+        print(intentArr, resp, file=f, flush=True)
+        print(msg, file=f, flush=True)
+        print(intentArr, resp)
+        print(msg)
         conn.send(msg.encode('utf-8'))
         #with open('convo.txt', 'a') as f:
         #    f.write(msg+'\n')
     if intent == "bye":
         reset()
+        print('Bye', datetime.now(), file=f, flush=True)
 conn.close()
 f.close()
     #tts = gTTS(text=getResponse(intent,className), lang="en")
