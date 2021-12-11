@@ -1,0 +1,794 @@
+height
+['NA', 'NA', 'NA', 'NA', 'NA'] height
+I'm sorry, I didn't get that.
+
+hi
+['NA', 'NA', 'NA', 'NA', 'greeting'] hi
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+nope
+['NA', 'NA', 'NA', 'greeting', 'wit$negation'] 
+Okay.
+
+hello hello hello
+['NA', 'NA', 'greeting', 'wit$negation', 'greeting'] hello hello hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes
+['NA', 'greeting', 'wit$negation', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+machine learning
+['greeting', 'wit$negation', 'greeting', 'wit$confirmation', 'class_info'] machine learning
+CAP6610 (Machine Learning) Concepts in developing computer programs that learn and improve with experience. Emphasis on methods based on probability, statistics, and optimization.
+
+is that an undergrad machine learning course
+['wit$negation', 'greeting', 'wit$confirmation', 'class_info', 'class_info'] machine learning course
+CAP6610 (Machine Learning) Concepts in developing computer programs that learn and improve with experience. Emphasis on methods based on probability, statistics, and optimization.
+
+tell me about programming courses
+['greeting', 'wit$confirmation', 'class_info', 'class_info', 'category'] Programming
+Oh! Something's not right! Were you looking for graduate level courses or undergraduate ones?
+
+Rodrick
+['greeting', 'wit$confirmation', 'class_info', 'class_info', 'category'] Rodrick
+Oh! Something's not right! Were you looking for graduate level courses or undergraduate ones?
+
+graduate
+['wit$confirmation', 'class_info', 'class_info', 'category', 'graduate'] 
+Ok! And you want to see programming courses. Is that correct?
+
+yes
+['class_info', 'category', 'graduate', 'wit$confirmation', 'category'] 
+The CISE department is offering Database System Implementation. Would you like to know more about that course?==COP6726 - Database System Implementation
+
+yes
+['graduate', 'wit$confirmation', 'category', 'wit$confirmation', 'class_info'] 
+COP6726 (Database System Implementation) DBMS architecture, query processing and optimization, transaction processing, index structures, parallel query processing, object-oriented and object-relational databases, and related topics.. Would you like to know the class times?
+
+tell me about computer architecture courses
+['wit$confirmation', 'category', 'wit$confirmation', 'class_info', 'class_info'] Computer architecture
+CDA4102 (Computer Architecture) Introduces computer architecture and system organization including virtual memory supports cache, pipeline, vector processing, multiprocessor and RISC architecture.
+
+who is teaching computer architecture
+['category', 'wit$confirmation', 'class_info', 'class_info', 'professor'] Computer architecture
+Computer Architecture is not being offered in the upcoming semester.
+
+what you think 46 computer architecture is something else like what is this
+['wit$confirmation', 'class_info', 'class_info', 'professor', 'class_info'] Computer architecture
+CDA4102 (Computer Architecture) Introduces computer architecture and system organization including virtual memory supports cache, pipeline, vector processing, multiprocessor and RISC architecture.
+
+show me the list of Professor
+['wit$confirmation', 'class_info', 'class_info', 'professor', 'class_info'] 
+I'm sorry, I didn't get that.
+
+who is the professor
+['class_info', 'class_info', 'professor', 'class_info', 'professor'] 
+Computer Architecture is not being offered in the upcoming semester.
+
+bbmas
+['class_info', 'class_info', 'professor', 'class_info', 'professor'] bbmas
+Computer Architecture is not being offered in the upcoming semester.
+
+who teaches dbms
+['class_info', 'professor', 'class_info', 'professor', 'professor'] dbms
+Computer Architecture is not being offered in the upcoming semester.
+
+who is teaching classes next semester
+['professor', 'class_info', 'professor', 'professor', 'show_professors'] semester
+40 professors will be teaching classes next semester. Here is a list with all of them: ==Joshua Fox==Rong Zhang==STAFF==Corey Toler-Franklin==Alireza Entezari==Jorg Peters==Sharon Chuyew Yee==Kristy Boyer==Joseph Wilson==Kejun Huang==Mark Schmalz==Prabhat Mishra==Sanethia Thomas==Stephen Thebaut==Eric Ragan==Alin Dobra==Cheryl Resch==Markus Schneider==Sara Rampazzi==Ahmed Helmy==Byron Williams==Abdelsalam Helal==Ye Xia==Vincent Bindschaedler==Jonathan Kavalan==Kevin Butler==Thomas Shrimpton==Lisa Anthony==Kiley Graim==My Thai==Shigang Chen==Lisha Zhou==Amanpreet Kapoor==Beverly Sanders==Alper Ungor==Alexandre Gomes de Siqueira==Tamer Kahveci==Peter Dobbins==James Fairbanks==Anand Rangarajan
+
+what causes Eric Reagan teaching
+['class_info', 'professor', 'professor', 'show_professors', 'professor_classes'] Eric Reagan
+Professor Eric Ragan is not teaching any other courses next semester.
+
+what about James Fairbanks
+['professor', 'professor', 'show_professors', 'professor_classes', 'fail_info'] James Fairbanks
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+what classes is James Fairbanks teaching
+['professor', 'show_professors', 'professor_classes', 'fail_info', 'professor_classes'] James Fairbanks
+Professor James Fairbanks is not teaching any other courses next semester.
+
+Woonsocket is Lisa Anthony teacher
+['show_professors', 'professor_classes', 'fail_info', 'professor_classes', 'professor_classes'] Lisa Anthony
+Professor Lisa Anthony is not teaching any other courses next semester.
+
+what is Lisa Anthony's rating
+['professor_classes', 'fail_info', 'professor_classes', 'professor_classes', 'fail_info'] Lisa Anthony's rating
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+yes
+['professor_classes', 'professor_classes', 'fail_info', 'wit$confirmation', 'show_classes'] 
+Do you still want to checkout graduate level courses?
+
+hello
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+show me producers
+['NA', 'NA', 'greeting', 'wit$confirmation', 'show_professors'] 
+40 professors will be teaching classes next semester. Here is a list with all of them: ==Joshua Fox==Rong Zhang==STAFF==Corey Toler-Franklin==Alireza Entezari==Jorg Peters==Sharon Chuyew Yee==Kristy Boyer==Joseph Wilson==Kejun Huang==Mark Schmalz==Prabhat Mishra==Sanethia Thomas==Stephen Thebaut==Eric Ragan==Alin Dobra==Cheryl Resch==Markus Schneider==Sara Rampazzi==Ahmed Helmy==Byron Williams==Abdelsalam Helal==Ye Xia==Vincent Bindschaedler==Jonathan Kavalan==Kevin Butler==Thomas Shrimpton==Lisa Anthony==Kiley Graim==My Thai==Shigang Chen==Lisha Zhou==Amanpreet Kapoor==Beverly Sanders==Alper Ungor==Alexandre Gomes de Siqueira==Tamer Kahveci==Peter Dobbins==James Fairbanks==Anand Rangarajan
+
+what causes Lisa Anthony teaching
+['NA', 'greeting', 'wit$confirmation', 'show_professors', 'professor_classes'] Lisa Anthony
+Professor Lisa Anthony will be teaching Hum Cen Reco Alg
+
+can you show me some courses
+['greeting', 'wit$confirmation', 'show_professors', 'professor_classes', 'show_classes'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+undergraduate loans
+['wit$confirmation', 'show_professors', 'professor_classes', 'show_classes', 'undergraduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+information security
+['show_professors', 'professor_classes', 'show_classes', 'undergraduate', 'category'] information security
+The CISE department is offering Enterprise Security, Information and Database Systems 1, Computer and Information Security and 1 other information security courses. Would you like to know more about any of these courses?==CIS4213 - Enterprise Security==CIS4301 - Information and Database Systems 1==CIS4360 - Computer and Information Security==CIS4715 - CS Teaching   Learning
+
+yes
+['professor_classes', 'show_classes', 'undergraduate', 'category', 'wit$confirmation'] 
+Ok, which course would you like to know more about?
+
+tell me about computer information security
+['show_classes', 'undergraduate', 'category', 'wit$confirmation', 'class_info'] computer and information security
+CIS4360 (Computer and Information Security) Covers systematic threat and risk assessment; programmed threats and controls in hardware, software, and human procedures; security policies, models, and mechanisms; theoretical limitations and practical implementations; certification and accreditation standards; and case study reviews. Includes projects.. Would you like to know the class times?
+
+yes
+['category', 'wit$confirmation', 'class_info', 'wit$confirmation', 'class_time'] 
+CIS4360 meets on Tuesday from 13:55 to 14:45 and Thursday from 13:55 to 15:50 at CSE E121. Do you want to know the prerequisites?
+
+no
+['wit$confirmation', 'class_info', 'wit$confirmation', 'class_time', 'wit$negation'] 
+Okay.
+
+who is teaching at
+['class_info', 'wit$confirmation', 'class_time', 'wit$negation', 'professor'] 
+Computer and Information Security will be taught by Professor Sara Rampazzi. Would you like to know what other courses they would be teaching?
+
+sure
+['wit$confirmation', 'class_time', 'wit$negation', 'professor', 'wit$confirmation'] 
+Professor Sara Rampazzi is not teaching any other courses next semester.
+
+what's her rating
+['class_time', 'wit$negation', 'professor', 'wit$confirmation', 'fail_info'] her rating
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+no by
+['wit$negation', 'professor', 'wit$confirmation', 'fail_info', 'wit$negation'] 
+Okay.
+
+bye
+['professor', 'wit$confirmation', 'fail_info', 'wit$negation', 'bye'] bye
+Pleasure to help you
+
+hello
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes please
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+graduate
+['NA', 'NA', 'greeting', 'wit$confirmation', 'graduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+programming
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'category'] Programming
+The CISE department is offering Database System Implementation. Would you like to know more about that course?==COP6726 - Database System Implementation
+
+yes please
+['wit$confirmation', 'graduate', 'category', 'wit$confirmation', 'class_info'] 
+COP6726 (Database System Implementation) DBMS architecture, query processing and optimization, transaction processing, index structures, parallel query processing, object-oriented and object-relational databases, and related topics.. Would you like to know the class times?
+
+actually I'd like to explore Computing Theory
+['graduate', 'category', 'wit$confirmation', 'class_info', 'getcat'] explore Computing Theory
+computing theory covers Theoritical courses in computer science such as Numerical Analysis, Analysis of Algorithms... Would you like to know the computing theory courses being offered?
+
+what is the schedule for analysis of algorithms
+['category', 'wit$confirmation', 'class_info', 'getcat', 'class_info'] analysis of algorithm
+COT5405 (Analysis of Algorithms) Introduction and illustration of basic techniques for designing efficient algorithms and analyzing algorithm complexity.
+
+can you give me more details about this course
+['wit$confirmation', 'class_info', 'getcat', 'class_info', 'class_info'] 
+COT5405 (Analysis of Algorithms) Introduction and illustration of basic techniques for designing efficient algorithms and analyzing algorithm complexity.
+
+who is teaching the glass
+['class_info', 'getcat', 'class_info', 'class_info', 'professor'] 
+Analysis of Algorithms will be taught by Professor Alper Ungor. Would you like to know what other courses they would be teaching?
+
+no do you have information about the times
+['class_info', 'getcat', 'class_info', 'class_info', 'professor'] 
+I'm sorry, I didn't get that.
+
+what are the times this classes being.
+['getcat', 'class_info', 'class_info', 'professor', 'class_time'] 
+COT5405 meets on Tuesday from 8:30 to 10:25 and Thursday from 9:35 to 10:25 at PUGH 170
+
+thank you
+['class_info', 'class_info', 'professor', 'class_time', 'thanks'] 
+Of course. I'm here to help!
+
+bye
+['class_info', 'professor', 'class_time', 'thanks', 'bye'] bye
+Pleasure to help you
+
+hello
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes please
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+graduate
+['NA', 'NA', 'greeting', 'wit$confirmation', 'graduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+special topics
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'category'] Special topics
+The CISE department is offering Applied ML, Blockchain, Digital Health and 4 other special topics courses. Would you like to know more about any of these courses?==CIS6930 - Applied ML==CIS6930 - Blockchain==CIS6930 - Digital Health==CIS6930 - Hum Cen Reco Alg==CIS6930 - ML in Genomics==CIS6930 - Net Analytics   ML==CIS6930 - Probability for CS
+
+apply machine learning
+['greeting', 'wit$confirmation', 'graduate', 'category', 'class_info'] apply machine learning
+CAP6610 (Machine Learning) Concepts in developing computer programs that learn and improve with experience. Emphasis on methods based on probability, statistics, and optimization.
+
+applied machine learning
+['wit$confirmation', 'graduate', 'category', 'class_info', 'class_info'] applied machine learning
+CAP6610 (Machine Learning) Concepts in developing computer programs that learn and improve with experience. Emphasis on methods based on probability, statistics, and optimization.
+
+apply ml
+['wit$confirmation', 'graduate', 'category', 'class_info', 'fail_info'] apply ml
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+applied ml
+['wit$confirmation', 'graduate', 'category', 'class_info', 'fail_info'] applied ml
+I'm sorry, I didn't get that.
+
+tell me about the apply ml
+['graduate', 'category', 'class_info', 'fail_info', 'fail_info'] the apply ml
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+I'll tell me about blockchain
+['category', 'class_info', 'fail_info', 'fail_info', 'class_info'] blockchain
+CIS6930 (Blockchain) Special Topics in CIS
+
+who is the instructor
+['class_info', 'fail_info', 'fail_info', 'class_info', 'professor'] 
+Blockchain will be taught by Professor My Thai. Would you like to know what other courses they would be teaching?
+
+no
+['fail_info', 'fail_info', 'class_info', 'professor', 'wit$negation'] 
+Okay.
+
+what should I do now
+['fail_info', 'fail_info', 'class_info', 'professor', 'wit$negation'] 
+I'm sorry, I didn't get that.
+
+what can you do
+['fail_info', 'class_info', 'professor', 'wit$negation', 'bot'] 
+I can help you find courses, their professor, final exam date, class meeting times, prerequisites and class information.
+
+tell me about the final exam day of blockchain
+['class_info', 'professor', 'wit$negation', 'bot', 'final_exam'] 
+The final exam for this course will be on may 25 of 2022 from 10:00 AM  to 12:00 PM
+
+tell me about the
+['professor', 'wit$negation', 'bot', 'final_exam', 'class_info'] 
+CIS6930 (Blockchain) Special Topics in CIS
+
+tell me about the meeting times of blocking
+['wit$negation', 'bot', 'final_exam', 'class_info', 'class_time'] of blocking
+CIS6930 meets on Tuesday from 8:30 to 10:25 and Thursday from 9:35 to 10:25 at LAR 0310
+
+start over
+['wit$negation', 'bot', 'final_exam', 'class_info', 'class_time'] start over
+CIS6930 meets on Tuesday from 8:30 to 10:25 and Thursday from 9:35 to 10:25 at LAR 0310
+
+hello
+['bot', 'final_exam', 'class_info', 'class_time', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+bye
+['final_exam', 'class_info', 'class_time', 'greeting', 'bye'] bye
+Pleasure to help you
+
+pillow
+['NA', 'NA', 'NA', 'NA', 'NA'] pillow
+I'm sorry, I didn't get that.
+
+hello
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+desert
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] desert
+Do you want to check out graduate level courses or undergraduate ones?
+
+graduate
+['NA', 'NA', 'greeting', 'wit$confirmation', 'graduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+special topics
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'category'] Special topics
+The CISE department is offering Applied ML, Blockchain, Digital Health and 4 other special topics courses. Would you like to know more about any of these courses?==CIS6930 - Applied ML==CIS6930 - Blockchain==CIS6930 - Digital Health==CIS6930 - Hum Cen Reco Alg==CIS6930 - ML in Genomics==CIS6930 - Net Analytics   ML==CIS6930 - Probability for CS
+
+yes
+['greeting', 'wit$confirmation', 'graduate', 'category', 'wit$confirmation'] 
+Ok, which course would you like to know more about?
+
+applied ml
+['wit$confirmation', 'graduate', 'category', 'wit$confirmation', 'class_info'] applied ml
+CIS4930 (Applied ML) Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.. Would you like to know the class times?
+
+yes
+['category', 'wit$confirmation', 'class_info', 'wit$confirmation', 'class_time'] 
+CIS4930 meets on Tuesday from 15:00 to 16:55 and Thursday from 16:05 to 16:55 at CSE E121. Do you want to know the prerequisites?
+
+yes
+['class_info', 'wit$confirmation', 'class_time', 'wit$confirmation', 'prereq'] 
+The prerequisites for Applied ML are Prereq: COP 3503 or instructor permission.. Do you want to know the required textbooks for this course?
+
+who is teaching this course
+['wit$confirmation', 'class_time', 'wit$confirmation', 'prereq', 'professor'] 
+Applied ML will be taught by Professor Vincent Bindschaedler. Would you like to know what other courses they would be teaching?
+
+professor
+['wit$confirmation', 'class_time', 'wit$confirmation', 'prereq', 'professor'] 
+I'm sorry, I didn't get that.
+
+is he good
+['wit$confirmation', 'class_time', 'wit$confirmation', 'prereq', 'professor'] he good
+Applied ML will be taught by Professor Vincent Bindschaedler. Would you like to know what other courses they would be teaching?
+
+rating of the professor
+['wit$confirmation', 'class_time', 'wit$confirmation', 'prereq', 'professor'] rating of
+Applied ML will be taught by Professor Vincent Bindschaedler. Would you like to know what other courses they would be teaching?
+
+bye
+['class_time', 'wit$confirmation', 'prereq', 'professor', 'bye'] bye
+Pleasure to help you
+
+hello
+hello
+Hello 2021-12-06 13:18:01.333876
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+dreads
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] dreads
+Do you want to check out graduate level courses or undergraduate ones?
+
+graduate
+['NA', 'NA', 'greeting', 'wit$confirmation', 'graduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+Okay computer desk
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'category'] Okay computer desk
+The CISE department is not offering any computer design courses
+
+computer design
+['greeting', 'wit$confirmation', 'graduate', 'category', 'category'] computer design
+The CISE department is not offering any computer design courses
+
+computer network
+['wit$confirmation', 'graduate', 'category', 'category', 'category'] computer network
+The CISE department is offering Computer Networks, Mobile Computing, Advanced Computer Networks. Would you like to know more about any of these courses?==CNT5106C - Computer Networks==CNT5517 - Mobile Computing==CNT6107 - Advanced Computer Networks
+
+bye
+['graduate', 'category', 'category', 'category', 'bye'] bye
+Pleasure to help you
+
+Bye 2021-12-06 13:18:38.972146
+/restart
+hello
+Hello 2021-12-06 13:20:37.075163
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+hello
+Hello 2021-12-06 13:20:47.723755
+['NA', 'NA', 'greeting', 'wit$confirmation', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+bye
+['NA', 'greeting', 'wit$confirmation', 'greeting', 'bye'] bye
+Pleasure to help you
+
+Bye 2021-12-06 13:21:00.276407
+hello
+Hello 2021-12-06 13:21:12.295196
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+sure
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+undergraduate courses
+['NA', 'NA', 'greeting', 'wit$confirmation', 'undergraduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+special topics
+['NA', 'greeting', 'wit$confirmation', 'undergraduate', 'category'] Special topics
+The CISE department is offering Applied ML, Digital Health, Internet Network Tech and 5 other special topics courses. Would you like to know more about any of these courses?==CIS4930 - Applied ML==CIS4930 - Digital Health==CIS4930 - Internet Network Tech==CIS4930 - Intro to Comp Prog==CIS4930 - Mobile Computing==CIS4930 - Net Analytics   ML==CIS4930 - Probability in CS==CIS4930 - Software Security
+
+no
+['greeting', 'wit$confirmation', 'undergraduate', 'category', 'wit$negation'] 
+Okay. I can help you find courses, their professor, final exam date, class meeting times, prerequisites and class information.
+
+what is the prerequisite of programming fundamentals 2
+['wit$confirmation', 'undergraduate', 'category', 'wit$negation', 'class_info'] programming fundamentals 2
+COP3503C (Programming Fundamentals 2) Second course of a two-semester introductory sequence for those planning further study in computer science, digital arts and sciences or computer engineering. Concepts of computer science and the process of computer programming, including object-oriented programming, procedural and data abstraction and program modularity.
+
+are there any open spots in programming fundamentals 2
+['undergraduate', 'category', 'wit$negation', 'class_info', 'class_info'] programming fundamentals 2
+COP3503C (Programming Fundamentals 2) Second course of a two-semester introductory sequence for those planning further study in computer science, digital arts and sciences or computer engineering. Concepts of computer science and the process of computer programming, including object-oriented programming, procedural and data abstraction and program modularity.
+
+because it's not connected
+['category', 'wit$negation', 'class_info', 'class_info', 'fail_info'] not connected
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+Lake residency undergraduate special topics courses
+['class_info', 'class_info', 'fail_info', 'undergraduate', 'category'] Special topics
+The CISE department is offering Applied ML, Digital Health, Internet Network Tech and 5 other special topics courses. Would you like to know more about any of these courses?==CIS4930 - Applied ML==CIS4930 - Digital Health==CIS4930 - Internet Network Tech==CIS4930 - Intro to Comp Prog==CIS4930 - Mobile Computing==CIS4930 - Net Analytics   ML==CIS4930 - Probability in CS==CIS4930 - Software Security
+
+can I learn more about software security
+['class_info', 'fail_info', 'undergraduate', 'category', 'class_info'] Software security
+CIS4930 (Software Security) Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+
+what prerequisites do I need for software security
+['fail_info', 'undergraduate', 'category', 'class_info', 'prereq'] Software security
+The prerequisites for Software Security are Prereq: COP 3503 or instructor permission.
+
+bye-bye
+['undergraduate', 'category', 'class_info', 'prereq', 'bye'] bye
+Pleasure to help you
+
+Bye 2021-12-06 13:24:15.277488
+hello
+Hello 2021-12-06 13:27:37.856653
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes please
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+graduate-level courses
+['NA', 'NA', 'greeting', 'wit$confirmation', 'graduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+let's go with special topics
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'category'] go with special topics
+The CISE department is offering Applied ML, Blockchain, Digital Health and 4 other special topics courses. Would you like to know more about any of these courses?==CIS6930 - Applied ML==CIS6930 - Blockchain==CIS6930 - Digital Health==CIS6930 - Hum Cen Reco Alg==CIS6930 - ML in Genomics==CIS6930 - Net Analytics   ML==CIS6930 - Probability for CS
+
+yes please could you tell me about applied ml
+['greeting', 'wit$confirmation', 'graduate', 'category', 'class_info'] applied ml
+CIS4930 (Applied ML) Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+
+could you tell me about
+['wit$confirmation', 'graduate', 'category', 'class_info', 'class_info'] 
+CIS4930 (Applied ML) Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+
+can you tell me about net Analytics
+['graduate', 'category', 'class_info', 'class_info', 'class_info'] net analytics
+CIS4930 (Net Analytics   ML) Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+
+can you show me the full list of topics again please
+['category', 'class_info', 'class_info', 'class_info', 'fail_info'] of topics again please
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+can you show me all courses
+['class_info', 'class_info', 'class_info', 'fail_info', 'show_classes'] 
+Do you still want to checkout graduate level courses?
+
+yes
+['class_info', 'fail_info', 'show_classes', 'wit$confirmation', 'graduate'] 
+Ok! And you want to see special topics courses. Is that correct?
+
+no
+['fail_info', 'show_classes', 'wit$confirmation', 'graduate', 'wit$negation'] 
+Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+that's it for now
+['fail_info', 'show_classes', 'wit$confirmation', 'graduate', 'wit$negation'] now
+Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+goodbye
+['fail_info', 'show_classes', 'wit$confirmation', 'graduate', 'wit$negation'] goodbye
+Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+bye
+['show_classes', 'wit$confirmation', 'graduate', 'wit$negation', 'bye'] bye
+Pleasure to help you
+
+Bye 2021-12-06 13:30:12.996894
+is Marcos United good
+['NA', 'NA', 'NA', 'NA', 'NA'] Marcos United good
+I'm sorry, I didn't get that.
+
+Kennedy 12
+['NA', 'NA', 'NA', 'NA', 'NA'] Kennedy 12
+I'm sorry, I didn't get that.
+
+who is Marcus Schneider
+['NA', 'NA', 'NA', 'NA', 'professor'] marcus schneider
+Oh! I couldn't find that course.
+
+who is teaching database management system
+['NA', 'NA', 'NA', 'professor', 'professor'] database management system
+Database Management Systems is not being offered in the upcoming semester.
+
+rating of Marcus Schneider
+['NA', 'NA', 'professor', 'professor', 'fail_info'] rating of Marcus Schneider
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+bye
+['NA', 'professor', 'professor', 'fail_info', 'bye'] bye
+Pleasure to help you
+
+Bye 2021-12-06 13:38:01.440427
+hello
+Hello 2021-12-06 13:38:05.152594
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+goodbye
+['NA', 'NA', 'greeting', 'wit$confirmation', 'bye'] goodbye
+Pleasure to help you
+
+Bye 2021-12-06 13:38:11.306245
+hello
+Hello 2021-12-08 12:47:09.958126
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+I see it
+['NA', 'NA', 'NA', 'NA', 'greeting'] 
+I'm sorry, I didn't get that.
+
+yes
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+let's do another graduate one
+['NA', 'NA', 'greeting', 'wit$confirmation', 'graduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+do you have scuba diving class
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'fail_info'] 
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+yes please
+['wit$confirmation', 'graduate', 'fail_info', 'wit$confirmation', 'show_classes'] 
+Do you still want to checkout graduate level courses?
+
+no I want to check out a undergraduate level
+['graduate', 'fail_info', 'wit$confirmation', 'show_classes', 'undergraduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+let's through special topics
+['fail_info', 'wit$confirmation', 'show_classes', 'undergraduate', 'category'] through special topics
+The CISE department is offering Applied ML, Digital Health, Internet Network Tech and 5 other special topics courses. Would you like to know more about any of these courses?==CIS4930 - Applied ML==CIS4930 - Digital Health==CIS4930 - Internet Network Tech==CIS4930 - Intro to Comp Prog==CIS4930 - Mobile Computing==CIS4930 - Net Analytics   ML==CIS4930 - Probability in CS==CIS4930 - Software Security
+
+applied I'm all sounds interesting
+['wit$confirmation', 'show_classes', 'undergraduate', 'category', 'fail_info'] applied I'm all sounds interesting
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+I would like to see digital health
+['wit$confirmation', 'show_classes', 'undergraduate', 'category', 'fail_info'] to see digital health
+I'm sorry, I didn't get that.
+
+yes
+['undergraduate', 'category', 'fail_info', 'wit$confirmation', 'show_classes'] 
+Do you still want to checkout undergraduate level courses?
+
+yep
+['fail_info', 'wit$confirmation', 'show_classes', 'wit$confirmation', 'undergraduate'] 
+Ok! And you want to see special topics courses. Is that correct?
+
+that's true
+['show_classes', 'wit$confirmation', 'undergraduate', 'wit$confirmation', 'category'] 
+The CISE department is offering Applied ML, Digital Health, Internet Network Tech and 5 other special topics courses. Would you like to know more about any of these courses?==CIS4930 - Applied ML==CIS4930 - Digital Health==CIS4930 - Internet Network Tech==CIS4930 - Intro to Comp Prog==CIS4930 - Mobile Computing==CIS4930 - Net Analytics   ML==CIS4930 - Probability in CS==CIS4930 - Software Security
+
+let's check out the digital house
+['show_classes', 'wit$confirmation', 'undergraduate', 'wit$confirmation', 'category'] 
+I'm sorry, I didn't get that.
+
+I'm saying digital health
+['show_classes', 'wit$confirmation', 'undergraduate', 'wit$confirmation', 'category'] I'm saying digital health
+The CISE department is offering Applied ML, Digital Health, Internet Network Tech and 5 other special topics courses. Would you like to know more about any of these courses?==CIS4930 - Applied ML==CIS4930 - Digital Health==CIS4930 - Internet Network Tech==CIS4930 - Intro to Comp Prog==CIS4930 - Mobile Computing==CIS4930 - Net Analytics   ML==CIS4930 - Probability in CS==CIS4930 - Software Security
+
+tell me more about software security
+['wit$confirmation', 'undergraduate', 'wit$confirmation', 'category', 'class_info'] Software security
+CIS4930 (Software Security) Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.
+
+can we tag back about programming courses
+['undergraduate', 'wit$confirmation', 'category', 'class_info', 'category'] Programming
+The CISE department is offering Programming Fundamentals 1, Programming Fundamentals 2, Data Structures and Algorithm and 4 other programming courses. Would you like to know more about any of these courses?==COP3502C - Programming Fundamentals 1==COP3503C - Programming Fundamentals 2==COP3530 - Data Structures and Algorithm==COP4020 - Programming Language Concepts==COP4533 - Algorithm Abstraction and Design==COP4600 - Operating Systems==COP4720 - Information and Database Systems 2
+
+data structures
+['undergraduate', 'wit$confirmation', 'category', 'class_info', 'category'] data structures
+The CISE department is offering Programming Fundamentals 1, Programming Fundamentals 2, Data Structures and Algorithm and 4 other programming courses. Would you like to know more about any of these courses?==COP3502C - Programming Fundamentals 1==COP3503C - Programming Fundamentals 2==COP3530 - Data Structures and Algorithm==COP4020 - Programming Language Concepts==COP4533 - Algorithm Abstraction and Design==COP4600 - Operating Systems==COP4720 - Information and Database Systems 2
+
+data structures and algorithms
+['wit$confirmation', 'category', 'class_info', 'category', 'class_info'] data structures and algorithms
+COP3530 (Data Structures and Algorithm) Algorithm development using pseudo languages, basic program structures, program design techniques, storage and manipulation of basic data structures like arrays, stacks, queues, sorting and searching and string processing. Linked linear lists. Trees and multilinked structures. (M)
+
+can you help me enroll this cost
+['category', 'class_info', 'category', 'class_info', 'fail_info'] cost
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+who is the professor of that course
+['class_info', 'category', 'class_info', 'fail_info', 'professor'] 
+Data Structures and Algorithm will be taught by Professor Amanpreet Kapoor. Would you like to know what other courses they would be teaching?
+
+yeah that's you
+['category', 'class_info', 'fail_info', 'professor', 'wit$confirmation'] 
+Professor Amanpreet Kapoor is not teaching any other courses next semester.
+
+how about Professor Christie Boyer
+['class_info', 'fail_info', 'professor', 'wit$confirmation', 'fail_info'] Christie Boyer
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+okay thank you for your help today
+['fail_info', 'professor', 'wit$confirmation', 'fail_info', 'thanks'] okay thanks
+Of course. I'm here to help!
+
+have a good one
+['fail_info', 'professor', 'wit$confirmation', 'fail_info', 'thanks'] have a good one
+Of course. I'm here to help!
+
+goodbye
+['professor', 'wit$confirmation', 'fail_info', 'thanks', 'bye'] goodbye
+Pleasure to help you
+
+Bye 2021-12-08 12:54:24.244002
+good vodka versus Professor Bourne Identity
+['NA', 'NA', 'NA', 'NA', 'fail_info'] 
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+Professor Boyer is teaching what courses
+['NA', 'NA', 'NA', 'fail_info', 'professor_classes'] boyer
+Oh! I don't recognize that name.
+
+Professor Christy boys teaching what courses
+['NA', 'NA', 'fail_info', 'professor_classes', 'professor_classes'] Christy boys
+Professor Kristy Boyer will be teaching Research Methods for Human Centered Computing
+
+bye
+['NA', 'fail_info', 'professor_classes', 'professor_classes', 'bye'] bye
+Pleasure to help you
+
+Bye 2021-12-08 12:58:46.350690
+/restart
+hello
+Hello 2021-12-08 13:20:28.368080
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+I'll see you whenever there's no training
+['NA', 'NA', 'NA', 'NA', 'greeting'] no training
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+yes
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+undergraduate one
+['NA', 'NA', 'greeting', 'wit$confirmation', 'undergraduate'] 
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+information security
+['NA', 'greeting', 'wit$confirmation', 'undergraduate', 'category'] information security
+The CISE department is offering Enterprise Security, Information and Database Systems 1, Computer and Information Security and 1 other information security courses. Would you like to know more about any of these courses?==CIS4213 - Enterprise Security==CIS4301 - Information and Database Systems 1==CIS4360 - Computer and Information Security==CIS4715 - CS Teaching   Learning
+
+yes I would like to know about Enterprise security
+['greeting', 'wit$confirmation', 'undergraduate', 'category', 'class_info'] Enterprise Security
+CIS4213 (Enterprise Security) Provides an introduction to the real-world aspects of defending an enterprise network. Students will gain hands-on experience performing system security tasks and handling incidents. The class begins with a basic introduction to enterprise cybersecurity, the attack sequence, and managing cybersecurity. Then lecture, homework and lab activities cover the center for internet security's twenty essential security controls.
+
+what can you do
+['wit$confirmation', 'undergraduate', 'category', 'class_info', 'bot'] 
+I can help you find courses, their professor, final exam date, class meeting times, prerequisites and class information.
+
+can you tell me the prerequisites to operating system
+['undergraduate', 'category', 'class_info', 'bot', 'prereq'] to operating system
+The prerequisites for Operating Systems are Prereq: CDA 3101 and COP 3530; knowledge of C or C++ recommended.
+
+tell me the final exam date of
+['category', 'class_info', 'bot', 'prereq', 'final_exam'] 
+The final exam for this course will be on may 25 of 2022 from 3:00 PM  to 5:00 PM
+
+tell me the final exam date for spoken dialogue systems
+['class_info', 'bot', 'prereq', 'final_exam', 'final_exam'] spoken dialogue systems
+Spoken Dialogue Systems is not being offered in the upcoming semester.
+
+bye
+['bot', 'prereq', 'final_exam', 'final_exam', 'bye'] bye
+Pleasure to help you
+
+Bye 2021-12-08 13:24:13.449077
+hello
+Hello 2021-12-08 13:25:45.916597
+['NA', 'NA', 'NA', 'NA', 'greeting'] hello
+Hi! I'm Vicky. Would you like me to help you select courses for the upcoming semester?
+
+sure
+['NA', 'NA', 'NA', 'greeting', 'wit$confirmation'] 
+Do you want to check out graduate level courses or undergraduate ones?
+
+graduate-level
+['NA', 'NA', 'greeting', 'wit$confirmation', 'graduate'] graduate-level
+Ok! And Which one of the following categories of courses are you looking for? ==Computer Application ==Programming ==Information Security ==Computer Network ==Computer Engineering ==Computer Design ==Computing Theory ==Special Topics
+
+Computing Siri
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'category'] Computing Siri
+The CISE department is offering Analysis of Algorithms, Mathematics for Intelligent Systems. Would you like to know more about any of these courses?==COT5405 - Analysis of Algorithms==COT5615 - Mathematics for Intelligent Systems
+
+let's go with c o t 5615
+['NA', 'greeting', 'wit$confirmation', 'graduate', 'category'] c o t 5615
+The CISE department is offering Analysis of Algorithms, Mathematics for Intelligent Systems. Would you like to know more about any of these courses?==COT5405 - Analysis of Algorithms==COT5615 - Mathematics for Intelligent Systems
+
+tell me more about mathematics for intelligent systems
+['greeting', 'wit$confirmation', 'graduate', 'category', 'class_info'] Mathematics for Intelligent Systems
+COT5615 (Mathematics for Intelligent Systems) Mathematical methods commonly used to develop algorithms for computer systems that exhibit intelligent behavior.
+
+all right tell me about caught 5405
+['wit$confirmation', 'graduate', 'category', 'class_info', 'fail_info'] caught 5405
+Oh! I couldn't find that course. Would you like to see the available courses?
+
+yes listen out for me again
+['graduate', 'category', 'class_info', 'fail_info', 'class_info'] 
+COT5615 (Mathematics for Intelligent Systems) Mathematical methods commonly used to develop algorithms for computer systems that exhibit intelligent behavior.
+
+when is the final for that class
+['category', 'class_info', 'fail_info', 'class_info', 'final_exam'] 
+The final exam for this course will be on may 28 of 2022 from 12:30 PM  to 2:30 PM
+
+who teaches it
+['class_info', 'fail_info', 'class_info', 'final_exam', 'professor'] 
+Mathematics for Intelligent Systems will be taught by Professor Anand Rangarajan. Would you like to know what other courses they would be teaching?
+
+no I don't like that Professor I don't actually know
+['fail_info', 'class_info', 'final_exam', 'professor', 'wit$negation'] 
+Okay. I can help you find courses, their professor, final exam date, class meeting times, prerequisites and class information.
+
+what are the prerequisites for mathematics for intelligent systems
+['class_info', 'final_exam', 'professor', 'wit$negation', 'prereq'] Mathematics for Intelligent Systems
+The prerequisites for Mathematics for Intelligent Systems are Prereq: MAC 2313, Multivariate Calculus; MAS 3114 or MAS 4105, Linear Algebra; STA 4321, Mathematical Statistics.
+
+I think you could buy
+['class_info', 'final_exam', 'professor', 'wit$negation', 'prereq'] could buy
+The prerequisites for Mathematics for Intelligent Systems are Prereq: MAC 2313, Multivariate Calculus; MAS 3114 or MAS 4105, Linear Algebra; STA 4321, Mathematical Statistics.
+
+thank you goodbye
+['final_exam', 'professor', 'wit$negation', 'prereq', 'thanks'] 
+Of course. I'm here to help!
+
+goodbye
+['professor', 'wit$negation', 'prereq', 'thanks', 'bye'] goodbye
+Pleasure to help you
+
+Bye 2021-12-08 13:29:41.228304
